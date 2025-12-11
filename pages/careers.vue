@@ -198,6 +198,8 @@ import { statesCitiesData } from '../data/statesCities.js';
 import SuccessPopup from '../components/SuccessPopup.vue';
 import LoadingSpinner from '../components/LoadingSpinner.vue';
 
+const config = useRuntimeConfig()
+
 const fileToBase64 = (file) => {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
