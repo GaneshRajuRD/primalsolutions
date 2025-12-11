@@ -377,7 +377,7 @@ onMounted(async () => {
 <style scoped>
 .serviceBnr {
     position: relative;
-    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/Talent Hiring & Management service.webp');
+    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/Talent-Hiring-Management-service.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

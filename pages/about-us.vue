@@ -162,7 +162,7 @@
                         <div class="row mt-4">
                             <div class="col-sm-6">
                                 <div class="solution">
-                                    <img src="/assets/image/strategic Planning.png" alt="">
+                                    <img src="/assets/image/Strategic-Planning.png" alt="">
                                     <h5>Strategic Planning</h5>
                                     <p>
                                         Clear direction powered by data-led decisions.
@@ -171,7 +171,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
-                                    <img src="/assets/image/operational Excellence.png" alt="">
+                                    <img src="/assets/image/Operational-Excellence.png" alt="">
                                     <h5>Operational Excellence</h5>
                                     <p>
                                         Ensuring product excellence through rigorous testing.
@@ -180,7 +180,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
-                                    <img src="/assets/image/team Development.png" alt="">
+                                    <img src="/assets/image/Team-Development.png" alt="">
                                     <h5>Team Development</h5>
                                     <p>
                                         Upskilling people to improve on-ground execution.
@@ -189,7 +189,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution">
-                                    <img src="/assets/image/market Insights.png" alt="">
+                                    <img src="/assets/image/Market-Insights.png" alt="">
                                     <h5>Market Insights</h5>
                                     <p>
                                         Smart analysis that uncovers growth opportunities.

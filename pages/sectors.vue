@@ -143,7 +143,7 @@ const sectors = ref([
     {
         title: 'Automotive Manufacturing',
         description: 'We help automotive plants improve line efficiency, reduce defects, and build scalable production systems across complex, fast-moving operations.',
-        image: '/assets/image/Automotive Manufacturing.webp',
+        image: '/assets/image/Automotive-Manufacturing.webp',
         services: [
             'Line balancing and single-piece flow',
             'Zero-defect culture deployment',
@@ -156,7 +156,7 @@ const sectors = ref([
     {
         title: 'Agricultural & Farm Equipment',
         description: 'We help farm-equipment manufacturers improve assembly accuracy, reduce breakdown-related rework, and build reliable production systems that support seasonal output.',
-        image: '/assets/image/Agricultural & Farm Equipment.webp',
+        image: '/assets/image/Agricultural-Farm-Equipment.webp',
         services: [
             'Line balancing for tractor and farm units',
             'Zero-defect checks for mechanical builds',
@@ -169,7 +169,7 @@ const sectors = ref([
     {
         title: 'Elevators & Construction Equipment',
         description: 'We help elevator and construction-equipment plants enhance build precision, reduce installation defects, and create scalable assembly systems for heavy-duty products.',
-        image: '/assets/image/Elevators & Construction Equipment.webp',
+        image: '/assets/image/Elevators-Construction-Equipment.webp',
         services: [
             'Standardized processes for major assemblies',
             'Quality controls for safety-critical parts',
@@ -182,7 +182,7 @@ const sectors = ref([
     {
         title: 'Off-Road & Earthmoving Industry',
         description: 'We help earthmoving-equipment makers strengthen durability, stabilize heavy-component flow, and improve reliability across demanding production operations.',
-        image: '/assets/image/Off-Road & Earthmoving Industry.webp',
+        image: '/assets/image/Off-Road-Earthmoving-Industry.webp',
         services: [
             'Optimization of chassis and frame lines',
             'Quality systems for rugged equipment use',
@@ -208,7 +208,7 @@ const sectors = ref([
     {
         title: 'Electronics Production',
         description: 'We help electronics manufacturers improve yield, reduce defects, and create stable, scalable processes across SMT lines, assembly cells, and testing stations.',
-        image: '/assets/image/Electronics Production.webp',
+        image: '/assets/image/Electronics-Production.webp',
         services: [
             'Optimization of SMT and assembly flow',
             'Yield improvement using defect analysis',

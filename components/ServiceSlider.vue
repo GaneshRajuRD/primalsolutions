@@ -29,19 +29,19 @@ export default {
           id: 6,
           title: 'Market Research',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Market Research service.webp'
+          image: '/assets/image/Market-Research-service.webp'
         },
         {
           id: 1,
           title: 'Business Strategy',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business Strategy service.webp'
+          image: '/assets/image/Business-Strategy-service.webp'
         },
         {
           id: 2,
           title: 'Business Transformation',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business Transformation service.webp'
+          image: '/assets/image/Business-Transformation-service.webp'
         },
         {
           id: 3,
@@ -53,13 +53,13 @@ export default {
           id: 4,
           title: 'Operations & Supply Chain Excellence',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Operations & Supply Chain Excellence service.webp'
+          image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp'
         },
         {
           id: 5,
           title: 'Talent Hiring & Management',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Talent Hiring & Management service.webp'
+          image: '/assets/image/Talent-Hiring-Management-service.webp'
         }
       ]
     }
