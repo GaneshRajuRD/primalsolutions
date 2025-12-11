@@ -1,7 +1,6 @@
 // nuxt.config.ts or nuxt.config.js
 
 export default defineNuxtConfig({
-  ssr: true,
   compatibilityDate: '2025-02-04',
 
   app: {
@@ -44,5 +43,6 @@ export default defineNuxtConfig({
     }
   },
 
-  components: true
+  components: true,
+  ssr: false,
 });
