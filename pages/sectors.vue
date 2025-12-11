@@ -29,7 +29,7 @@
                             <p>
                                 Our team blends strategy, engineering experience, and on-ground implementation. We don’t just design a plan and walk away. We diagnose the real issues, redesign workflows, optimize your layout, train your teams, and stay with you until the results are real and measurable.
                             </p>
-                            <a href="" class="arrowBtn">
+                            <a href="/contact-us" class="arrowBtn">
                                 Contact Us <span class="material-symbols-outlined">arrow_right_alt</span>
                             </a>
                         </div>
@@ -195,7 +195,7 @@ const sectors = ref([
     {
         title: 'FMCG Manufacturing',
         description: 'We help FMCG plants increase throughput, reduce changeover losses, and build fast, reliable production environments suited for high-speed packaging lines.',
-        image: '/assets/image/FMCG Manufacturing.webp',
+        image: '/assets/image/FMCG-Manufacturing.webp',
         services: [
             'Line balancing for fast-moving packs',
             'Quality and hygiene compliance setup',

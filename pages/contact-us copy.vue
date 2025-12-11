@@ -124,6 +124,8 @@ import { onMounted, ref } from "vue";
 import SuccessPopup from '../components/SuccessPopup.vue';
 import LoadingSpinner from '../components/LoadingSpinner.vue';
 
+const config = useRuntimeConfig()
+
 // Reactive variables
 const isLoading = ref(false);
 const showSuccess = ref(false);

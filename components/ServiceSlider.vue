@@ -7,7 +7,7 @@
         <div class='content'>
           <h1 class='title'>{{ item.title }}</h1>
           <p class='description'>{{ item.description }}</p>
-          <button>View More</button>
+          <NuxtLink :to="`/services/${item.link}`" class="link">View More</NuxtLink>
         </div>
       </div>
     </div>
@@ -29,37 +29,43 @@ export default {
           id: 6,
           title: 'Market Research',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Market-Research-service.webp'
+          image: '/assets/image/Market-Research-service.webp',
+          link: 'market-research'
         },
         {
           id: 1,
           title: 'Business Strategy',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business-Strategy-service.webp'
+          image: '/assets/image/Business-Strategy-service.webp',
+          link: 'business-strategy'
         },
         {
           id: 2,
           title: 'Business Transformation',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business-Transformation-service.webp'
+          image: '/assets/image/Business-Transformation-service.webp',
+          link: 'business-transformation'
         },
         {
           id: 3,
           title: 'Skill Development Programs',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/prop3.webp'
+          image: '/assets/image/prop3.webp',
+          link: 'skill-development-programs'
         },
         {
           id: 4,
           title: 'Operations & Supply Chain Excellence',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp'
+          image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp',
+          link: 'operations-supply-chain-excellence'
         },
         {
           id: 5,
           title: 'Talent Hiring & Management',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Talent-Hiring-Management-service.webp'
+          image: '/assets/image/Talent-Hiring-Management-service.webp',
+          link: 'talent-hiring-management'
         }
       ]
     }
@@ -231,7 +237,7 @@ export default {
     line-height: 1.7;
   }
 
-  .serviceSlider .content button {
+  .serviceSlider .content .link {
     width: fit-content;
     background-color: #0D248C;
     color: #fff;
@@ -240,9 +246,10 @@ export default {
     padding: 6px 20px;
     cursor: pointer;
     transition: background var(--speed), color var(--speed);
+    text-decoration: none;
   }
 
-  .serviceSlider .content button:hover {
+  .serviceSlider .content .link:hover {
     background-color: #fff;
     color: #0D248C;
   }

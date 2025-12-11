@@ -71,6 +71,8 @@ import { ref } from 'vue'
 import LoadingSpinner from './LoadingSpinner.vue'
 import SuccessPopup from './SuccessPopup.vue'
 
+const config = useRuntimeConfig()
+
 const isLoading = ref(false)
 const showSuccess = ref(false)
 const showSuccessLoader = ref(false)

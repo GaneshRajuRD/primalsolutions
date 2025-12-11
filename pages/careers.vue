@@ -86,7 +86,7 @@
                                 <span class="errormsg" id="error-career-phone"></span>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="career-email" placeholder="Email Id" />
+                                <input type="email" class="form-control" id="career-email" placeholder="Email Id" />
                                 <span class="errormsg" id="error-career-email"></span>
                             </div>
                             <div class="form-group">

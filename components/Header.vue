@@ -269,7 +269,7 @@ header.header-hidden {
 }
 
 .main-nav a:hover {
-    color: #f9c12e;
+    color: #f9c12e !important;
 }
 
 .menuList li.active a {
@@ -312,7 +312,8 @@ header.header-hidden {
 }
 
 .dropdown-menu a {
-    color: #000;
+    color: #000 !important;
+    font-weight: normal !important;
     padding: 8px 16px;
     display: block;
     white-space: nowrap;

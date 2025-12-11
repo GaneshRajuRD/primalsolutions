@@ -53,13 +53,19 @@
 
                                     <div class="col-12 mb-3">
                                         <label class="form-label">Select Your Sector</label>
-                                        <input type="text" class="form-control" id="contact-sector" placeholder="Enter your Sector">
+                                        <select class="form-control" id="contact-sector">
+                                            <option value="">Select a Sector</option>
+                                            <option v-for="sector in sectors" :key="sector" :value="sector">{{ sector }}</option>
+                                        </select>
                                         <span class="errormsg" id="error-contact-sector"></span>
                                     </div>
 
                                     <div class="col-12 mb-3">
                                         <label class="form-label">Service Required</label>
-                                        <input type="text" class="form-control" id="contact-service" placeholder="Enter Service Required">
+                                        <select class="form-control" id="contact-service">
+                                            <option value="">Select a Service</option>
+                                            <option v-for="service in services" :key="service" :value="service">{{ service }}</option>
+                                        </select>
                                         <span class="errormsg" id="error-contact-service"></span>
                                     </div>
 
@@ -124,9 +130,30 @@ import { onMounted, ref } from "vue";
 import SuccessPopup from '../components/SuccessPopup.vue';
 import LoadingSpinner from '../components/LoadingSpinner.vue';
 
+const config = useRuntimeConfig()
+
 // Reactive variables
 const isLoading = ref(false);
 const showSuccess = ref(false);
+
+// Sectors and Services data
+const sectors = ref([
+    'Automotive Manufacturing',
+    'Agricultural & Farm Equipment',
+    'Elevators & Construction Equipment',
+    'Off-Road & Earthmoving Industry',
+    'FMCG Manufacturing',
+    'Electronics Production'
+]);
+
+const services = ref([
+    'Business Strategy',
+    'Business Transformation',
+    'Market Research',
+    'Operations Supply Chain Excellence',
+    'Skill Development Programs',
+    'Talent Hiring Management'
+]);
 
 // Validation functions
 const validateEmail = (email) => {

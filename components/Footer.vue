@@ -50,7 +50,7 @@
                                     <li><NuxtLink to="/resources#Gallery">Gallery</NuxtLink></li>
                                 </ul>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-5 col-xxl-4">
                                 <h5 class="mb-4">Services</h5>
                                 <ul>
                                     <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
