@@ -2,7 +2,6 @@
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-02-04',
-
   app: {
     baseURL: "/",       // ensures correct path on custom domain
     cdnURL: "",         // prevents CDN rewrite
