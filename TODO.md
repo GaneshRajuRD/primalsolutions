@@ -1,7 +1,15 @@
-# TODO: Update Privacy Policy and Terms & Conditions
+# Task: Centralize Blogs and Case Studies Data
 
-## Tasks
-- [x] Update privacy-policy.vue: Remove Medway Ayurvaid content and replace with generic privacy policy for industrial consulting business
-- [x] Update terms-and-conditions.vue: Add standard terms & conditions for business consulting services
-- [x] Verify changes and ensure content aligns with Primal Solutions domain
-f
+## Progress
+- [x] Create data/blogs.js
+- [x] Create data/caseStudies.js
+- [ ] Update pages/index.vue
+- [ ] Update pages/resources.vue
+- [ ] Update pages/sectors.vue
+- [x] Update pages/services/business-strategy.vue
+- [x] Update pages/services/business-transformation.vue
+- [x] Update pages/services/market-research.vue
+- [x] Update pages/services/operations-supply-chain-excellence.vue
+- [x] Update pages/services/skill-development-programs.vue
+- [x] Update pages/services/talent-hiring-management.vue
+- [ ] Test application functionality

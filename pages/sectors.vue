@@ -111,34 +111,8 @@
 <script setup>
 import { onMounted } from "vue";
 
-const blogs = ref([
-    {
-        title: 'Sustainable Practices Reducing Waste in Industrial Production',
-        image: '/assets/image/blogImg1.webp',
-        url: 'sustainable-practices-reducing-waste-in-industrial-production'
-    },
-    {
-        title: 'Advanced Robotics Revolutionizing Industrial Workflows',
-        image: '/assets/image/blogImg2.webp',
-        url: 'advanced-robotics-revolutionizing-industrial-workflows'
-    },
-]);
-const caseStudies = ref([
-    {
-        title: 'Transforming Production Efficiency for a Leading Sheet Metal Manufacturer in Hosur',
-        image: '/assets/image/caseStudyImg1.webp',
-        readtime: '8 min read',
-        date: 'Nov 15, 2025',
-        url: 'case-study'
-    },
-    {
-        title: 'Transforming Production Efficiency for a Leading Sheet Metal Manufacturer in Hosur',
-        image: '/assets/image/caseStudyImg1.webp',
-        readtime: '8 min read',
-        date: 'Nov 15, 2025',
-        url: 'case-study'
-    },
-]);
+import { blogs } from '~/data/blogs.js';
+import { caseStudies } from '~/data/caseStudies.js';
 const sectors = ref([
     {
         title: 'Automotive Manufacturing',

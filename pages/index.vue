@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                     </ul>
                 </div>
             </div>
-                
+
         </div>
 
         <div class="container py-5">
@@ -206,7 +206,7 @@
                     </ul>
                 </div>
             </div>
-                
+
         </div>
         <div class="container py-5">
             <div class="row">
@@ -217,7 +217,7 @@
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
                     <p class="mt-4 pt-2">
-                        Real examples of how we’ve helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
+                        Real examples of how we've helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
                     </p>
                     <NuxtLink to="/resources#CaseStudies" class="blueBtn">View More</NuxtLink>
                 </div>
@@ -232,7 +232,7 @@
                     </ul>
                 </div>
             </div>
-                
+
         </div>
 
         <ContactFormBg />
@@ -242,43 +242,17 @@
 
     </div>
 </template>
-<script setup>2
+<script setup>
 import { onMounted, ref } from 'vue';
 import { useHead } from '#app'
+import { blogs } from '~/data/blogs.js';
+import { caseStudies } from '~/data/caseStudies.js';
 
 const stories = ref([
     {
         name: 'Cameron Williamson',
-        description: 'I cant describe how great we feel using Newsify. It completely changed our workflow and the face we waste on truying to connect each other.Top Newsify!”',
+        description: 'I cant describe how great we feel using Newsify. It completely changed our workflow and the face we waste on truying to connect each other.Top Newsify!"',
         image: '/assets/image/usersImg.png',
-    },
-]);
-const blogs = ref([
-    {
-        title: 'Sustainable Practices Reducing Waste in Industrial Production',
-        image: '/assets/image/blogImg1.webp',
-        url: 'sustainable-practices-reducing-waste-in-industrial-production'
-    },
-    {
-        title: 'Advanced Robotics Revolutionizing Industrial Workflows',
-        image: '/assets/image/blogImg2.webp',
-        url: 'advanced-robotics-revolutionizing-industrial-workflows'
-    },
-]);
-const caseStudies = ref([
-    {
-        title: 'Transforming Production Efficiency for a Leading Sheet Metal Manufacturer in Hosur',
-        image: '/assets/image/caseStudyImg1.webp',
-        readtime: '8 min read',
-        date: 'Nov 15, 2025',
-        url: 'case-study'
-    },
-    {
-        title: 'Transforming Production Efficiency for a Leading Sheet Metal Manufacturer in Hosur',
-        image: '/assets/image/caseStudyImg1.webp',
-        readtime: '8 min read',
-        date: 'Nov 15, 2025',
-        url: 'case-study'
     },
 ]);
 
@@ -307,7 +281,7 @@ useHead({
 
 onMounted(() => {
     if (typeof window === 'undefined') return;
-    
+
     // Wait for Splide to be loaded
     let attempts = 0;
     const checkSplide = () => {
@@ -486,7 +460,7 @@ useSeoMeta({
     margin-bottom: 10px;
 }
 .factorySec .list li::before {
-    content: '';    
+    content: '';
     position: absolute;
     left: -30px;
     top: 50%;
@@ -582,10 +556,8 @@ useSeoMeta({
 
 
 
-
-
 @media only screen and (max-width:1440px) {
-    
+
 }
 @media only screen and (max-width:1280px) {
     .homeBnr .content h1 {
@@ -601,10 +573,10 @@ useSeoMeta({
     .homeBnr .content h1 {
         font-size: 40px;
     }
-    
+
 }
 @media only screen and (max-width:578px) {
-    
+
 }
 
 </style>

@@ -42,12 +42,30 @@
             <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt="">
         </div>
 
+        <div class="realResultsSec py-5">
+            <div class="container">
+                <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
+                <VideoTabs :videos="videos" />
+            </div>
+        </div>
+
         <Footer />
         
     </div>
 </template>
 <script setup>
 import { onMounted } from "vue";
+
+const videos = ref([
+    {
+        title: 'Strategy Implementation Overview',
+        videoUrl: '/assets/image/industryVideo.mp4',
+    },
+    {
+        title: 'Real-World Case Study',
+        videoUrl: '/assets/image/homeBnrVideo.mp4',
+    },
+]);
 
 </script>
 <style scoped>
@@ -97,6 +115,15 @@ import { onMounted } from "vue";
     margin: 20px 0;
 }
 
+.realResultsSec {
+    background-color: #F0F3FF;
+}
+
+.realResultsTitle {
+    font-size: 48px;
+    margin-bottom: 3rem;
+}
+
 @media only screen and (max-width:1440px) {
     
 }
@@ -104,7 +131,9 @@ import { onMounted } from "vue";
     
 }
 @media only screen and (max-width:1080px) {
-    
+    .realResultsTitle {
+        font-size: 36px;
+    }
 }
 @media only screen and (max-width:830px) {
     .csBnr .content{
