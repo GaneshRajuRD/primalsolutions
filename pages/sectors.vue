@@ -24,10 +24,7 @@
                         <div class="content ps-lg-3">
                             <h2 class="bigFont text-white">Why Choose Primal Solutions</h2>
                             <p>
-                                We help manufacturing and engineering companies cut inefficiency, strengthen operations, and scale with clarity. When your plant hits a wall — bottlenecks, delays, rising costs — we step in with practical solutions that actually move the needle.
-                            </p>
-                            <p>
-                                Our team blends strategy, engineering experience, and on-ground implementation. We don’t just design a plan and walk away. We diagnose the real issues, redesign workflows, optimize your layout, train your teams, and stay with you until the results are real and measurable.
+                                 We turn strategic vision into measurable results through hands-on, execution-focused consulting. Combining deep industry expertise with performance-driven frameworks, we help organizations optimize operations, enter markets successfully, and build lasting competitive advantage—aligning strategy, operations, and capability development for sustainable growth.
                             </p>
                             <a href="/contact-us" class="arrowBtn">
                                 Contact Us <span class="material-symbols-outlined">arrow_right_alt</span>

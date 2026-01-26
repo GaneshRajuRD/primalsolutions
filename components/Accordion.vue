@@ -101,6 +101,12 @@ const toggleAccordion = (index) => {
 }
 .accordionSec .accordion__item--active{
     box-shadow: 12px 12px 50px rgb(0, 0, 0, 0.08);
+    background-color: #111F61;
+}
+.accordionSec .accordion__item--active p,
+.accordionSec .accordion__item--active .accordion__caption,
+.accordionSec .accordion__item--active span{
+    color: #fff !important;
 }
 
 .accordionSec .accordion__btn {

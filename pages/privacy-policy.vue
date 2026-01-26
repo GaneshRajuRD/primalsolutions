@@ -25,14 +25,14 @@
                 <h6>2. How We Use Your Information</h6>
                 <p>
                     We use the information we collect to:
-                    <ul>
-                        <li>Provide and improve our consulting services</li>
-                        <li>Communicate with you about our services and updates</li>
-                        <li>Respond to your inquiries and support requests</li>
-                        <li>Analyze website usage and improve our content</li>
-                        <li>Comply with legal obligations</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Provide and improve our consulting services</li>
+                    <li>Communicate with you about our services and updates</li>
+                    <li>Respond to your inquiries and support requests</li>
+                    <li>Analyze website usage and improve our content</li>
+                    <li>Comply with legal obligations</li>
+                </ul>
                 <h6>3. Information Sharing</h6>
                 <p>
                     We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share information with trusted service providers who assist us in operating our website or conducting our business, subject to confidentiality agreements.

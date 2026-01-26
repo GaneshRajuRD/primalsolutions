@@ -26,46 +26,67 @@ export default {
     return {
       items: [
         {
-          id: 6,
+          id: 1,
           title: 'Market Research',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
           image: '/assets/image/Market-Research-service.webp',
           link: 'market-research'
         },
         {
-          id: 1,
+          id: 2,
           title: 'Business Strategy',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
           image: '/assets/image/Business-Strategy-service.webp',
           link: 'business-strategy'
         },
         {
-          id: 2,
-          title: 'Business Transformation',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business-Transformation-service.webp',
-          link: 'business-transformation'
-        },
-        {
           id: 3,
-          title: 'Skill Development Programs',
+          title: 'Plant Layout Design & Optimization',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
           image: '/assets/image/prop3.webp',
-          link: 'skill-development-programs'
+          link: 'plant-layout-design-optimization'
         },
         {
           id: 4,
-          title: 'Operations & Supply Chain Excellence',
+          title: 'Operational Excellence & Lean Transformation',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
           image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp',
-          link: 'operations-supply-chain-excellence'
+          link: 'operational-excellence-lean-transformation'
         },
         {
           id: 5,
-          title: 'Talent Hiring & Management',
+          title: 'Zero Defect Culture Deployment',
           description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
           image: '/assets/image/Talent-Hiring-Management-service.webp',
-          link: 'talent-hiring-management'
+          link: 'zero-defect-culture-deployment'
+        },
+        {
+          id: 6,
+          title: 'Digital & Smart Factory Transformation',
+          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          image: '/assets/image/Business-Transformation-service.webp',
+          link: 'digital-smart-factory-transformation'
+        },
+        {
+          id: 7,
+          title: 'Supplier Capability and Performance Enhancement',
+          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          image: '/assets/image/Market-Research-service.webp',
+          link: 'supplier-capability-performance-enhancement'
+        },
+        {
+          id: 8,
+          title: 'Skill development programs and certifications',
+          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          image: '/assets/image/Business-Strategy-service.webp',
+          link: 'skill-development-programs-certifications'
+        },
+        {
+          id: 9,
+          title: 'Talent Hiring & Management Services',
+          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          image: '/assets/image/prop3.webp',
+          link: 'talent-hiring-management-services'
         }
       ]
     }
@@ -94,7 +115,7 @@ export default {
 }
 
 :root {
-    --width: 24%;
+    --width: 20%;
     --gap: 1rem;
     --speed: 500ms;
   }
@@ -168,6 +189,10 @@ export default {
     filter: blur(0);
   }
 
+  .serviceSlider .item:nth-child(9){
+    /* visibility: hidden; */
+  }
+
   .serviceSlider .item:nth-child(1)::after,
   .serviceSlider .item:nth-child(2)::after {
     box-shadow: 0px -50px 150px 50px rgba(0, 0, 0, 0.75) inset;
@@ -206,6 +231,24 @@ export default {
     left: calc(50% + calc(var(--width) * 3) + calc(var(--gap) * 3));
     opacity: 0;
     transition-delay: calc(var(--speed) * 0.6);
+  }
+
+  .serviceSlider .item:nth-child(7) {
+    left: calc(50% + calc(var(--width) * 4) + calc(var(--gap) * 4));
+    opacity: 0;
+    transition-delay: calc(var(--speed) * 0.8);
+  }
+
+  .serviceSlider .item:nth-child(8) {
+    left: calc(50% + calc(var(--width) * 5) + calc(var(--gap) * 5));
+    opacity: 0;
+    transition-delay: calc(var(--speed) * 1.0);
+  }
+
+  .serviceSlider .item:nth-child(9) {
+    left: calc(50% + calc(var(--width) * 6) + calc(var(--gap) * 6));
+    opacity: 0;
+    transition-delay: calc(var(--speed) * 1.2);
   }
 
   .serviceSlider .content {
@@ -333,6 +376,21 @@ export default {
       left: calc(50% + 80%);
       opacity: 0;
     }
+
+    .serviceSlider .item:nth-child(7) {
+      left: calc(50% + 100%);
+      opacity: 0;
+    }
+
+    .serviceSlider .item:nth-child(8) {
+      left: calc(50% + 120%);
+      opacity: 0;
+    }
+
+    .serviceSlider .item:nth-child(9) {
+      left: calc(50% + 140%);
+      opacity: 0;
+    }
   }
 
   @media (width < 650px) {
@@ -375,6 +433,21 @@ export default {
 
     .serviceSlider .item:nth-child(6) {
       left: calc(50% + 420px);
+      opacity: 0;
+    }
+
+    .serviceSlider .item:nth-child(7) {
+      left: calc(50% + 500px);
+      opacity: 0;
+    }
+
+    .serviceSlider .item:nth-child(8) {
+      left: calc(50% + 580px);
+      opacity: 0;
+    }
+
+    .serviceSlider .item:nth-child(9) {
+      left: calc(50% + 660px);
       opacity: 0;
     }
   }

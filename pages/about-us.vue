@@ -165,34 +165,34 @@
                                     <img src="/assets/image/Strategic-Planning.png" alt="">
                                     <h5>Strategic Planning</h5>
                                     <p>
-                                        Clear direction powered by data-led decisions.
+                                        Turning vision into action through clear strategy, performance-driven KPIs, and scalable growth.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
                                     <img src="/assets/image/Operational-Excellence.png" alt="">
-                                    <h5>Operational Excellence</h5>
+                                    <h5>Operational Excellence & Lean Transformation</h5>
                                     <p>
-                                        Ensuring product excellence through rigorous testing.
+                                        Driving operational excellence by eliminating waste and embedding Lean practices for sustained performance.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
                                     <img src="/assets/image/Team-Development.png" alt="">
-                                    <h5>Team Development</h5>
+                                    <h5>Digital & Smart Factory Transformation</h5>
                                     <p>
-                                        Upskilling people to improve on-ground execution.
+                                        Transforming traditional plants into smart, data-driven factories through digital integration and advanced analytics
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution">
                                     <img src="/assets/image/Market-Insights.png" alt="">
-                                    <h5>Market Insights</h5>
+                                    <h5>Talent Acquisition & Skill Development</h5>
                                     <p>
-                                        Smart analysis that uncovers growth opportunities.
+                                        Building strong organizations through the right hiring and future-ready skill development
                                     </p>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6" v-for="teamMember in teamMembers">
+                <div class="col-sm-6 col-lg-4 col-xl-3" v-for="teamMember in teamMembers">
                     <TeamMemberCard :teamMember="teamMember" />
                 </div>
             </div>
@@ -291,42 +291,55 @@ import { useHead } from '#app'
 
 const teamMembers = [
     {
-        name: 'Ashok Soundararajan',
-        position: 'Chief Executive Officer',
-        title: 'CEO',
-        description: 'Our vision is to be leaders in providing quality healthcare by ensuring safety to all concerned covering both curative and preventive, with a human touch.',
-        image: '/assets/image/teamMember1.webp',
-        linkImage: '/assets/image/linkImg.png'
+        name: 'T.R Renukanthan',
+        position: 'Chief Mentor',
+        description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.), Ashok Leyland.',
+        contact: '+91 98415 68728',
+        image: '/assets/image/T.R Renukanthan.png',
     },
     {
         name: 'Ashok Soundararajan',
-        position: 'Chief Executive Officer',
-        description: 'Our vision is to be leaders in providing quality healthcare by ensuring safety to all concerned covering both curative and preventive, with a human touch.',
-        image: '/assets/image/teamMember1.webp',
-        linkImage: '/assets/image/linkImg.png'
+        position: 'Founder & CEO',
+        description: 'Business Consultant.',
+        contact: '+91 90030 71320',
+        image: '/assets/image/Ashok Soundararajan.png',
+    },
+    {
+        name: 'Ramkumar S',
+        position: 'Senior Consultant',
+        description: '',
+        contact: '+91 88386 62385',
+        image: '/assets/image/Ramkumar S.png',
+    },
+    {
+        name: 'Sairam D K',
+        position: 'Associate Consultant - Trainee',
+        description: '',
+        contact: '+91 78128 89891',
+        image: '/assets/image/Sairam D K.png',
     },
 ];
 
 const faqs = ref([
     {
-        question: 'What industries do you serve?',
-        answer: 'We implement rigorous quality control measures at every stage of production, ensuring consistency and high standards.',
+        question: 'What consulting services do you offer?',
+        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
     },
     {
-        question: 'Six curiosity day assurance bed necessary?',
-        answer: 'We implement rigorous quality control measures at every stage of production, ensuring consistency and high standards.',
+        question: 'How can Primal Solutions help my business grow?',
+        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
     },
     {
-        question: 'Produce say the ten moments parties?',
-        answer: 'We implement rigorous quality control measures at every stage of production, ensuring consistency and high standards.',
+        question: 'Which industries do you serve?',
+        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
     },
     {
-        question: 'Do you offer customized solutions?',
-        answer: 'We',
+        question: 'How do I start a consulting engagement?',
+        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
     },
     {
-        question: 'How do you handle safety in the workplace?',
-        answer: 'We',
+        question: 'How do you measure the success of your projects?',
+        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
     },
 ]);
 

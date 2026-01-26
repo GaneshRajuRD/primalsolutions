@@ -13,8 +13,8 @@
             </div>
         </div>
 
-        <div class="deliverablesSec">
-            <div class="container">
+        <div class="container">
+            <div class="deliverablesSec">
                 <div class="deliverables">
                     <div class="delivery1">
                         <h5 class="mb-0">What We Deliver:</h5>
@@ -41,22 +41,26 @@
             </div>
         </div>
 
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-sm-4 col-lg-5">
-                    <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
-                </div>
-                <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
-                    <span class="tag">What we do</span>
-                    <h1 class="playfairText themeText mt-3">Strengthen your decisions</h1>
-                    <p>
-                        We conduct precise, data-driven research to uncover market gaps, customer expectations, and emerging opportunities. Our insights give organizations the clarity needed to make decisions that are strategic, timely, and impactful.
-                    </p>
-                    <ul class="strengthList">
-                        <li>Identify trends shaping your industry</li>
-                        <li>Understand customer needs with accuracy</li>
-                        <li>Support product and market expansion plans</li>
-                    </ul>
+<div class="whatwedoSec">
+            <div class="bg">
+                <div class="container my-5">
+                    <div class="row">
+                        <div class="col-sm-4 col-lg-5">
+                            <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                        </div>
+                        <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
+                            <span class="tag">What we do</span>
+                            <h1 class="playfairText themeText mt-3">Strengthen your decisions</h1>
+                            <p>
+                                We conduct precise, data-driven research to uncover market gaps, customer expectations, and emerging opportunities. Our insights give organizations the clarity needed to make decisions that are strategic, timely, and impactful.
+                            </p>
+                            <ul class="strengthList">
+                                <li>Identify trends shaping your industry</li>
+                                <li>Understand customer needs with accuracy</li>
+                                <li>Support product and market expansion plans</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,38 +82,37 @@
         <div class="container py-5">
             <span class="tag">Real World Impact</span>
             <h1 class="playfairText themeText mt-3">Turning Strategy Into Real Progress</h1>
-
-            <div class="row mt-4">
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="strategyCard">
-                        <img src="/assets/image/tickImg5.png" class="img-fluid" alt="">
-                        <h5 class="fw-light">
-                            24% higher accuracy in market planning
-                        </h5>
+        </div>
+        <div class="impactSec mb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="strategyCard">
+                            <h5 class="fw-light">
+                                24% higher accuracy in market planning
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="strategyCard">
-                        <img src="/assets/image/tickImg5.png" class="img-fluid" alt="">
-                        <h5 class="fw-light">
-                            33% improvement in product positioning
-                        </h5>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="strategyCard">
+                            <h5 class="fw-light">
+                                33% improvement in product positioning
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="strategyCard">
-                        <img src="/assets/image/tickImg5.png" class="img-fluid" alt="">
-                        <h5 class="fw-light">
-                            Faster time-to-market for new offerings
-                        </h5>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="strategyCard">
+                            <h5 class="fw-light">
+                                Faster time-to-market for new offerings
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="strategyCard">
-                        <img src="/assets/image/tickImg5.png" class="img-fluid" alt="">
-                        <h5 class="fw-light">
-                            Clear visibility into competitive risks
-                        </h5>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="strategyCard strategyCard2">
+                            <h5 class="fw-light">
+                                Clear visibility into competitive risks
+                            </h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,24 +247,24 @@ const operations = ref([
 
 const faqs = ref([
     {
-        question: 'What industries do you serve?',
-        answer: 'We work with automotive, electronics, FMCG, construction equipment, agricultural machinery, and other manufacturing-driven sectors.',
+        question: 'What consulting services do you offer?',
+        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
     },
     {
-        question: 'How do you ensure product quality?',
-        answer: 'We implement rigorous quality and process controls at every stage of execution, ensuring consistency, compliance, and reliable outcomes.',
+        question: 'How can Primal Solutions help my business grow?',
+        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
     },
     {
-        question: 'What sustainability practices do you follow?',
-        answer: 'We support ESG-focused improvements by promoting efficient resource use, waste reduction, responsible operations, and long-term environmental practices.',
+        question: 'Which industries do you serve?',
+        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
     },
     {
-        question: 'Do you offer customized solutions?',
-        answer: 'Yes. Every solution is tailored to your plant, processes, workforce capability, and long-term operational goals.',
+        question: 'How do I start a consulting engagement?',
+        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
     },
     {
-        question: 'How do you handle safety in the workplace?',
-        answer: 'We follow strict safety standards, structured audits, and compliance protocols to help maintain safe, secure, and well-governed work environments.',
+        question: 'How do you measure the success of your projects?',
+        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
     },
 ]);
 
@@ -349,20 +352,43 @@ onMounted(async () => {
 
 .deliverablesSec{
     padding: 25px;
-    background-image: linear-gradient(-167deg,#F3F5F8 0%,  #A9BFF8 100%);
+    /* background-image: linear-gradient(-167deg,#F3F5F8 0%,  #A9BFF8 100%); */
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    margin-top: -3%;
 }
 .deliverables{
     display: flex;
     justify-content: space-between;
 }
-.deliverables .delivery1, .deliverables .delivery2{
-    width: 25%;
+.deliverables .delivery1{
+    width: 18%;
+}
+.deliverables .delivery2{
+    width: 28%;
+    position: relative;
+}
+.deliverables .delivery2:last-child::after{
+    display: none;
+}
+.deliverables .delivery2::after{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    content: '';
+    width: 1px;
+    height: 60%;
+    background-color: #000;
 }
 
 .deliverablesSec p{
     color: #000;
 }
 .deliverablesSec .tickImg{
+    display: none;
     width: 20px;
     aspect-ratio: 1/1;
 }
@@ -371,6 +397,19 @@ onMounted(async () => {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.whatwedoSec{
+    position: relative;
+}
+.whatwedoSec .bg::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+    background-color: #F1F1F1;
 }
 
 .faqImg{
@@ -406,20 +445,27 @@ onMounted(async () => {
 .accordionSec{
     width: 95%;
 }
+.impactSec{
+    background-color: #111F61;
+}
 .strategyCard{
-    padding: 1.4em;
-    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 0.4em;
+    /* border: 1px solid rgb(0, 0, 0, 0.1); */
     border-radius: 8px;
     height: calc(100% - 20px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    position: relative;
 }
-.strategyCard:hover{
+.strategyCard h5{
+    font-size: 1.15rem;
+}
+/* .strategyCard:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
-}
+} */
 .strategyCard img{
     width: 25px;
     aspect-ratio: 1/1;
@@ -427,10 +473,22 @@ onMounted(async () => {
     margin-bottom: 40px;
 }
 .strategyCard h5{
-    color: #000;
+    color: #fff;
     line-height: 1.6;
     width: 80%;
     margin-bottom: 0;
+}
+.impactSec .strategyCard::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-color: #fff;
+    width: 1px;
+    height: 60%;
+}
+.impactSec .strategyCard2:after{
+    display: none;
 }
 
 .textSlider {
@@ -546,8 +604,14 @@ onMounted(async () => {
     .serviceBnr .content h1 {
         font-size: 40px;
     }
+    .deliverablesSec{
+        margin-top: -7%;
+    }
     .deliverables{
         flex-wrap: wrap;
+    }
+    .deliverablesSec p{
+        font-size: 12px;
     }
     .deliverables .delivery1{
         width: 100%;
@@ -558,7 +622,7 @@ onMounted(async () => {
         padding: 5px 0;
     }
     .deliverables .content{
-        justify-content: start;
+        /* justify-content: start; */
         gap: 12px;
     }
     .footerMarquee{
@@ -580,10 +644,29 @@ onMounted(async () => {
         width: 100%;
         margin: 25px 0;
     }
+    .whatwedoSec .bg::after{
+        top: 0%;
+        height: 100%;
+    }
+    .impactSec .strategyCard::after{
+        display: none;
+    }
 }
 @media only screen and (max-width:578px) {
+    .deliverablesSec{
+        margin-top: -20%;
+    }
     .deliverables .delivery2{
         width: 100%;
+    }
+    .deliverables .content{
+        justify-content: start;
+    }
+    .deliverablesSec p{
+        font-size: 15px;
+    }
+    .deliverables .delivery2::after {
+        display: none;
     }
     .footerMarquee{
         font-size: 7vh;

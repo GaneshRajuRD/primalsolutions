@@ -1,5 +1,4 @@
 <template>
-    
     <div class="container pb-2">
         <div class="contact-form-row">
             <div class="contact-form-card">
@@ -297,6 +296,9 @@ const closeSuccessPopup = () => {
     }
 }
 @media only screen and (max-width:578px) {
+  .contact-submit{
+        padding: 10px 30px !important;
+    }
     .contact-form-card {
         width: 95%;
         padding: 1.5em;

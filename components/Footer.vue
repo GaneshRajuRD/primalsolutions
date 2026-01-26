@@ -53,12 +53,15 @@
                             <div class="col-sm-5 col-xxl-4">
                                 <h5 class="mb-4">Services</h5>
                                 <ul>
-                                    <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
-                                    <li><NuxtLink to="/services/business-transformation">Business Transformation</NuxtLink></li>
-                                    <li><NuxtLink to="/services/skill-development-programs">Skill Development Programs</NuxtLink></li>
-                                    <li><NuxtLink to="/services/operations-supply-chain-excellence">Operations & Supply Chain Excellence</NuxtLink></li>
-                                    <li><NuxtLink to="/services/talent-hiring-management">Talent Hiring & Management</NuxtLink></li>
                                     <li><NuxtLink to="/services/market-research">Market Research</NuxtLink></li>
+                                    <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
+                                    <li><NuxtLink to="/services/plant-layout-design-optimization">Plant Layout Design & Optimization</NuxtLink></li>
+                                    <li><NuxtLink to="/services/operational-excellence-lean-transformation">Operational Excellence & Lean Transformation</NuxtLink></li>
+                                    <li><NuxtLink to="/services/zero-defect-culture-deployment">Zero Defect Culture Deployment</NuxtLink></li>
+                                    <li><NuxtLink to="/services/digital-smart-factory-transformation">Digital & Smart Factory Transformation</NuxtLink></li>
+                                    <li><NuxtLink to="/services/supplier-capability-performance-enhancement">Supplier Capability and Performance Enhancement</NuxtLink></li>
+                                    <li><NuxtLink to="/services/skill-development-programs-certifications">Skill development programs and certifications</NuxtLink></li>
+                                    <li><NuxtLink to="/services/talent-hiring-management-services">Talent Hiring & Management Services</NuxtLink></li>
                                 </ul>
                             </div>
                         </div>

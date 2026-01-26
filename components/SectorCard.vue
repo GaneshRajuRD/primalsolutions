@@ -7,10 +7,10 @@
                     <img :src="sector.image" class="sectorImg" alt="" />
                     <h5 class="themeText">{{ sector.title }}</h5>
                     <p>{{ sector.description }}</p>
-                    <h5>Key Services:</h5>
+                    <!-- <h5>Key Services:</h5>
                     <ul>
                         <li v-for="service in sector.services" :key="service">{{ service }}</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <a href="#" class="link">
                     Contact us

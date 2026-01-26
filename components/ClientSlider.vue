@@ -19,10 +19,12 @@ const clients = [
     { image: '/assets/image/client2.png' },
     { image: '/assets/image/client3.png' },
     { image: '/assets/image/client4.png' },
-    { image: '/assets/image/client1.png' },
-    { image: '/assets/image/client2.png' },
-    { image: '/assets/image/client3.png' },
-    { image: '/assets/image/client4.png' },
+    { image: '/assets/image/client5.png' },
+    { image: '/assets/image/client6.png' },
+    { image: '/assets/image/client7.png' },
+    { image: '/assets/image/client8.png' },
+    { image: '/assets/image/client9.png' },
+    { image: '/assets/image/client10.png' },
 ];
 
 onMounted(() => {
@@ -173,7 +175,8 @@ onMounted(() => {
 
 .clientSlide img {
     max-width: 100%;
-    max-height: 80px;
+    height: 70px;
+    /* max-height: 80px;     */
     object-fit: contain;
     display: block;
     margin: 0 auto;

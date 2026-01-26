@@ -25,13 +25,13 @@
                 <h6>2. User Responsibilities</h6>
                 <p>
                     You agree to:
-                    <ul>
-                        <li>Provide accurate and complete information when requesting our services</li>
-                        <li>Use our website and services only for lawful purposes</li>
-                        <li>Not interfere with the proper functioning of our website</li>
-                        <li>Respect intellectual property rights</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Provide accurate and complete information when requesting our services</li>
+                    <li>Use our website and services only for lawful purposes</li>
+                    <li>Not interfere with the proper functioning of our website</li>
+                    <li>Respect intellectual property rights</li>
+                </ul>
                 <h6>3. Intellectual Property</h6>
                 <p>
                     All content on our website, including text, graphics, logos, and software, is the property of Primal Solutions or its licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission.

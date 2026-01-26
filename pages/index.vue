@@ -49,20 +49,15 @@
                             <div class="col-sm-7">
                                 <ul class="list">
                                     <li>
-                                        Productivity improvement and line optimization
+                                        Establish itself as a trusted transformation partner in the automotive ecosystem
                                     </li>
                                     <li>
-                                        Robust quality systems and zero-defect culture
+                                        Scale from project-based consulting to long-term, end to end transformation engagements
                                     </li>
                                     <li>
-                                        Digital transformation and Industry 4.0 adoption
+                                        Build strong, differentiated capability in Lean, TQM, TPM, Digital Manufacturing and Leadership Development
                                     </li>
-                                    <li>
-                                        Workforce capability and leadership development
-                                    </li>
-                                    <li>
-                                        Scalable processes for long-term operational growth
-                                    </li>
+
                                 </ul>
                             </div>
                             <div class="col-sm-5">
@@ -140,6 +135,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <img src="/public/assets/image/PrimalSolutionsModels.png" class="img-fluid" alt="">
         </div>
 
         <div class="container py-5">
@@ -463,7 +462,7 @@ useSeoMeta({
     content: '';
     position: absolute;
     left: -30px;
-    top: 50%;
+    top: 15px;
     width: 16px;
     height: 16px;
     transform: translateY(-50%);
