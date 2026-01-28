@@ -1,6 +1,7 @@
 <template>
 
     <Header />
+        <Loader />
 
     <div class="policyBnr">
         <div class="container">

@@ -1,6 +1,7 @@
 <template>
     <div class="body">
         <Header />
+        <Loader />
 
         <div class="aboutUsBnr">
             <div class="container">

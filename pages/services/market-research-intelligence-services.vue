@@ -1,6 +1,7 @@
 <template>
     <div>
         <Header />
+        <Loader />
 
         <div class="serviceBnr">
             <div class="container">

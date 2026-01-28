@@ -2,6 +2,8 @@
     <div class="body">
 
         <Header />
+        <Loader />
+        
 
         <div class="homeBnr">
             <div class="container">
@@ -247,6 +249,7 @@ import { onMounted, ref } from 'vue';
 import { useHead } from '#app'
 import { blogs } from '~/data/blogs.js';
 import { caseStudies } from '~/data/caseStudies.js';
+import Loader from '~/components/Loader.vue';
 
 const stories = ref([
     {

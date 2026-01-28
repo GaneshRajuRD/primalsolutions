@@ -1,6 +1,7 @@
 <template>
     <div class="body">
         <Header />
+        <Loader />
 
         <div class="contactBnr">
             <div class="container">
