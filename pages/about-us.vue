@@ -224,8 +224,8 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-lg-4 col-xl-3" v-for="teamMember in teamMembers">
-                    <TeamMemberCard :teamMember="teamMember" />
+                <div class="col-sm-6 col-lg-4 col-xl-3" v-for="teamMember in teamMembers" :key="teamMember.name">
+                    <TeamMemberCard :teamMember="teamMember" @open="openMember" />
                 </div>
             </div>
         </div>
@@ -282,18 +282,58 @@
         </div>
         
 
+        <!-- Team member modal -->
+        <div class="modal fade" id="teamMemberModal" tabindex="-1" aria-labelledby="teamMemberModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="teamMemberModalLabel">{{ modalMember?.name }}</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="imgSec">
+                                    <img :src="modalMember?.image" class="teamMemberImg img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="mb-3" v-if="modalMember?.bioTitle">{{ modalMember?.bioTitle }}</h2>
+                                <h4 class="mb-1">{{ modalMember?.name }}</h4>
+                                <h6 class="text-muted mb-3">{{ modalMember?.position }}</h6>
+                                <p v-if="modalMember?.bio" class="bio">{{ modalMember.bio }}</p>
+                                <p v-else-if="modalMember?.description">{{ modalMember.description }}</p>
+                                <!-- <p v-if="modalMember?.contact"><strong>Contact:</strong> <a :href="`tel:${modalMember.contact}`">{{ modalMember.contact }}</a></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <Footer />
     </div>
 </template>
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import { useHead } from '#app'
+
+const modalMember = ref(null);
+
+const openMember = (member) => {
+    modalMember.value = member;
+    // Use Bootstrap's Modal API
+    const modal = new bootstrap.Modal(document.getElementById('teamMemberModal'));
+    modal.show();
+};
 
 const teamMembers = [
     {
         name: 'T.R Renukanthan',
         position: 'Chief Mentor',
         description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.), Ashok Leyland.',
+        bioTitle: 'About Our Mentor',
+        bio: `Business Excellence Consultant with 35+ years of experience in manufacturing, quality systems, and operational excellence across automotive and industrial sectors. Former DGM – Central Quality at Ashok Leyland, with deep expertise in TPM, Lean Six Sigma, AIAG Core Tools (PPAP, APQP), and performance management systems. Proven track record in partnering with leadership teams on strategy, KPIs, and shop-floor transformation. Strong focus on process improvement, digital quality adoption, workforce capability building, and sustainable manufacturing excellence. Known for practical, results-driven consulting that delivers measurable improvements in quality, efficiency, and organizational performance.`,
         contact: '+91 98415 68728',
         image: '/assets/image/T.R Renukanthan.png',
     },
@@ -301,6 +341,8 @@ const teamMembers = [
         name: 'Ashok Soundararajan',
         position: 'Founder & CEO',
         description: 'Business Consultant.',
+        bioTitle: 'About Our Founder',
+        bio: `Business Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement for manufacturing MSMEs. Currently with Primal Solutions, he has led turnkey quality and profitability improvement projects across automotive and industrial sectors. Strong expertise in Lean Six Sigma, AIAG Core Tools (PPAP, APQP), supplier development, and shop-floor excellence. He has supported OEMs and Tier-1 suppliers including Ashok Leyland, TAFE, and PSA, enabling greenfield setups, process stabilization, and sustainable performance improvement. Known for hands-on execution, structured problem solving, and capability building across engineering teams.`,
         contact: '+91 90030 71320',
         image: '/assets/image/Ashok Soundararajan.png',
     },
@@ -308,6 +350,8 @@ const teamMembers = [
         name: 'Ramkumar S',
         position: 'Senior Consultant',
         description: '',
+        bioTitle: '',
+        bio: `Senior Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement across sheet metal, fabrication, casting, and machining industries. He brings strong expertise in shop-floor training, problem-solving, AIAG Core Tools, and quality management systems. Ramkumar has successfully implemented Lean practices, improved productivity and cost efficiency, and supported vendor development and supply chain performance. He has trained 100+ engineers in core quality tools and problem-solving methodologies. Known for hands-on execution, team building, and practical manufacturing solutions that deliver sustainable operational excellence.`,
         contact: '+91 88386 62385',
         image: '/assets/image/Ramkumar S.png',
     },
@@ -315,6 +359,8 @@ const teamMembers = [
         name: 'Sairam D K',
         position: 'Associate Consultant - Trainee',
         description: '',
+        bioTitle: '',
+        bio: `Associate Consultant focussed on supporting on-ground implementation and data collection. Trained in core improvement methods and assisting with shop-floor coaching, data analysis and documentation.`,
         contact: '+91 78128 89891',
         image: '/assets/image/Sairam D K.png',
     },
@@ -402,6 +448,26 @@ const faqs = ref([
 }
 .numerics h5{
     color: rgb(17, 31, 97, 0.92);
+}
+
+/* Team modal styles */
+.modal-header{
+    border-bottom: none;
+}
+.modal-body{
+    padding-bottom: 3rem;
+}
+.imgSec{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamMemberImg{
+    width: 80%;
+}
+.bio{
+    font-size: 18px;
 }
 .numerics .col-4{
     position: relative;

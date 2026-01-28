@@ -149,7 +149,7 @@ const sectors = ref([
 const services = ref([
     'Business Strategy',
     'Business Transformation',
-    'Market Research',
+    'Market Research & Intelligence Services',
     'Operations Supply Chain Excellence',
     'Skill Development Programs',
     'Talent Hiring Management'

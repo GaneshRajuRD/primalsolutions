@@ -112,82 +112,49 @@ import { blogs } from '~/data/blogs.js';
 import { caseStudies } from '~/data/caseStudies.js';
 const sectors = ref([
     {
-        title: 'Automotive Manufacturing',
+        title: 'automotive & components manufacturing',
         description: 'We help automotive plants improve line efficiency, reduce defects, and build scalable production systems across complex, fast-moving operations.',
         image: '/assets/image/Automotive-Manufacturing.webp',
-        services: [
-            'Line balancing and single-piece flow',
-            'Zero-defect culture deployment',
-            'Plant layout optimization and re-layout',
-            'Supply-chain improvement for OEM/Tier-I',
-            'Productivity improvement and lean programs',
-            'KPI deployment and operational monitoring',
-        ],
     },
     {
         title: 'Agricultural & Farm Equipment',
         description: 'We help farm-equipment manufacturers improve assembly accuracy, reduce breakdown-related rework, and build reliable production systems that support seasonal output.',
         image: '/assets/image/Agricultural-Farm-Equipment.webp',
-        services: [
-            'Line balancing for tractor and farm units',
-            'Zero-defect checks for mechanical builds',
-            'Layout upgrades for smooth material flow',
-            'Supplier and component quality programs',
-            'Lean adoption for varied product models',
-            'KPI visibility and daily performance review',
-        ],
-    },
-    {
-        title: 'Elevators & Construction Equipment',
-        description: 'We help elevator and construction-equipment plants enhance build precision, reduce installation defects, and create scalable assembly systems for heavy-duty products.',
-        image: '/assets/image/Elevators-Construction-Equipment.webp',
-        services: [
-            'Standardized processes for major assemblies',
-            'Quality controls for safety-critical parts',
-            'Layout optimization for structural builds',
-            'Supply-chain accuracy and BOM alignment',
-            'Lean flow for fabrication and assembly lines',
-            'KPI tracking for production performance',
-        ],
     },
     {
         title: 'Off-Road & Earthmoving Industry',
         description: 'We help earthmoving-equipment makers strengthen durability, stabilize heavy-component flow, and improve reliability across demanding production operations.',
         image: '/assets/image/Off-Road-Earthmoving-Industry.webp',
-        services: [
-            'Optimization of chassis and frame lines',
-            'Quality systems for rugged equipment use',
-            'Heavy-part logistics and material flow',
-            'Supplier improvement for castings/forgings',
-            'Lean techniques for slow-cycle assemblies',
-            'KPI monitoring for build consistency',
-        ],
     },
     {
-        title: 'FMCG Manufacturing',
-        description: 'We help FMCG plants increase throughput, reduce changeover losses, and build fast, reliable production environments suited for high-speed packaging lines.',
-        image: '/assets/image/FMCG-Manufacturing.webp',
-        services: [
-            'Line balancing for fast-moving packs',
-            'Quality and hygiene compliance setup',
-            'Layout redesign for continuous flow',
-            'Warehouse and dispatch optimization',
-            'Lean and TPM-based productivity boosts',
-            'Real-time KPI and downtime tracking',
-        ],
+        title: 'Elevators & Construction Equipment',
+        description: 'We help elevator and construction-equipment plants enhance build precision, reduce installation defects, and create scalable assembly systems for heavy-duty products.',
+        image: '/assets/image/Elevators-Construction-Equipment.webp',
     },
     {
         title: 'Electronics Production',
         description: 'We help electronics manufacturers improve yield, reduce defects, and create stable, scalable processes across SMT lines, assembly cells, and testing stations.',
         image: '/assets/image/Electronics-Production.webp',
-        services: [
-            'Optimization of SMT and assembly flow',
-            'Yield improvement using defect analysis',
-            'ESD and quality-system implementation',
-            'Supplier quality for key components',
-            'Lean flow for high-mix production units',
-            'KPI dashboards for production control',
-        ],
+    },
+    {
+        title: 'Medical Equipment Manufacturing',
+        description: 'We help medical equipment manufacturers improve process reliability, reduce defects, and build scalable production systems across regulated, high-precision manufacturing operations.',
+        image: '/assets/image/Medical-Equipment-Manufacturing.webp',
+    },
+    {
+        title: 'FMCG Manufacturing',
+        description: 'We help FMCG plants increase throughput, reduce changeover losses, and build fast, reliable production environments suited for high-speed packaging lines.',
+        image: '/assets/image/FMCG-Manufacturing.webp',
+    },
+    {
+        title: 'Textile and Apparel Manufacturing',
+        description: 'We help textile and apparel factories boost line efficiency, minimize defects, and scale production systems across dynamic, high-volume manufacturing operations.',
+        image: '/assets/image/Textile-and-Apparel.webp',
+    },
+    {
+        title: 'Jewellery manufacturing',
+        description: 'We help jewellery manufacturers enhance process precision, reduce rework, and build scalable production systems across intricate, detail-driven operations.',
+        image: '/assets/image/Jewellery-manufacturing.webp',
     },
 ]);
 

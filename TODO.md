@@ -1,15 +1,6 @@
-# Task: Centralize Blogs and Case Studies Data
+# TODO: Replace Custom Team Member Modal with Bootstrap Modal
 
-## Progress
-- [x] Create data/blogs.js
-- [x] Create data/caseStudies.js
-- [ ] Update pages/index.vue
-- [ ] Update pages/resources.vue
-- [ ] Update pages/sectors.vue
-- [x] Update pages/services/business-strategy.vue
-- [x] Update pages/services/business-transformation.vue
-- [x] Update pages/services/market-research.vue
-- [x] Update pages/services/operations-supply-chain-excellence.vue
-- [x] Update pages/services/skill-development-programs.vue
-- [x] Update pages/services/talent-hiring-management.vue
-- [ ] Test application functionality
+- [x] Replace custom modal HTML with Bootstrap modal structure in pages/about-us.vue
+- [x] Update script to use Bootstrap modal methods (show/hide) instead of custom logic
+- [x] Remove custom CSS styles for the team modal
+- [ ] Test the modal functionality

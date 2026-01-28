@@ -21,8 +21,8 @@
                             </div>
                             <div class="col-sm-1 px-0"></div>
                             <div class="col-sm-5 px-sm-0">
-                                <img src="/assets/image/footerImg.webp" class="img-fluid mb-4" />
-                                <NuxtLink class="callBtn" to="/contact-us" type="" data-bs-toggle="modal" data-bs-target="#QuotationPopup">Schedule a 10 minute call
+                                <img src="/assets/image/footerImg.webp" class="footerImg img-fluid mb-4" />
+                                <NuxtLink class="callBtn" to="/contact-us" type="" data-bs-toggle="modal" data-bs-target="#QuotationPopup">Contact Us
                                     <span></span>
                                 </NuxtLink>
                             </div>
@@ -53,7 +53,7 @@
                             <div class="col-sm-5 col-xxl-4">
                                 <h5 class="mb-4">Services</h5>
                                 <ul>
-                                    <li><NuxtLink to="/services/market-research">Market Research</NuxtLink></li>
+                                    <li><NuxtLink to="/services/market-research-intelligence-services">Market Research & Intelligence Services</NuxtLink></li>
                                     <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
                                     <li><NuxtLink to="/services/plant-layout-design-optimization">Plant Layout Design & Optimization</NuxtLink></li>
                                     <li><NuxtLink to="/services/operational-excellence-lean-transformation">Operational Excellence & Lean Transformation</NuxtLink></li>
@@ -205,6 +205,9 @@ import { onMounted } from "vue";
 .socialLinks a:hover{
     transition: 0.4s;
     border: 1px solid rgb(255, 255, 255, 0.8);
+}
+.footerImg{
+    border-radius: 6px;
 }
 
 @media only screen and (max-width:1440px){

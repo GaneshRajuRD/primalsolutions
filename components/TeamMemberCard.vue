@@ -1,27 +1,29 @@
 <template>
-    <div class="teamMemberCard">
-        <div class="card">
-            <img :src="teamMember.image" alt="" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">{{ teamMember.name }}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{ teamMember.position }}</h6>
-                <p class="card-text" v-if="teamMember.description">{{ teamMember.description }}</p>
-                <a :href="`tel: ${teamMember.contact}`" class="card-text contact" v-if="teamMember.contact">{{ teamMember.contact }}</a>
-            </div>
-        </div>
-    </div>
-</template>
+                <div class="teamMemberCard" @click="open" role="button">
+                    <div class="card">
+                        <img :src="teamMember.image" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ teamMember.name }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ teamMember.position }}</h6>
+                            <p class="card-text" v-if="teamMember.description">{{ teamMember.description }}</p>
+                            <a :href="`tel:${teamMember.contact}`" class="card-text contact" v-if="teamMember.contact" @click.stop>{{ teamMember.contact }}</a>
+                        </div>
+                    </div>
+                </div>
+            </template>
 
-<script setup>
-import { onMounted } from "vue";
-const props = defineProps({
-    teamMember: {
-        type: Object,
-        required: true,
-    },
-});
+            <script setup>
+            const props = defineProps({
+                teamMember: {
+                    type: Object,
+                    required: true,
+                },
+            });
+            const emit = defineEmits(["open"]);
+            const open = () => emit('open', props.teamMember);
 
-</script>
+            </script>
+
 <style scoped>
 .teamMemberCard {
     margin-bottom: 20px;

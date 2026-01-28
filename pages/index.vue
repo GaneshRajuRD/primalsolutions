@@ -22,7 +22,7 @@
 
             </div>
             <video class="w-100 plyr-video-player" autoplay loop muted playsinline webkit-playsinline controlslist="nodownload" preload="auto">
-                <source src="/assets/image/industryVideo.mp4" type="video/mp4">
+                <source src="/assets/image/homeBnrVideo.mp4" type="video/mp4">
             </video>
             <div class="gradient-overlay"></div>
 
@@ -86,7 +86,7 @@
                     <div class="col-sm-0 col-lg-1 px-0"></div>
                     <div class="col-sm-12 col-lg-6">
                         <p class="mt-4 pt-2">
-                            Our structured consulting approach is built to deliver measurable improvement, reduce operational losses, and create long-term stability across manufacturing environments.
+                            We help manufacturing businesses eliminate inefficiencies, strengthen processes, and unlock scalable growth. By combining deep industry expertise with practical strategy, we turn operational challenges into measurable performance gains that impact your bottom line.
                         </p>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                             <div>
                                 <h5>Scoping & Diagnosis</h5>
                                 <p class="fw-light mb-2">
-                                    We analyze your processes, study data patterns, and identify gaps that limit throughput, quality, or reliability.
+                                    Understanding processes, identifying key challenges and setting KPIs through data-driven insights
                                 </p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             <div>
                                 <h5>Solution Design</h5>
                                 <p class="fw-light mb-2">
-                                    We build tailored solutions using lean principles, digital tools, and industry-specific best practices.
+                                    Developing structured solutions, templates, and review mechanisms tailored to industry needs.
                                 </p>
                             </div>
                         </div>
@@ -118,16 +118,16 @@
                             <div>
                                 <h5>Implementation</h5>
                                 <p class="fw-light mb-2">
-                                    We work on-site with your teams to deploy improvements, stabilize workflows, and strengthen day-to-day operations.
+                                    Deploying solutions to address bottleneck operations through optimizing operational efficiency
                                 </p>
                             </div>
                         </div>
                         <div class="process">
                             <h2>04</h2>
                             <div>
-                                <h5>Continuous Improvements</h5>
+                                <h5>Continuous improvements</h5>
                                 <p class="fw-light mb-2">
-                                    We establish review cycles, KPIs, and audits to ensure improvements sustain and scale over time.
+                                    Monitoring, analyzing, and refining processes to ensure sustainable growth and high performance
                                 </p>
                             </div>
                         </div>
@@ -162,15 +162,16 @@
                             <div class="storyCard">
                                 <img src="/assets/image/commaImg.png" class="commaImg img-fluid" alt="">
                                 <div class="row">
-                                    <div class="col-sm-9">
-                                        <h4>{{ story?.description }}</h4>
+                                    <div class="col-sm-11">
+                                        <h5>{{ story?.description }}</h5>
                                     </div>
                                 </div>
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex align-items-center gap-3 mt-3">
                                     <img :src="story?.image ? `${story?.image}` : ''" class="userImg img-fluid" alt="">
                                     <div>
                                         <h5 class="fw-bold">{{ story?.name }}</h5>
-                                        <img src="/assets/image/starImg.png" class="starImg img-fluid" alt="">
+                                        <p>{{ story?.company }}</p>
+                                        <!-- <img src="/assets/image/starImg.png" class="starImg img-fluid" alt=""> -->
                                     </div>
                                 </div>
                             </div>
@@ -249,9 +250,22 @@ import { caseStudies } from '~/data/caseStudies.js';
 
 const stories = ref([
     {
-        name: 'Cameron Williamson',
-        description: 'I cant describe how great we feel using Newsify. It completely changed our workflow and the face we waste on truying to connect each other.Top Newsify!"',
-        image: '/assets/image/usersImg.png',
+        name: 'Karunakaran',
+        company: 'STS Manufacturing Pvt. Ltd',
+        description: 'Working with Primal Solutions was a truly fulfilling experience. From the initial phase to final execution, their team consistently demonstrated exceptional collaboration, professionalism, and dedication. Their contributions significantly enhanced our operational efficiency, strengthened our quality systems and practices, and supported key layout optimization initiatives. I would like to extend special thanks to Mr. Renukanthan for generously sharing his deep koowledge and expertise with our team. It has been a pleasure working with the Primal team, and I would gladly recommend them for future initiatives',
+        image: '/assets/image/Karunakaran.png',
+    },
+    {
+        name: 'K.M Karthic Marilyan - CEO',
+        company: 'Modern General Industry',
+        description: `I have known Ashok for the past five years. Since the inception of Primal Solutions, our organization has been actively engaging with them to support our transformation journey. Ashok brings with him over 15 years of experience working closely with Ashok Leyland's supplier partners. His deep understanding of custamer expectations, Under the guidance of Mr. Ranukanthan is an added benefit The Primal Solutions team has played a key role in helping us work systematically towards improving our performance rankings with Ashok Leyland. Their insights, structured methodologies, and consistent follow-ups have brought measurable Improvements Cross out operations. We appreciate their partnership and look forward to continued collaboration in the future.`,
+        image: '/assets/image/Karthic.png',
+    },
+    {
+        name: 'K. Sakthimanikandan-CED ',
+        company: 'Vee & Vee Industries',
+        description: `It's pleasure of working with Ashok for over 10 years, and for the past year, we've had the benefit of Primal Solutions' expertise as our business consultant. Under Ashok's leadership and Mr. Renukanthan's mentorship, their structured approach has yielded significant improvements across our operations. They've been instrumental in streamlining customer requirements, including No Pass initiation, which has bolstered our compliance and customer trust. We're impressed with their professionalism and ongoing support and we're excited to continue our successful collaboration."`,
+        image: '/assets/image/Sakthimanikandan.png',
     },
 ]);
 
@@ -530,7 +544,7 @@ useSeoMeta({
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
-.storyCard h4{
+.storyCard h5{
     color: #fff;
     line-height: 1.8;
     margin-top: 10px;

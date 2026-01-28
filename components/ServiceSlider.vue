@@ -27,65 +27,65 @@ export default {
       items: [
         {
           id: 1,
-          title: 'Market Research',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          title: 'Market Research & Intelligence Services',
+          description: 'We provide industry insights that help you make confident decisions, explore new markets, and stay ahead of trends.',
           image: '/assets/image/Market-Research-service.webp',
-          link: 'market-research'
+          link: 'market-research-intelligence-services'
         },
         {
           id: 2,
           title: 'Business Strategy',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          description: 'We help organizations develop clear strategic business plans aligned with their vision, market dynamics, and long-term objectives. We deploy performance-driven KPIs and build execution-focused cultures to enable successful market entry and scalable, sustainable growth.',
           image: '/assets/image/Business-Strategy-service.webp',
           link: 'business-strategy'
         },
         {
           id: 3,
           title: 'Plant Layout Design & Optimization',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/prop3.webp',
+          description: 'We design end-to-end plant layouts from concept to commissioning, optimizing material flow, space utilization, and future scalability. We re-engineer existing layouts to support capacity expansion, improve flow efficiency, and minimize disruption to ongoing operations.',
+          image: '/assets/image/Business-Transformation-service.webp',
           link: 'plant-layout-design-optimization'
         },
         {
           id: 4,
           title: 'Operational Excellence & Lean Transformation',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
+          description: 'Embed lean principles to eliminate waste and improve overall efficiency. Streamline processes to boost productivity and reduce cycle time. Organize workplaces systematically and drive sustainable behavioral change.',
           image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp',
           link: 'operational-excellence-lean-transformation'
         },
         {
           id: 5,
           title: 'Zero Defect Culture Deployment',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Talent-Hiring-Management-service.webp',
+          description: 'Strengthen QMS to ensure consistent product quality and compliance. Implement structured quality practices using the 3D Concept for defect prevention. Establish robust DWM systems and practices to strengthen daily monitoring and problem-solving capabilities.',
+          image: '/assets/image/zero-defect-culture-deployment.webp',
           link: 'zero-defect-culture-deployment'
         },
         {
           id: 6,
           title: 'Digital & Smart Factory Transformation',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business-Transformation-service.webp',
+          description: 'Implement smart digital systems for real-time monitoring and control. Digitize quality processes to ensure compliance and traceability. Use data analytics to predict failures and optimize maintenance.',
+          image: '/assets/image/Smart-factory-tarnsformation.webp',
           link: 'digital-smart-factory-transformation'
         },
         {
           id: 7,
           title: 'Supplier Capability and Performance Enhancement',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Market-Research-service.webp',
+          description: 'Improve supplier processes, skills, and delivery performance. Help suppliers meet OEM standards and boost their performance ranking. Develop supplier clusters for shared learning, best practices, and performance improvement.',
+          image: '/assets/image/Supplier-Performance.webp',
           link: 'supplier-capability-performance-enhancement'
         },
         {
           id: 8,
           title: 'Skill development programs and certifications',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/Business-Strategy-service.webp',
+          description: 'Train teams in core manufacturing and problem-solving skills. Guide organizations to implement sustainable and responsible practices. Support certification readiness and compliance for manufacturing standards.',
+          image: '/assets/image/Skill-Developement.webp',
           link: 'skill-development-programs-certifications'
         },
         {
           id: 9,
           title: 'Talent Hiring & Management Services',
-          description: 'where luxury meets comfort and elegance. Discover a curated collection of exquisite properties designed to cater to your every need, whether you\'re seeking a serene retreat or a vibrant urban experience.',
-          image: '/assets/image/prop3.webp',
+          description: 'Define hiring strategies aligned with business goals. Identify skills and competencies required for roles. Develop programs for future leaders. Implement frameworks to measure and improve performance. Boost workforce motivation and reduce attrition.',
+          image: '/assets/image/Talent-Hiring-Management-service.webp',
           link: 'talent-hiring-management-services'
         }
       ]

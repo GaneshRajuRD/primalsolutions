@@ -238,19 +238,19 @@ const videos = ref([
 const operations = ref([
     {
         question: 'Scoping & Diagnosis',
-        answer: 'We study your processes, people, and performance data to identify gaps and opportunities.',
+        answer: 'Understanding processes, identifying key challenges and setting KPIs through data-driven insights',
     },
     {
         question: 'Solution Design',
-        answer: 'We create structured, practical solutions tailored to your operational needs.',
+        answer: 'Developing structured solutions, templates, and review mechanisms tailored to industry needs.',
     },
     {
-        question: 'Implementation & Optimization',
-        answer: 'We work hands-on with your teams to deploy improvements and stabilize workflows.',
+        question: 'Implementation',
+        answer: 'Deploying solutions to address bottleneck operations through optimizing operational efficiency',
     },
     {
-        question: 'Continual Improvements',
-        answer: 'We refine systems, review KPIs, and support long-term sustainability.',
+        question: 'Continuous improvements',
+        answer: 'Monitoring, analyzing, and refining processes to ensure sustainable growth and high performance',
     },
 ]);
 
@@ -339,7 +339,7 @@ onMounted(async () => {
 <style scoped>
 .serviceBnr {
     position: relative;
-    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/businessStrategyBnr.webp');
+    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/Skill-Developement.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

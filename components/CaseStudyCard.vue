@@ -49,7 +49,7 @@ const props = defineProps({
     width: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
-    aspect-ratio: 688/390;
+    aspect-ratio: 630/400;
 }
 .caseStudyCard .link{
     background-color: #F7F7F8;
