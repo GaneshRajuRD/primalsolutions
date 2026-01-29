@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Business Strategy</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         We help organizations develop clear strategic business plans aligned with their vision, market dynamics, and long-term objectives. We deploy performance-driven KPIs and build execution-focused cultures to enable successful market entry and scalable, sustainable growth.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

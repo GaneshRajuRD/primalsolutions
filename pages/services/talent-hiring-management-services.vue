@@ -8,9 +8,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Talent Hiring & Management Services</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Define hiring strategies aligned with business goals. Identify skills and competencies required for roles. Develop programs for future leaders. Implement frameworks to measure and improve performance. Boost workforce motivation and reduce attrition.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

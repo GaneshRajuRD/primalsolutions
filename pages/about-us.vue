@@ -101,7 +101,7 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="row">
                             <div class="col-lg-6">
                                 <p>
-                                    Our mission is to drive Industry 4.0 adoption through advanced digital systems, robust quality practices, and capability building. We focus on nurturing young leaders, empowering engineers, and helping organizations strengthen operational discipline while embracing ESG-driven progress.
+                                    “We turn strategy into execution through robust systems, strong leadership, and cultural transformation - delivering measurable impact, industry-ready talent, and sustainable performance for our clients."
                                 </p>
                                 <!-- <ul class="list">
                                     <li>Industry 4.0 Transformation & Digital Adoption</li>
@@ -119,7 +119,7 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="row">
                             <div class="col-lg-6">
                                 <p>
-                                    We envision modern, competitive, technology-driven industries that meet world-class benchmarks in efficiency, quality, and sustainability. Our goal is to guide at least 100 companies toward measurable excellence by the end of the decade.
+                                    To be the most trusted transformation partner for MSMEs, automotive, and manufacturing enterprises by solving deep-rooted business challenges and driving sustainable, profitable growth. By 2030, we aspire to transform 100 organizations through operational excellence and cultural change.
                                 </p>
                                 <!-- <ul class="list">
                                     <li>Enable companies to reach global manufacturing standards</li>
@@ -136,15 +136,18 @@ Tier-1 suppliers, and component manufacturers.
                     <div class="tab-pane fade" id="nav-Value" role="tabpanel" aria-labelledby="nav-Value-tab" >
                         <div class="row">
                             <div class="col-lg-6">
-                                <p>
-                                    Our core values center on delivering exceptional client value through customer delight, operational efficiency, strategic focus, and continuous improvement. We believe in building long-term partnerships based on trust, transparency, and measurable results.
-                                </p>
-                                <!-- <ul class="list">
-                                    <li>Customer Delight Above All</li>
-                                    <li>Efficiency & Performance First</li>
-                                    <li>Strategy-Driven, Measurable Outcomes</li>
-                                    <li>Feedback-Led Continuous Improvement</li>
-                                </ul> -->
+
+                                <ul class="list">
+                                    <li><strong>Integrity and Ethics:</strong></li>
+                                        Act with honesty and fairness, building trust through strong moral principles.
+                                    <li><strong>Customer Centric:</strong></li>
+                                        Focus on understanding customer needs and delivering solutions that ensure satisfaction.
+                                    <li><strong>Result Oriented:</strong></li>
+                                        Drive measurable outcomes efficiently while maintaining quality standards.
+                                    <li><strong>People Centric:</strong></li>
+                                        Empower and value individuals, fostering collaboration and team success.
+
+                                </ul>
                             </div>
                             <div class="col-lg-6">
                                 <img src="/assets/image/valuesImg.webp" class="image w-100 img-fluid" alt="">
@@ -346,7 +349,7 @@ const teamMembers = [
         description: 'Business Consultant.',
         bioTitle: 'About Our Founder',
         bio: `Business Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement for manufacturing MSMEs. Currently with Primal Solutions, he has led turnkey quality and profitability improvement projects across automotive and industrial sectors. Strong expertise in Lean Six Sigma, AIAG Core Tools (PPAP, APQP), supplier development, and shop-floor excellence. He has supported OEMs and Tier-1 suppliers including Ashok Leyland, TAFE, and PSA, enabling greenfield setups, process stabilization, and sustainable performance improvement. Known for hands-on execution, structured problem solving, and capability building across engineering teams.`,
-        image: '/assets/image/Ashok Soundararajan.png',
+        image: '/assets/image/Ashok Soundararajan.webp',
     },
     {
         name: 'Ramkumar S',

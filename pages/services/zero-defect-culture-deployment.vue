@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Zero Defect Culture Deployment</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Strengthen QMS to ensure consistent product quality and compliance. Implement structured quality practices using the 3D Concept for defect prevention. Establish robust DWM systems and practices to strengthen daily monitoring and problem-solving capabilities. Foster a culture of ongoing improvement and proactive problem-solving.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

@@ -141,8 +141,51 @@ Tier-1 suppliers, and component manufacturers.
             </div>
         </div>
 
-        <div class="container-fluid p-0">
-            <img src="/public/assets/image/PrimalSolutionsModels.png" class="w-100 img-fluid" alt="">
+        <div class="container modelsSec">
+            <div class="sectionTitle">
+                <h2 class="fw-light mb-5">Project Management Models</h2>
+            </div>
+            <div class="row g-4 modelsRow">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="modelCard">
+                        <div class="icon-circle" aria-hidden="true">
+                            <img src="/assets/image/ShortTermProjectsIcon.png" class="imgfluid" alt="" />
+                        </div>
+                        <h5>Short-Term Projects</h5>
+                        <p>Result-oriented, time-bound interventions focused on quick wins and measurable impact</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="modelCard">
+                        <div class="icon-circle" aria-hidden="true">
+                            <img src="/assets/image/ClusterProjectsIcon.png" class="imgfluid" alt="" />
+                        </div>
+                        <h5>Cluster Projects</h5>
+                        <p>Result-oriented, time-bound interventions focused on quick wins and measurable impact</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="modelCard">
+                        <div class="icon-circle" aria-hidden="true">
+                            <img src="/assets/image/LongTermProjectsIcon.png" class="imgfluid" alt="" />
+                        </div>
+                        <h5>Long-Term Projects<br/>(Retainer Model)</h5>
+                        <p>Sustained engagement for continuous improvement, transformation, and capability building</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="modelCard">
+                        <div class="icon-circle" aria-hidden="true">
+                            <img src="/assets/image/TrainingProgramIcon.png" class="imgfluid" alt="" />
+                        </div>
+                        <h5>Short-Term Projects</h5>
+                        <p>Institutional and Industry-readiness programs to build practical skills and future-ready capabilities</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="container py-5">
@@ -572,8 +615,64 @@ useSeoMeta({
     margin-bottom: 10px;
 }
 
-
-
+/* Project Models Section */
+.modelsSec{
+    padding: 80px 0;
+    background: transparent;
+}
+.modelsSec .sectionTitle{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.modelsRow{
+    margin:0;
+}
+.modelCard{
+    background:#0f235f;
+    color:#fff;
+    border-radius: 6px;
+    padding: 30px 25px 30px;
+    position:relative;
+    width:100%;
+    height: 100%;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    text-align:center;
+}
+.modelCard .icon-circle{
+    width:92px;
+    height:92px;
+    background:#fff;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    top:-46px;
+    left:50%;
+    transform:translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.modelCard .icon-circle img{
+    width:50%;
+}
+.modelCard h5{
+    color: #fff;
+    margin-top:40px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+.modelCard p{ color:#d4d9ea; font-size:0.95rem; line-height:1.6;}
+@media (max-width:992px){
+ .modelCard{ padding:40px 20px;}
+}
+@media (max-width:576px){
+ .modelCard{ 
+    margin-bottom:16px; 
+    height: calc(100% - 16px);
+    padding:30px 20px;
+}
+ .modelsRow{gap:16px;}
+}
 
 @media only screen and (max-width:1440px) {
 

@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Plant Layout Design & Optimization</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         We design end-to-end plant layouts from concept to commissioning, optimizing material flow, space utilization, and future scalability. We re-engineer existing layouts to support capacity expansion, improve flow efficiency, and minimize disruption to ongoing operations. We develop optimized product- and process-based layouts to reduce lead time, handling cost, and operational bottlenecks.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -339,7 +339,7 @@ onMounted(async () => {
 <style scoped>
 .serviceBnr {
     position: relative;
-    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/Business-Transformation-service.webp');
+    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/PlantLayoutDesign.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Market Research & Intelligence Services</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         We provide industry insights that help you make confident decisions, explore new markets, and stay ahead of trends.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

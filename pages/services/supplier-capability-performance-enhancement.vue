@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Supplier Capability and Performance Enhancement</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Improve supplier processes, skills, and delivery performance. Help suppliers meet OEM standards and boost their performance ranking. Develop supplier clusters for shared learning, best practices, and performance improvement.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

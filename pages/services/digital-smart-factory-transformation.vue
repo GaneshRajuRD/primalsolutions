@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Digital & Smart Factory Transformation</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Implement smart digital systems for real-time monitoring and control. Digitize quality processes to ensure compliance and traceability. Use data analytics to predict failures and optimize maintenance.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

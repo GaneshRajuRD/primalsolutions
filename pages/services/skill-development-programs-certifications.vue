@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Skill development programs and certifications</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Train teams in core manufacturing and problem-solving skills. Guide organizations to implement sustainable and responsible practices. Support certification readiness and compliance for manufacturing standards.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

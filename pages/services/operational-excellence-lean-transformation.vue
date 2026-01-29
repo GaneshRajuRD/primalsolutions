@@ -7,9 +7,9 @@
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Operational Excellence & Lean Transformation</h1>
-                    <p class="width-75">
+                    <!-- <p class="width-75">
                         Embed lean principles to eliminate waste and improve overall efficiency. Streamline processes to boost productivity and reduce cycle time. Organize workplaces systematically and drive sustainable behavioral change.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
