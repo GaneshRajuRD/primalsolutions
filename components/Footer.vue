@@ -8,7 +8,7 @@
                         <img src="/assets/image/primalLogo.png" class="footerLogo img-fluid" alt="">
                         <div class="row">
                             <div class="col-sm-5">
-                                <h5 class="line-height-15 mb-4">Primal Solutions C-10, 128 Kendriya Vihar Velappanchavadi Kannapalayam, Tiruvallur Tamil Nadu Chennai – 600077.</h5>
+                                <h5 class="line-height-15 mb-4">Primal Solutions <br> C-10, 128 Kendriya Vihar, Tamil Nadu,<br> Chennai – 600 077.</h5>
                                 <a class="d-inline-block mb-4" href="mailto: ashok@primalsolutions.in ">ashok@primalsolutions.in </a><br>
                                 <a class="d-inline-block mb-2" href="tel: +91 90030 71320">+91 90030 71320</a>
 

@@ -48,7 +48,9 @@
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-sm-4 col-lg-5">
-                            <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            <div class="processImg">
+                                <img src="/assets/image/TalentHiringManagementServicesImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            </div>
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
                             <span class="tag">What we do</span>
@@ -59,24 +61,24 @@
                             <ul class="strengthList">
                                 <li>
                                     <strong>Talent Acquisition Strategy & Planning </strong>
-                                    – Define hiring strategies aligned with business goals.
                                 </li>
+                                    Define hiring strategies aligned with business goals.
                                 <li>
                                     <strong>Competency Mapping & Role Profiling</strong>
-                                    – Identify skills and competencies required for roles.  
                                 </li>
+                                    Identify skills and competencies required for roles.  
                                 <li>
                                     <strong>Leadership & High-Potential Talent Development</strong>
-                                    – Develop programs for future leaders.
                                 </li>
+                                    Develop programs for future leaders.
                                 <li>
                                     <strong>Performance Management System Design</strong>
-                                    – Implement frameworks to measure and improve performance.
                                 </li>
+                                    Implement frameworks to measure and improve performance.
                                 <li>
                                     <strong>Employee Engagement & Retention Programs</strong>
-                                    – Boost workforce motivation and reduce attrition.
                                 </li>
+                                    Boost workforce motivation and reduce attrition.
 
                             </ul>
                         </div>
@@ -87,16 +89,18 @@
 
 
         <div ref="textSlider" class="textSlider">
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
-            <div class="text-item">Building High-Performance Teams</div>
+            <div class="text-item">Strategic Talent Acquisition</div>
+            <div class="text-item">Leadership &amp; High-Potential Talent Development</div>
+            <div class="text-item">Employee Engagement &amp; Retention Programs</div>
+            <div class="text-item">Strategic Talent Acquisition</div>
+            <div class="text-item">Leadership &amp; High-Potential Talent Development</div>
+            <div class="text-item">Employee Engagement &amp; Retention Programs</div>
+            <div class="text-item">Strategic Talent Acquisition</div>
+            <div class="text-item">Leadership &amp; High-Potential Talent Development</div>
+            <div class="text-item">Employee Engagement &amp; Retention Programs</div>
+            <div class="text-item">Strategic Talent Acquisition</div>
+            <div class="text-item">Leadership &amp; High-Potential Talent Development</div>
+            <div class="text-item">Employee Engagement &amp; Retention Programs</div>
         </div>
 
         <div class="container py-5">
@@ -106,6 +110,7 @@
         <div class="impactSec mb-5">
             <div class="container">
                 <div class="row mt-4">
+                    <div class="col-sm-6 col-lg-4 col-xl-3"></div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
@@ -135,7 +140,10 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        <div class="processImg">
+                        
+                            <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -451,6 +459,7 @@ onMounted(async () => {
 .accordionSec{
     width: 95%;
 }
+
 .impactSec{
     background-color: #111F61;
 }

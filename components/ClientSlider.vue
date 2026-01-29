@@ -146,7 +146,8 @@ onMounted(() => {
 </script>
 <style scoped>
 .sliderBg {
-    background-color: #FFE8C5;
+    /* background-color: #FFE8C5; */
+    background-color: #fff;
 }
 
 .client-slider {

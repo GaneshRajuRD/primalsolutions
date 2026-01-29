@@ -29,7 +29,7 @@ measurable results that directly impact the bottom line.
                         <!-- <h2 class="fw-light mb-0">Building quality through</h2>
                         <h2 class="fw-bold">industrial innovation</h2> -->
                         <p>
-                            Primal Solutions is a consulting firm serving as a catalysts for ”Organization’s Cultural Transformation”.
+                            Primal Solutions is a consulting firm serving as a catalysts for <strong>”Organization’s Cultural Transformation”.</strong>
 Our focus is on fostering growth and innovation in the automotive sector by working closely with OEMs,
 Tier-1 suppliers, and component manufacturers.
                         </p>
@@ -61,8 +61,17 @@ Tier-1 suppliers, and component manufacturers.
         <div class="container">
             <div class="missionSec">
                 <div class="mission-tabs nav nav-tabs" role="tablist">
-                    <button
-                        class="tab-btn nav-link active" data-bs-toggle="tab" data-bs-target="#nav-Mission" type="button"
+                    <button class="tab-btn nav-link active" data-bs-toggle="tab" data-bs-target="#nav-Vision"
+                        type="button" role="tab" aria-controls="nav-Vision" aria-selected="false" id="nav-Vision-tab">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28683 2.42871C5.49973 2.42871 2.42969 5.49876 2.42969 9.28585C2.42969 13.0729 5.49973 16.143 9.28683 16.143C13.0739 16.143 16.144 13.0729 16.144 9.28585C16.144 5.49876 13.0739 2.42871 9.28683 2.42871ZM0.429688 9.28585C0.429688 4.39419 4.39517 0.428711 9.28683 0.428711C14.1785 0.428711 18.144 4.39419 18.144 9.28585C18.144 14.1775 14.1785 18.143 9.28683 18.143C4.39517 18.143 0.429688 14.1775 0.429688 9.28585Z" fill="#111F61"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7165 2.42871C26.9294 2.42871 23.8594 5.49876 23.8594 9.28585C23.8594 13.0729 26.9294 16.143 30.7165 16.143C34.5036 16.143 37.5737 13.0729 37.5737 9.28585C37.5737 5.49876 34.5036 2.42871 30.7165 2.42871ZM21.8594 9.28585C21.8594 4.39419 25.8249 0.428711 30.7165 0.428711C35.6082 0.428711 39.5737 4.39419 39.5737 9.28585C39.5737 14.1775 35.6082 18.143 30.7165 18.143C25.8249 18.143 21.8594 14.1775 21.8594 9.28585Z" fill="#222222"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28683 23.8572C5.49973 23.8572 2.42969 26.9272 2.42969 30.7143C2.42969 34.5014 5.49973 37.5715 9.28683 37.5715C13.0739 37.5715 16.144 34.5014 16.144 30.7143C16.144 26.9272 13.0739 23.8572 9.28683 23.8572ZM0.429688 30.7143C0.429688 25.8227 4.39517 21.8572 9.28683 21.8572C14.1785 21.8572 18.144 25.8227 18.144 30.7143C18.144 35.606 14.1785 39.5715 9.28683 39.5715C4.39517 39.5715 0.429688 35.606 0.429688 30.7143Z" fill="#222222"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7165 23.8572C26.9294 23.8572 23.8594 26.9272 23.8594 30.7143C23.8594 34.5014 26.9294 37.5715 30.7165 37.5715C34.5036 37.5715 37.5737 34.5014 37.5737 30.7143C37.5737 26.9272 34.5036 23.8572 30.7165 23.8572ZM21.8594 30.7143C21.8594 25.8227 25.8249 21.8572 30.7165 21.8572C35.6082 21.8572 39.5737 25.8227 39.5737 30.7143C39.5737 35.606 35.6082 39.5715 30.7165 39.5715C25.8249 39.5715 21.8594 35.606 21.8594 30.7143Z" fill="#111F61"/>
+                        </svg>
+                        Our Vision
+                    </button>
+                    <button class="tab-btn nav-link" data-bs-toggle="tab" data-bs-target="#nav-Mission" type="button"
                         role="tab" aria-controls="nav-Mission" aria-selected="true" id="nav-Mission-tab">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M38.1417 28.5713C38.694 28.5713 39.1417 29.019 39.1417 29.5713V35.2856C39.1417 36.3086 38.7354 37.2897 38.012 38.013C37.2887 38.7364 36.3076 39.1427 35.2846 39.1427H29.5703C29.018 39.1427 28.5703 38.695 28.5703 38.1427C28.5703 37.5905 29.018 37.1427 29.5703 37.1427H35.2846C35.7771 37.1427 36.2495 36.9471 36.5978 36.5988C36.9461 36.2505 37.1417 35.7781 37.1417 35.2856V29.5713C37.1417 29.019 37.5895 28.5713 38.1417 28.5713Z" fill="#111F61"/>
@@ -73,16 +82,6 @@ Tier-1 suppliers, and component manufacturers.
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.573 19.1428C19.3364 19.1428 19.1445 19.3347 19.1445 19.5714C19.1445 19.808 19.3364 19.9999 19.573 19.9999C19.8097 19.9999 20.0016 19.808 20.0016 19.5714C20.0016 19.3347 19.8097 19.1428 19.573 19.1428ZM17.1445 19.5714C17.1445 18.2301 18.2318 17.1428 19.573 17.1428C20.9143 17.1428 22.0016 18.2301 22.0016 19.5714C22.0016 20.9126 20.9143 21.9999 19.573 21.9999C18.2318 21.9999 17.1445 20.9126 17.1445 19.5714Z" fill="#111F61"/>
                         </svg>
                         Our Mission
-                    </button>
-                    <button class="tab-btn nav-link" data-bs-toggle="tab" data-bs-target="#nav-Vision"
-                        type="button" role="tab" aria-controls="nav-Vision" aria-selected="false" id="nav-Vision-tab">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28683 2.42871C5.49973 2.42871 2.42969 5.49876 2.42969 9.28585C2.42969 13.0729 5.49973 16.143 9.28683 16.143C13.0739 16.143 16.144 13.0729 16.144 9.28585C16.144 5.49876 13.0739 2.42871 9.28683 2.42871ZM0.429688 9.28585C0.429688 4.39419 4.39517 0.428711 9.28683 0.428711C14.1785 0.428711 18.144 4.39419 18.144 9.28585C18.144 14.1775 14.1785 18.143 9.28683 18.143C4.39517 18.143 0.429688 14.1775 0.429688 9.28585Z" fill="#111F61"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7165 2.42871C26.9294 2.42871 23.8594 5.49876 23.8594 9.28585C23.8594 13.0729 26.9294 16.143 30.7165 16.143C34.5036 16.143 37.5737 13.0729 37.5737 9.28585C37.5737 5.49876 34.5036 2.42871 30.7165 2.42871ZM21.8594 9.28585C21.8594 4.39419 25.8249 0.428711 30.7165 0.428711C35.6082 0.428711 39.5737 4.39419 39.5737 9.28585C39.5737 14.1775 35.6082 18.143 30.7165 18.143C25.8249 18.143 21.8594 14.1775 21.8594 9.28585Z" fill="#222222"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28683 23.8572C5.49973 23.8572 2.42969 26.9272 2.42969 30.7143C2.42969 34.5014 5.49973 37.5715 9.28683 37.5715C13.0739 37.5715 16.144 34.5014 16.144 30.7143C16.144 26.9272 13.0739 23.8572 9.28683 23.8572ZM0.429688 30.7143C0.429688 25.8227 4.39517 21.8572 9.28683 21.8572C14.1785 21.8572 18.144 25.8227 18.144 30.7143C18.144 35.606 14.1785 39.5715 9.28683 39.5715C4.39517 39.5715 0.429688 35.606 0.429688 30.7143Z" fill="#222222"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7165 23.8572C26.9294 23.8572 23.8594 26.9272 23.8594 30.7143C23.8594 34.5014 26.9294 37.5715 30.7165 37.5715C34.5036 37.5715 37.5737 34.5014 37.5737 30.7143C37.5737 26.9272 34.5036 23.8572 30.7165 23.8572ZM21.8594 30.7143C21.8594 25.8227 25.8249 21.8572 30.7165 21.8572C35.6082 21.8572 39.5737 25.8227 39.5737 30.7143C39.5737 35.606 35.6082 39.5715 30.7165 39.5715C25.8249 39.5715 21.8594 35.606 21.8594 30.7143Z" fill="#111F61"/>
-                        </svg>
-                        Our Vision
                     </button>
                     <button class="tab-btn nav-link" data-bs-toggle="tab" data-bs-target="#nav-Value"
                         type="button" role="tab" aria-controls="nav-Value" aria-selected="false" id="nav-Value-tab">
@@ -97,25 +96,7 @@ Tier-1 suppliers, and component manufacturers.
                 </div>
     
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="nav-Mission" role="tabpanel" aria-labelledby="nav-Mission-tab" >
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <p>
-                                    “We turn strategy into execution through robust systems, strong leadership, and cultural transformation - delivering measurable impact, industry-ready talent, and sustainable performance for our clients."
-                                </p>
-                                <!-- <ul class="list">
-                                    <li>Industry 4.0 Transformation & Digital Adoption</li>
-                                    <li>Digital Quality Systems (DAMS) for robust process control</li>
-                                    <li>Developing well-trained engineers into future leaders</li>
-                                    <li>ESG-driven operational and cultural enhancement</li>
-                                </ul> -->
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="/assets/image/missionImage.webp" class="image w-100 img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-Vision" role="tabpanel" aria-labelledby="nav-Vision-tab" >
+                    <div class="tab-pane fade show active" id="nav-Vision" role="tabpanel" aria-labelledby="nav-Vision-tab" >
                         <div class="row">
                             <div class="col-lg-6">
                                 <p>
@@ -133,6 +114,25 @@ Tier-1 suppliers, and component manufacturers.
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="nav-Mission" role="tabpanel" aria-labelledby="nav-Mission-tab" >
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>
+                                    “We turn strategy into execution through robust systems, strong leadership, and cultural transformation - delivering measurable impact, industry-ready talent, and sustainable performance for our clients."
+                                </p>
+                                <!-- <ul class="list">
+                                    <li>Industry 4.0 Transformation & Digital Adoption</li>
+                                    <li>Digital Quality Systems (DAMS) for robust process control</li>
+                                    <li>Developing well-trained engineers into future leaders</li>
+                                    <li>ESG-driven operational and cultural enhancement</li>
+                                </ul> -->
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="/assets/image/missionImage.webp" class="image w-100 img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="tab-pane fade" id="nav-Value" role="tabpanel" aria-labelledby="nav-Value-tab" >
                         <div class="row">
                             <div class="col-lg-6">
@@ -220,7 +220,7 @@ Tier-1 suppliers, and component manufacturers.
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
                     <h4 class="gearIcon fw-bold">MEET THE TEAM</h4>
-                    <h2 class="fw-light">Core strengths in <span class="fw-bold">industrial innovation</span></h2>
+                    <h2 class="fw-light">Core Team<span class="fw-bold"></span></h2>
                 </div>
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
@@ -399,7 +399,7 @@ const faqs = ref([
 }
 .aboutUsBnr {
     position: relative;
-    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.19)),url('/assets/image/aboutUsBnr.webp');
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.19)),url('/assets/image/aboutUsBnr.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -438,6 +438,7 @@ const faqs = ref([
 }
 .numerics{
     margin-left: -20%;
+    margin-top: 35px;
     width: 80%;
     text-align: center;
     background-color: #fff;

@@ -44,7 +44,7 @@
                         <!-- <h2 class="fw-light mb-0">Building quality through</h2>
                         <h2 class="fw-bold">industrial innovation</h2> -->
                         <p>
-                            Primal Solutions is a consulting firm serving as a catalysts for ”Organization’s Cultural Transformation”.
+                            Primal Solutions is a consulting firm serving as a catalysts for <strong>”Organization’s Cultural Transformation”.</strong>
 Our focus is on fostering growth and innovation in the automotive sector by working closely with OEMs,
 Tier-1 suppliers, and component manufacturers.
                         </p>
@@ -304,13 +304,13 @@ const stories = ref([
         image: '/assets/image/Karunakaran.png',
     },
     {
-        name: 'K.M Karthic Marilyan - CEO',
+        name: 'K.M Karthic Maniyan - CEO',
         company: 'Modern General Industry',
         description: `I have known Ashok for the past five years. Since the inception of Primal Solutions, our organization has been actively engaging with them to support our transformation journey. Ashok brings with him over 15 years of experience working closely with Ashok Leyland's supplier partners. His deep understanding of custamer expectations, Under the guidance of Mr. Ranukanthan is an added benefit The Primal Solutions team has played a key role in helping us work systematically towards improving our performance rankings with Ashok Leyland. Their insights, structured methodologies, and consistent follow-ups have brought measurable Improvements Cross out operations. We appreciate their partnership and look forward to continued collaboration in the future.`,
         image: '/assets/image/Karthic.png',
     },
     {
-        name: 'K. Sakthimanikandan-CED ',
+        name: 'K. Sakthimanikandan-CEO ',
         company: 'Vee & Vee Industries',
         description: `It's pleasure of working with Ashok for over 10 years, and for the past year, we've had the benefit of Primal Solutions' expertise as our business consultant. Under Ashok's leadership and Mr. Renukanthan's mentorship, their structured approach has yielded significant improvements across our operations. They've been instrumental in streamlining customer requirements, including No Pass initiation, which has bolstered our compliance and customer trust. We're impressed with their professionalism and ongoing support and we're excited to continue our successful collaboration."`,
         image: '/assets/image/Sakthimanikandan.png',

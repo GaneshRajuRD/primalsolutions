@@ -47,7 +47,9 @@
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-sm-4 col-lg-5">
-                            <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            <div class="processImg">
+                                <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            </div>
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
                             <span class="tag">What we do</span>
@@ -68,16 +70,18 @@
 
 
         <div ref="textSlider" class="textSlider">
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
-            <div class="text-item">Crafting Strategies That Drive Business Growth</div>
+            <div class="text-item">Strategic Business Planning</div>
+            <div class="text-item">Performance-Driven Culture and KPI Deployment</div>
+            <div class="text-item">Market Entry and Scalable Growth Strategy</div>
+            <div class="text-item">Strategic Business Planning</div>
+            <div class="text-item">Performance-Driven Culture and KPI Deployment</div>
+            <div class="text-item">Market Entry and Scalable Growth Strategy</div>
+            <div class="text-item">Strategic Business Planning</div>
+            <div class="text-item">Performance-Driven Culture and KPI Deployment</div>
+            <div class="text-item">Market Entry and Scalable Growth Strategy</div>
+            <div class="text-item">Strategic Business Planning</div>
+            <div class="text-item">Performance-Driven Culture and KPI Deployment</div>
+            <div class="text-item">Market Entry and Scalable Growth Strategy</div>
         </div>
 
         <div class="container pt-5">
@@ -130,7 +134,9 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        <div class="processImg">
+                            <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -438,7 +444,7 @@ onMounted(async () => {
     width: 20px;
     height: 20px;
     object-fit: contain;
-}
+} 
 
 ::v-deep(.caseStudyCard){
     background-color: #FCFCFD;

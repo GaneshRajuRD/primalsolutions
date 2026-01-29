@@ -47,7 +47,9 @@
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-sm-4 col-lg-5">
-                            <img src="/assets/image/serviceImg1.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            <div class="processImg">
+                                <img src="/assets/image/OptimizeplanlayoutImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                            </div>
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
                             <span class="tag">What we do</span>
@@ -77,16 +79,18 @@
 
 
         <div ref="textSlider" class="textSlider">
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
-            <div class="text-item">Transforming Operations for Peak Performance</div>
+            <div class="text-item">New plant layout planning - Greenfield</div>
+            <div class="text-item">Expansion or Plant Re-Layout - Brownfield</div>
+            <div class="text-item">Product or Process Layout design</div>
+            <div class="text-item">New plant layout planning - Greenfield</div>
+            <div class="text-item">Expansion or Plant Re-Layout - Brownfield</div>
+            <div class="text-item">Product or Process Layout design</div>
+            <div class="text-item">New plant layout planning - Greenfield</div>
+            <div class="text-item">Expansion or Plant Re-Layout - Brownfield</div>
+            <div class="text-item">Product or Process Layout design</div>
+            <div class="text-item">New plant layout planning - Greenfield</div>
+            <div class="text-item">Expansion or Plant Re-Layout - Brownfield</div>
+            <div class="text-item">Product or Process Layout design</div>
         </div>
 
         <div class="container py-5">
@@ -139,7 +143,9 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        <div class="processImg">
+                            <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -446,7 +452,7 @@ onMounted(async () => {
     width: 20px;
     height: 20px;
     object-fit: contain;
-}
+} 
 
 ::v-deep(.caseStudyCard){
     background-color: #FCFCFD;

@@ -95,7 +95,7 @@
                             </div>
                             <div class="info-card">
                                 <img src="/assets/image/locationIcon.png" class="icon" alt="">
-                                <div class="text">Primal Solutions C-10, 128 Kendriya Vihar Velappanchavadi Kannapalayam, Tiruvallur Tamil Nadu Chennai – 600077.</div>
+                                <div class="text">Primal Solutions C-10, 128 Kendriya Vihar, Tamil Nadu Chennai – 600077.</div>
                             </div>
                             <div class="info-card social">
                                 <div class="icons">
