@@ -14,10 +14,10 @@
                             <p>
                                 We help manufacturing companies improve efficiency, reduce defects, strengthen supply-chain performance, and scale operations through data-driven strategies and Industry 4.0 solutions.
                             </p>
-                            <a href="#" class="bannerButton">
+                            <NuxtLink to="/contact-us" class="bannerButton">
                                 Talk to an Expert
                                 <img src="/assets/image/gear.gif" alt="">
-                            </a>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -41,10 +41,12 @@
                     </div>
                     <div class="col-lg-7 ps-4">
                         <h5 class="fw-bold text-uppercase mt-5">Who we are</h5>
-                        <h2 class="fw-light mb-0">Building quality through</h2>
-                        <h2 class="fw-bold">industrial innovation</h2>
+                        <!-- <h2 class="fw-light mb-0">Building quality through</h2>
+                        <h2 class="fw-bold">industrial innovation</h2> -->
                         <p>
-                            We partner with automotive, FMCG, electronics, construction-equipment, and farm-machinery manufacturers to solve complex operational challenges. Our approach blends lean principles, digital integration, and structured improvement systems to help factories operate with higher speed, quality, and stability.
+                            Primal Solutions is a consulting firm serving as a catalysts for ”Organization’s Cultural Transformation”.
+Our focus is on fostering growth and innovation in the automotive sector by working closely with OEMs,
+Tier-1 suppliers, and component manufacturers.
                         </p>
                         <h5>What We Focus On:</h5>
                         <div class="row">
@@ -140,7 +142,7 @@
         </div>
 
         <div class="container-fluid p-0">
-            <img src="/public/assets/image/PrimalSolutionsModels.png" class="img-fluid" alt="">
+            <img src="/public/assets/image/PrimalSolutionsModels.png" class="w-100 img-fluid" alt="">
         </div>
 
         <div class="container py-5">
@@ -184,7 +186,7 @@
 
         </div>
 
-        <div class="container py-5">
+        <!-- <div class="container py-5">
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
                     <h4 class="gearIcon fw-bold">LATEST BLOG</h4>
@@ -208,8 +210,8 @@
                     </ul>
                 </div>
             </div>
+        </div> -->
 
-        </div>
         <div class="container py-5">
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
@@ -253,9 +255,9 @@ import Loader from '~/components/Loader.vue';
 
 const stories = ref([
     {
-        name: 'Karunakaran',
+        name: 'K.Karunakaran - CEO',
         company: 'STS Manufacturing Pvt. Ltd',
-        description: 'Working with Primal Solutions was a truly fulfilling experience. From the initial phase to final execution, their team consistently demonstrated exceptional collaboration, professionalism, and dedication. Their contributions significantly enhanced our operational efficiency, strengthened our quality systems and practices, and supported key layout optimization initiatives. I would like to extend special thanks to Mr. Renukanthan for generously sharing his deep koowledge and expertise with our team. It has been a pleasure working with the Primal team, and I would gladly recommend them for future initiatives',
+        description: 'Working with Primal Solutions was a truly fulfilling experience. From the initial phase to final execution, their team consistently demonstrated exceptional collaboration, professionalism, and dedication. Their contributions significantly enhanced our operational efficiency, strengthened our quality systems and practices, and supported key layout optimization initiatives. I would like to extend special thanks to Mr. Renukanthan for generously sharing his deep knowledge and expertise with our team. It has been a pleasure working with the Primal team, and I would gladly recommend them for future initiatives',
         image: '/assets/image/Karunakaran.png',
     },
     {
@@ -328,32 +330,32 @@ onMounted(() => {
                 },
             });
             splide.mount();
-            const splide2 = new window.Splide(".blog-slider", {
-                drag: "free",
-                focus: 0,
-                omitEnd: true,
-                snap: true,
-                arrows: true,
-                indicators: true,
-                breakpoints: {
-                    2600: {
-                        perPage: 2,
-                    },
-                    1440: {
-                        perPage: 2,
-                    },
-                    1024: {
-                        perPage: 2,
-                    },
-                    768: {
-                        perPage: 2,
-                    },
-                    576: {
-                        perPage: 1,
-                    },
-                },
-            });
-            splide2.mount();
+            // const splide2 = new window.Splide(".blog-slider", {
+            //     drag: "free",
+            //     focus: 0,
+            //     omitEnd: true,
+            //     snap: true,
+            //     arrows: true,
+            //     indicators: true,
+            //     breakpoints: {
+            //         2600: {
+            //             perPage: 2,
+            //         },
+            //         1440: {
+            //             perPage: 2,
+            //         },
+            //         1024: {
+            //             perPage: 2,
+            //         },
+            //         768: {
+            //             perPage: 2,
+            //         },
+            //         576: {
+            //             perPage: 1,
+            //         },
+            //     },
+            // });
+            // splide2.mount();
             const splide3 = new window.Splide(".caseStudy-slider", {
                 drag: "free",
                 focus: 0,
@@ -548,6 +550,7 @@ useSeoMeta({
     border-radius: 50%;
 }
 .storyCard h5{
+    font-size: 1.05rem;
     color: #fff;
     line-height: 1.8;
     margin-top: 10px;

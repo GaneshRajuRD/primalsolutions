@@ -8,9 +8,9 @@
                         <img src="/assets/image/primalLogo.png" class="footerLogo img-fluid" alt="">
                         <div class="row">
                             <div class="col-sm-5">
-                                <h5 class="line-height-15 mb-4">1498w Fluton ste, STE <br>2D Chicgo, IL 63867.</h5>
-                                <a class="d-inline-block mb-4" href="mailto: info@seafarers.io ">info@seafarers.io </a><br>
-                                <a class="d-inline-block mb-2" href="tel: (123) 456789000">(123) 456789000</a>
+                                <h5 class="line-height-15 mb-4">Primal Solutions C-10, 128 Kendriya Vihar Velappanchavadi Kannapalayam, Tiruvallur Tamil Nadu Chennai – 600077.</h5>
+                                <a class="d-inline-block mb-4" href="mailto: ashok@primalsolutions.in ">ashok@primalsolutions.in </a><br>
+                                <a class="d-inline-block mb-2" href="tel: +91 90030 71320">+91 90030 71320</a>
 
                                 <div class="socialLinks">
                                     <a href="#"><img src="/assets/image/twitterIcon.svg" alt=""></a>
@@ -53,7 +53,6 @@
                             <div class="col-sm-5 col-xxl-4">
                                 <h5 class="mb-4">Services</h5>
                                 <ul>
-                                    <li><NuxtLink to="/services/market-research-intelligence-services">Market Research & Intelligence Services</NuxtLink></li>
                                     <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
                                     <li><NuxtLink to="/services/plant-layout-design-optimization">Plant Layout Design & Optimization</NuxtLink></li>
                                     <li><NuxtLink to="/services/operational-excellence-lean-transformation">Operational Excellence & Lean Transformation</NuxtLink></li>
@@ -62,6 +61,7 @@
                                     <li><NuxtLink to="/services/supplier-capability-performance-enhancement">Supplier Capability and Performance Enhancement</NuxtLink></li>
                                     <li><NuxtLink to="/services/skill-development-programs-certifications">Skill development programs and certifications</NuxtLink></li>
                                     <li><NuxtLink to="/services/talent-hiring-management-services">Talent Hiring & Management Services</NuxtLink></li>
+                                    <li><NuxtLink to="/services/market-research-intelligence-services">Market Research & Intelligence Services</NuxtLink></li>
                                 </ul>
                             </div>
                         </div>
@@ -113,6 +113,7 @@ import { onMounted } from "vue";
 }
 .footer h5{
     color: #fff;
+    font-size: 1.1rem;
 }
 .footer h2{
     color: #fff;

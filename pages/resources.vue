@@ -35,29 +35,35 @@
 
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="Blogs" role="tabpanel" aria-labelledby="nav-Blogs-tab" >
-                    <h2 class="fw-light mb-4 pt-5">Latest <span class="fw-bold">Blogs</span></h2>
-                    <div class="blogCard2" v-for="blog in blogs.slice(0,1)">
-                        <div class="row">
-                            <div class="col-sm-7 pe-lg-5">
-                                <img :src="blog.image" class="blogImg w-100 img-fluid" alt="" />
-                            </div>
-                            <div class="col-sm-5">
-                                <h3>{{ blog.title }}</h3>
-                                <p>{{ blog.description }}</p>
-                                <a href="#" class="link fw-bold">
-                                    <img src="/assets/image/arrowImg.png" alt="arrow-right" />
-                                    READ MORE
-                                </a>
+                    <div v-if="blogs.length > 0">
+                        <h2 class="fw-light mb-4 pt-5">Latest <span class="fw-bold">Blogs</span></h2>
+                        <div class="blogCard2" v-for="blog in blogs.slice(0,1)">
+                            <div class="row">
+                                <div class="col-sm-7 pe-lg-5">
+                                    <img :src="blog.image" class="blogImg w-100 img-fluid" alt="" />
+                                </div>
+                                <div class="col-sm-5">
+                                    <h3>{{ blog.title }}</h3>
+                                    <p>{{ blog.description }}</p>
+                                    <a href="#" class="link fw-bold">
+                                        <img src="/assets/image/arrowImg.png" alt="arrow-right" />
+                                        READ MORE
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <h2 class="fw-light mb-4 mt-5 pt-lg-4">Browse All <span class="fw-bold">Blogs</span></h2>
-                    <div class="row">
-                        <div class="col-sm-6" v-for="blog in blogs">
-                            <BlogCard :blog="blog" />
+                        <h2 class="fw-light mb-4 mt-5 pt-lg-4">Browse All <span class="fw-bold">Blogs</span></h2>
+                        <div class="row">
+                            <div class="col-sm-6" v-for="blog in blogs">
+                                <BlogCard :blog="blog" />
+                            </div>
                         </div>
                     </div>
+                    <div v-else>
+                        <p class="my-5 text-center">No blogs available at the moment.</p>
+                    </div>
+                    
 
                 </div>
                 <div class="tab-pane fade" id="CaseStudies" role="tabpanel" aria-labelledby="nav-CaseStudies-tab" >

@@ -35,7 +35,6 @@
                     </svg>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><NuxtLink to="/services/market-research-intelligence-services">Market Research & Intelligence Services</NuxtLink></li>
                     <li><NuxtLink to="/services/business-strategy">Business Strategy</NuxtLink></li>
                     <li><NuxtLink to="/services/plant-layout-design-optimization">Plant Layout Design & Optimization</NuxtLink></li>
                     <li><NuxtLink to="/services/operational-excellence-lean-transformation">Operational Excellence & Lean Transformation</NuxtLink></li>
@@ -44,6 +43,7 @@
                     <li><NuxtLink to="/services/supplier-capability-performance-enhancement">Supplier Capability and Performance Enhancement</NuxtLink></li>
                     <li><NuxtLink to="/services/skill-development-programs-certifications">Skill development programs and certifications</NuxtLink></li>
                     <li><NuxtLink to="/services/talent-hiring-management-services">Talent Hiring & Management Services</NuxtLink></li>
+                    <li><NuxtLink to="/services/market-research-intelligence-services">Market Research & Intelligence Services</NuxtLink></li>
                   </ul>
                 </li>
                 <li :class="{ active: isSectorsActive }">

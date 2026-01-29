@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
                     <h4 class="gearIcon2 fw-bold">TALK TO US</h4>
-                    <h2 class="fw-light">Comprehensive solutions <span class="fw-bold">for industrial excellence</span></h2>
+                    <h2 class="fw-light">Comprehensive solutions <span class="fw-bold">for Manufacturing excellence</span></h2>
                 </div>
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">

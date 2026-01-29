@@ -8,7 +8,8 @@
                 <div class="content text-center">
                     <h1 class="fw-light">About <span class="fw-bold">Us</span></h1>
                     <p>
-                        Explore exciting opportunities and grow your career in property management with us
+                        We help manufacturing companies to enhance operational efficiency, develop strategies, and deliver
+measurable results that directly impact the bottom line.
                     </p>
                 </div>
             </div>
@@ -25,15 +26,17 @@
                     </div>
                     <div class="col-sm-7 ps-lg-5 ps-sm-4">
                         <h5 class="fw-bold text-uppercase mt-5">Who we are</h5>
-                        <h2 class="fw-light mb-0">Building quality through</h2>
-                        <h2 class="fw-bold">industrial innovation</h2>
+                        <!-- <h2 class="fw-light mb-0">Building quality through</h2>
+                        <h2 class="fw-bold">industrial innovation</h2> -->
                         <p>
-                            We partner with automotive, FMCG, electronics, construction-equipment, and farm-machinery manufacturers to solve complex operational challenges. Our approach blends lean principles, digital integration, and structured improvement systems to help factories operate with higher speed, quality, and stability.
+                            Primal Solutions is a consulting firm serving as a catalysts for ”Organization’s Cultural Transformation”.
+Our focus is on fostering growth and innovation in the automotive sector by working closely with OEMs,
+Tier-1 suppliers, and component manufacturers.
                         </p>
                         <div class="numerics">
                             <div class="row">
                                 <div class="col-4">
-                                    <h3>10+</h3>
+                                    <h3>15+</h3>
                                     <h5>Happy Clients</h5>
                                 </div>
                                 <div class="col-4">
@@ -100,15 +103,15 @@
                                 <p>
                                     Our mission is to drive Industry 4.0 adoption through advanced digital systems, robust quality practices, and capability building. We focus on nurturing young leaders, empowering engineers, and helping organizations strengthen operational discipline while embracing ESG-driven progress.
                                 </p>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li>Industry 4.0 Transformation & Digital Adoption</li>
                                     <li>Digital Quality Systems (DAMS) for robust process control</li>
                                     <li>Developing well-trained engineers into future leaders</li>
                                     <li>ESG-driven operational and cultural enhancement</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <div class="col-lg-6">
-                                <img src="/assets/image/missionImg.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/missionImage.webp" class="image w-100 img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -118,15 +121,15 @@
                                 <p>
                                     We envision modern, competitive, technology-driven industries that meet world-class benchmarks in efficiency, quality, and sustainability. Our goal is to guide at least 100 companies toward measurable excellence by the end of the decade.
                                 </p>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li>Enable companies to reach global manufacturing standards</li>
                                     <li>Transform 100+ industries by 2030</li>
                                     <li>Build future-ready systems and skilled workforces</li>
                                     <li>Accelerate digital, sustainable growth across the sector</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <div class="col-lg-6">
-                                <img src="/assets/image/missionImg.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/vision.webp" class="image w-100 img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -134,17 +137,17 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <p>
-                                    Every partnership is built on trust, transparency, and a mission to strengthen operational performance. We believe in driving real impact — helping clients enhance efficiency, design strong strategies, and achieve results that directly improve the bottom line.
+                                    Our core values center on delivering exceptional client value through customer delight, operational efficiency, strategic focus, and continuous improvement. We believe in building long-term partnerships based on trust, transparency, and measurable results.
                                 </p>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li>Customer Delight Above All</li>
                                     <li>Efficiency & Performance First</li>
                                     <li>Strategy-Driven, Measurable Outcomes</li>
                                     <li>Feedback-Led Continuous Improvement</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <div class="col-lg-6">
-                                <img src="/assets/image/missionImg.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/valuesImg.webp" class="image w-100 img-fluid" alt="">
                             </div>
                         </div>
                         
@@ -219,7 +222,7 @@
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
                     <p class="mt-4 pt-2">
-                        Lorem ipsum dolor sit amet consectetur. Gravida sed porta facilisi quis pellentesque lectus tellus leo. Orci tortor quisque.
+                        Our team of seasoned consultant’s leverage deep industry to drive operational excellence and sustainable.
                     </p>
                 </div>
             </div>
@@ -243,10 +246,10 @@
                     <li>Sustainable performance gains</li>
                 </ul>
                 <div class="d-flex justify-content-sm-center mt-4">
-                    <a href="#" class="arrowBtn">
+                    <NuxtLink to="/contact-us" class="arrowBtn">
                         Start Your Transformation
                         <span class="material-symbols-outlined">arrow_forward_ios</span>
-                    </a>
+                    </NuxtLink>
                 </div>
 
             </div>
@@ -335,7 +338,6 @@ const teamMembers = [
         description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.), Ashok Leyland.',
         bioTitle: 'About Our Mentor',
         bio: `Business Excellence Consultant with 35+ years of experience in manufacturing, quality systems, and operational excellence across automotive and industrial sectors. Former DGM – Central Quality at Ashok Leyland, with deep expertise in TPM, Lean Six Sigma, AIAG Core Tools (PPAP, APQP), and performance management systems. Proven track record in partnering with leadership teams on strategy, KPIs, and shop-floor transformation. Strong focus on process improvement, digital quality adoption, workforce capability building, and sustainable manufacturing excellence. Known for practical, results-driven consulting that delivers measurable improvements in quality, efficiency, and organizational performance.`,
-        contact: '+91 98415 68728',
         image: '/assets/image/T.R Renukanthan.png',
     },
     {
@@ -344,7 +346,6 @@ const teamMembers = [
         description: 'Business Consultant.',
         bioTitle: 'About Our Founder',
         bio: `Business Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement for manufacturing MSMEs. Currently with Primal Solutions, he has led turnkey quality and profitability improvement projects across automotive and industrial sectors. Strong expertise in Lean Six Sigma, AIAG Core Tools (PPAP, APQP), supplier development, and shop-floor excellence. He has supported OEMs and Tier-1 suppliers including Ashok Leyland, TAFE, and PSA, enabling greenfield setups, process stabilization, and sustainable performance improvement. Known for hands-on execution, structured problem solving, and capability building across engineering teams.`,
-        contact: '+91 90030 71320',
         image: '/assets/image/Ashok Soundararajan.png',
     },
     {
@@ -353,7 +354,6 @@ const teamMembers = [
         description: '',
         bioTitle: '',
         bio: `Senior Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement across sheet metal, fabrication, casting, and machining industries. He brings strong expertise in shop-floor training, problem-solving, AIAG Core Tools, and quality management systems. Ramkumar has successfully implemented Lean practices, improved productivity and cost efficiency, and supported vendor development and supply chain performance. He has trained 100+ engineers in core quality tools and problem-solving methodologies. Known for hands-on execution, team building, and practical manufacturing solutions that deliver sustainable operational excellence.`,
-        contact: '+91 88386 62385',
         image: '/assets/image/Ramkumar S.png',
     },
     {
@@ -362,7 +362,6 @@ const teamMembers = [
         description: '',
         bioTitle: '',
         bio: `Associate Consultant focussed on supporting on-ground implementation and data collection. Trained in core improvement methods and assisting with shop-floor coaching, data analysis and documentation.`,
-        contact: '+91 78128 89891',
         image: '/assets/image/Sairam D K.png',
     },
 ];
@@ -542,6 +541,7 @@ const faqs = ref([
 }
 .missionSec .tab-content .image{
     border-radius: 40px;
+    aspect-ratio: 492/328;
 }
 .solutionsSec {
     background-color: #111F61;

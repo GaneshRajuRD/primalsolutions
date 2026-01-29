@@ -8,7 +8,7 @@
                 <div class="content text-center">
                     <h1 class="fw-bold">Contact Us</h1>
                     <p>
-                        Explore exciting opportunities and grow your career in property management with us
+                        We're here to help and answer any questions you may have. We look forward to hearing from you!
                     </p>
                 </div>
             </div>
@@ -87,15 +87,15 @@
                         <div class="info-cards">
                             <div class="info-card">
                                 <img src="/assets/image/mailIcon2.png" class="icon" alt="">
-                                <div class="text">support@skillbridge.com</div>
+                                <div class="text"><a href="mailto: ashok@primalsolutions.in ">ashok@primalsolutions.in </a></div>
                             </div>
                             <div class="info-card">
                                 <img src="/assets/image/callIcon2.png" class="icon" alt="">
-                                <div class="text">+91 00000 00000</div>
+                                <div class="text"><a href="tel: +91 90030 71320">+91 90030 71320</a></div>
                             </div>
                             <div class="info-card">
                                 <img src="/assets/image/locationIcon.png" class="icon" alt="">
-                                <div class="text">Some Where in the World</div>
+                                <div class="text">Primal Solutions C-10, 128 Kendriya Vihar Velappanchavadi Kannapalayam, Tiruvallur Tamil Nadu Chennai – 600077.</div>
                             </div>
                             <div class="info-card social">
                                 <div class="icons">
@@ -417,6 +417,10 @@ const closeSuccessPopup = () => {
     border: 1px solid #F1F1F3;
     border-radius: 8px;
     margin-bottom: 15px;
+}
+.info-card .text a{
+    color: #333;
+    text-decoration: none;
 }
 .info-card .text{
     color: #333;

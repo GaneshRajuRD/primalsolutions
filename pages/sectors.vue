@@ -49,7 +49,7 @@
         <ContactFormBg />
         <ContactForm />
 
-        <div class="container py-5">
+        <!-- <div class="container py-5">
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
                     <h4 class="gearIcon fw-bold">LATEST BLOG</h4>
@@ -73,8 +73,8 @@
                     </ul>
                 </div>
             </div>
-                
-        </div>
+        </div> -->
+
         <div class="container py-5">
             <div class="row">
                 <div class="col-sm-12 col-lg-5">
@@ -161,32 +161,32 @@ const sectors = ref([
 
 onMounted(() => {
 
-    const splide2 = new Splide(".blog-slider", {
-        drag: "free",
-        focus: 0,
-        omitEnd: true,
-        snap: true,
-        arrows: true,
-        indicators: true,
-        breakpoints: {
-            2600: {
-                perPage: 2,
-            },
-            1440: {
-                perPage: 2,
-            },
-            1024: {
-                perPage: 2,
-            },
-            768: {
-                perPage: 2,
-            },
-            576: {
-                perPage: 1,
-            },
-        },
-    });
-    splide2.mount();
+    // const splide2 = new Splide(".blog-slider", {
+    //     drag: "free",
+    //     focus: 0,
+    //     omitEnd: true,
+    //     snap: true,
+    //     arrows: true,
+    //     indicators: true,
+    //     breakpoints: {
+    //         2600: {
+    //             perPage: 2,
+    //         },
+    //         1440: {
+    //             perPage: 2,
+    //         },
+    //         1024: {
+    //             perPage: 2,
+    //         },
+    //         768: {
+    //             perPage: 2,
+    //         },
+    //         576: {
+    //             perPage: 1,
+    //         },
+    //     },
+    // });
+    // splide2.mount();
     const splide3 = new Splide(".caseStudy-slider", {
         drag: "free",
         focus: 0,
