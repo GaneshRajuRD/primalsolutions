@@ -79,18 +79,18 @@
 
 
         <div ref="textSlider" class="textSlider">
-            <div class="text-item">Enhance Supplier Capability &amp; Performance</div>
-            <div class="text-item">Improving OEM Performance Ranking for Tier I Suppliers</div>
-            <div class="text-item">Supplier Capability Enhancement Cluster Program</div>
-            <div class="text-item">Enhance Supplier Capability &amp; Performance</div>
-            <div class="text-item">Improving OEM Performance Ranking for Tier I Suppliers</div>
-            <div class="text-item">Supplier Capability Enhancement Cluster Program</div>
-            <div class="text-item">Enhance Supplier Capability &amp; Performance</div>
-            <div class="text-item">Improving OEM Performance Ranking for Tier I Suppliers</div>
-            <div class="text-item">Supplier Capability Enhancement Cluster Program</div>
-            <div class="text-item">Enhance Supplier Capability &amp; Performance</div>
-            <div class="text-item">Improving OEM Performance Ranking for Tier I Suppliers</div>
-            <div class="text-item">Supplier Capability Enhancement Cluster Program</div>
+            <div class="text-item">Driving Supplier Performance & Competence</div>
+            <div class="text-item">Improving OEM Supplier Performance Ranking</div>
+            <div class="text-item">Supplier Enhancement Cluster Program</div>
+            <div class="text-item">Driving Supplier Performance & Competence</div>
+            <div class="text-item">Improving OEM Supplier Performance Ranking</div>
+            <div class="text-item">Supplier Enhancement Cluster Program</div>
+            <div class="text-item">Driving Supplier Performance & Competence</div>
+            <div class="text-item">Improving OEM Supplier Performance Ranking</div>
+            <div class="text-item">Supplier Enhancement Cluster Program</div>
+            <div class="text-item">Driving Supplier Performance & Competence</div>
+            <div class="text-item">Improving OEM Supplier Performance Ranking</div>
+            <div class="text-item">Supplier Enhancement Cluster Program</div>
         </div>
 
         <div class="container pt-5">

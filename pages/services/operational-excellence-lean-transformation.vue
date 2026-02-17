@@ -80,17 +80,17 @@
 
         <div ref="textSlider" class="textSlider">
             <div class="text-item">Lean Manufacturing Implementation</div>
-            <div class="text-item">Process Optimization &amp; Line Efficiency Improvement</div>
-            <div class="text-item">5S &amp; Workplace Organization with Change Management</div>
+            <div class="text-item">Streamlined Processes & Efficient Lines</div>
+            <div class="text-item">Lean 5S & Change Management</div>
             <div class="text-item">Lean Manufacturing Implementation</div>
-            <div class="text-item">Process Optimization &amp; Line Efficiency Improvement</div>
-            <div class="text-item">5S &amp; Workplace Organization with Change Management</div>
+            <div class="text-item">Streamlined Processes & Efficient Lines</div>
+            <div class="text-item">Lean 5S & Change Management</div>
             <div class="text-item">Lean Manufacturing Implementation</div>
-            <div class="text-item">Process Optimization &amp; Line Efficiency Improvement</div>
-            <div class="text-item">5S &amp; Workplace Organization with Change Management</div>
+            <div class="text-item">Streamlined Processes & Efficient Lines</div>
+            <div class="text-item">Lean 5S & Change Management</div>
             <div class="text-item">Lean Manufacturing Implementation</div>
-            <div class="text-item">Process Optimization &amp; Line Efficiency Improvement</div>
-            <div class="text-item">5S &amp; Workplace Organization with Change Management</div>
+            <div class="text-item">Streamlined Processes & Efficient Lines</div>
+            <div class="text-item">Lean 5S & Change Management</div>
         </div>
 
         <div class="container py-5">

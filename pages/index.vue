@@ -2,7 +2,7 @@
     <div class="body">
 
         <Header />
-        <!-- <Loader /> -->
+        <Loader />
         
 
         <div class="homeBnr">

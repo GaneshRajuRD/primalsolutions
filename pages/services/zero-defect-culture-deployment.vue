@@ -83,16 +83,16 @@
 
 
         <div ref="textSlider" class="textSlider">
-            <div class="text-item">Quality Management System Strengthening</div>
+            <div class="text-item">Strengthening QMS Practices</div>
             <div class="text-item">Established Quality Systems and Practices through "3D Concept"</div>
             <div class="text-item">Continuous Improvement &amp; Problem-Solving Culture</div>
-            <div class="text-item">Quality Management System Strengthening</div>
+            <div class="text-item">Strengthening QMS Practices</div>
             <div class="text-item">Established Quality Systems and Practices through "3D Concept"</div>
             <div class="text-item">Continuous Improvement &amp; Problem-Solving Culture</div>
-            <div class="text-item">Quality Management System Strengthening</div>
+            <div class="text-item">Strengthening QMS Practices</div>
             <div class="text-item">Established Quality Systems and Practices through "3D Concept"</div>
             <div class="text-item">Continuous Improvement &amp; Problem-Solving Culture</div>
-            <div class="text-item">Quality Management System Strengthening</div>
+            <div class="text-item">Strengthening QMS Practices</div>
             <div class="text-item">Established Quality Systems and Practices through "3D Concept"</div>
             <div class="text-item">Continuous Improvement &amp; Problem-Solving Culture</div>
         </div>
