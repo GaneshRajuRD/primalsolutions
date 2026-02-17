@@ -54,9 +54,9 @@
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
                             <span class="tag">What we do</span>
                             <h1 class="playfairText themeText mt-3">Optimize Plant Layouts</h1>
-                                <!-- <p>
-                                    We help organizations modernize their workflows, remove inefficiencies, and build operational models that support speed, accuracy, and consistency. Our transformation methods improve productivity and reduce variability across departments.
-                                </p> -->
+                                <p>
+                                    We design and optimize plant layouts that enhance flow efficiency, maximize space utilization, and enable scalable growth.
+                                </p>
                             <ul class="strengthList">
                                 <li>
                                     <strong>New Plant Layout Planning – Greenfield </strong>
@@ -103,28 +103,28 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Design efficient plant layouts for smooth operations
+                                Efficient plant layouts for smooth operations
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Streamline material flow and optimize processes
+                                Optimized material flow and processes
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Maximize space utilization for current and future needs
+                                Maximum space utilization with future readiness
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Provide a clear roadmap for seamless implementation
+                                Seamless implementation with cost and performance gains
                             </h5>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <Faq v-model:faqs="faqs" class="mt-5 pt-4" />
+                    <Faq v-model:faqs="faqsData" class="mt-5 pt-4" />
                 </div>
             </div>
         </div>
@@ -228,6 +228,7 @@
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { caseStudies } from '~/data/caseStudies.js';
+import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
@@ -261,28 +262,7 @@ const operations = ref([
     },
 ]);
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 onMounted(async () => {
     const jQueryScript = document.createElement('script');

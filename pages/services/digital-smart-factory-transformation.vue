@@ -55,7 +55,7 @@
                             <span class="tag">What we do</span>
                             <h1 class="playfairText themeText mt-3">Transform to Smart Factory</h1>
                             <p>
-                                Integrated Digitalization and Visual Control Systems (VCS): Implement smart digital systems for real-time monitoring and control. Digital Quality Management System (DQMS): Digitize quality processes to ensure compliance and traceability. Advanced Analytics & Predictive Maintenance: Use data analytics to predict failures and optimize maintenance.
+                                We enable smart factory transformation through integrated digital systems, VCS-driven real-time monitoring, digital quality management, and predictive analytics.
                             </p>
                             <ul class="strengthList">
                                 <li>
@@ -103,28 +103,28 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Digitize quality management for compliance
+                                Real-Time Operational Visibility
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Enable predictive maintenance with analytics
+                                Improved Product Quality & Compliance
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Deliver insights to boost efficiency
+                                Reduced Downtime & Maintenance Costs
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Drive smart factory transformation
+                                Increased Efficiency & Productivity
                             </h5>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <Faq v-model:faqs="faqs" class="mt-5 pt-4" />
+                    <Faq v-model:faqs="faqsData" class="mt-5 pt-4" />
                 </div>
             </div>
         </div>
@@ -228,6 +228,7 @@
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { caseStudies } from '~/data/caseStudies.js';
+import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
@@ -262,28 +263,7 @@ const operations = ref([
 ]);
 
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 onMounted(async () => {
     const jQueryScript = document.createElement('script');

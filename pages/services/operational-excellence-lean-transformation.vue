@@ -29,13 +29,13 @@
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Process Optimization & Line Efficiency Improvement</p>
+                            <p class="mb-0">Streamlined Processes & Efficient Lines</p>
                         </div>
                     </div>
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">5S & Workplace Organization with Change Management</p>
+                            <p class="mb-0">Lean 5S & Change Management</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                             <span class="tag">What we do</span>
                             <h1 class="playfairText themeText mt-3">Drive Operational Excellence</h1>
                             <p>
-                                Lean Manufacturing Implementation: Embed lean principles to eliminate waste and improve overall efficiency. behavioral change.
+                                We drive operational excellence by embedding lean principles, optimizing processes, and building sustainable high-performance workplaces.
                             </p>
                             <ul class="strengthList">
                                 <li>
@@ -67,7 +67,7 @@
                                 </li>
                                     Streamline processes to boost productivity and reduce cycle time.
                                 <li>
-                                    <strong>5S & Workplace Organization with Change Management</strong>
+                                    <strong>Lean 5S & Change Management</strong>
                                 </li>
                                     Organize workplaces systematically and drive sustainable
                             </ul>
@@ -103,28 +103,28 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Implement lean practices to eliminate waste and improve efficiency
+                                Apply Lean to eliminate waste and improve efficiency.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Optimize processes and enhance production line performance
+                                Optimize processes to improve line performance.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Organize workplaces using 5S for better safety and productivity
+                                Implement 5S to enhance safety and productivity.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Improve overall operational performance and reduce costs
+                                Reduce costs and drive sustainable operational excellence.
                             </h5>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <Faq v-model:faqs="faqs" class="mt-5 pt-4" />
+                    <Faq v-model:faqs="faqsData" class="mt-5 pt-4" />
                 </div>
             </div>
         </div>
@@ -228,6 +228,7 @@
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { caseStudies } from '~/data/caseStudies.js';
+import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
@@ -261,28 +262,7 @@ const operations = ref([
     },
 ]);
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 onMounted(async () => {
     const jQueryScript = document.createElement('script');

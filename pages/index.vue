@@ -2,7 +2,7 @@
     <div class="body">
 
         <Header />
-        <Loader />
+        <!-- <Loader /> -->
         
 
         <div class="homeBnr">
@@ -12,7 +12,7 @@
                         <div class="content">
                             <h1>Crafting Strategies That Drive Business Growth</h1>
                             <p>
-                                We help manufacturing companies improve efficiency, reduce defects, strengthen supply-chain performance, and scale operations through data-driven strategies and Industry 4.0 solutions.
+                                We develop data-driven strategies that enhance manufacturing efficiency, reduce defects, and strengthen supply chain performance. Our approach enables scalable operations and delivers sustainable long-term business growth.
                             </p>
                             <NuxtLink to="/contact-us" class="bannerButton">
                                 Talk to an Expert
@@ -66,7 +66,7 @@ Tier-1 suppliers, and component manufacturers.
                             </div>
                             <div class="col-sm-5">
                                 <div class="ratingSec">
-                                    <h2 class="bigFont fw-bold mb-0">4.9</h2>
+                                    <h2 class="bigFont fw-bold mb-0">4.5</h2>
                                     <img src="/assets/image/5starImg.png" class="img-fluid" alt="">
                                     <p class="mb-0">Client Satisfaction Across 25+ Projects</p>
                                 </div>
@@ -84,13 +84,13 @@ Tier-1 suppliers, and component manufacturers.
             <div class="container py-5">
                 <div class="row">
                     <div class="col-sm-12 col-lg-5">
-                        <h4 class="gearIcon fw-bold">OUR PROCESS</h4>
-                        <h2 class="fw-light">Streamlined processes <span class="fw-bold">for optimal efficiency</span></h2>
+                        <h4 class="gearIcon fw-bold">WHY CHOOSE US</h4>
+                        <h2 class="fw-light">This is How We Streamline Our <span class="fw-bold">Operations</span></h2>
                     </div>
                     <div class="col-sm-0 col-lg-1 px-0"></div>
                     <div class="col-sm-12 col-lg-6">
                         <p class="mt-4 pt-2">
-                            We help manufacturing businesses eliminate inefficiencies, strengthen processes, and unlock scalable growth. By combining deep industry expertise with practical strategy, we turn operational challenges into measurable performance gains that impact your bottom line.
+                            We streamline manufacturing operations by eliminating inefficiencies, strengthening processes, and driving measurable, scalable performance growth.
                         </p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ Tier-1 suppliers, and component manufacturers.
                             <div>
                                 <h5>Scoping & Diagnosis</h5>
                                 <p class="fw-light mb-2">
-                                    Understanding processes, identifying key challenges and setting KPIs through data-driven insights
+                                    Understanding processes, identifying key challenges and setting KPI’s through data-driven insights
                                 </p>
                             </div>
                         </div>
@@ -120,18 +120,18 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="process">
                             <h2>03</h2>
                             <div>
-                                <h5>Implementation</h5>
+                                <h5>Implementation & Optimization</h5>
                                 <p class="fw-light mb-2">
-                                    Deploying solutions to address bottleneck operations through optimizing operational efficiency
+                                    Deploying solutions to address bottleneck operations through optimizing operational efficiency.
                                 </p>
                             </div>
                         </div>
                         <div class="process">
                             <h2>04</h2>
                             <div>
-                                <h5>Continuous improvements</h5>
+                                <h5>Continual improvements</h5>
                                 <p class="fw-light mb-2">
-                                    Monitoring, analyzing, and refining processes to ensure sustainable growth and high performance
+                                    Monitoring, analyzing, and refining processes to ensure sustainable growth and high performance.
                                 </p>
                             </div>
                         </div>
@@ -151,17 +151,7 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="icon-circle" aria-hidden="true">
                             <img src="/assets/image/ShortTermProjectsIcon.png" class="imgfluid" alt="" />
                         </div>
-                        <h5>Short-Term Projects</h5>
-                        <p>Result-oriented, time-bound interventions focused on quick wins and measurable impact</p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="modelCard">
-                        <div class="icon-circle" aria-hidden="true">
-                            <img src="/assets/image/ClusterProjectsIcon.png" class="imgfluid" alt="" />
-                        </div>
-                        <h5>Cluster Projects</h5>
+                        <h5>1.Short-Term Projects</h5>
                         <p>Result-oriented, time-bound interventions focused on quick wins and measurable impact</p>
                     </div>
                 </div>
@@ -171,8 +161,18 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="icon-circle" aria-hidden="true">
                             <img src="/assets/image/LongTermProjectsIcon.png" class="imgfluid" alt="" />
                         </div>
-                        <h5>Long-Term Projects<br/>(Retainer Model)</h5>
+                        <h5>2.Long-Term Projects</h5>
                         <p>Sustained engagement for continuous improvement, transformation, and capability building</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="modelCard">
+                        <div class="icon-circle" aria-hidden="true">
+                            <img src="/assets/image/ClusterProjectsIcon.png" class="imgfluid" alt="" />
+                        </div>
+                        <h5>3.Cluster-Based Programs</h5>
+                        <p>Government / OEM-driven cluster initiatives for MSMEs, focusing on collective improvement and benchmarking</p>
                     </div>
                 </div>
 
@@ -181,7 +181,7 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="icon-circle" aria-hidden="true">
                             <img src="/assets/image/TrainingProgramIcon.png" class="imgfluid" alt="" />
                         </div>
-                        <h5>Short-Term Projects</h5>
+                        <h5>4.Training & Capability development modules</h5>
                         <p>Institutional and Industry-readiness programs to build practical skills and future-ready capabilities</p>
                     </div>
                 </div>
@@ -196,9 +196,9 @@ Tier-1 suppliers, and component manufacturers.
                 </div>
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
-                    <p class="mt-4 pt-2">
-                        Our clients consistently report improved productivity, faster delivery cycles, and stronger operational stability after working with us.
-                    </p>
+                    <h4 class="fw-light mt-4 pt-2">
+                        Delivering Measurable Results That Drive Client Satisfaction.
+                    </h4>
                 </div>
             </div>
 
@@ -631,7 +631,7 @@ useSeoMeta({
     background:#0f235f;
     color:#fff;
     border-radius: 6px;
-    padding: 30px 25px 30px;
+    padding: 30px 18px 30px;
     position:relative;
     width:100%;
     height: 100%;

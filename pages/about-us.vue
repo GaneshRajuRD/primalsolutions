@@ -244,9 +244,12 @@ Tier-1 suppliers, and component manufacturers.
                     Trusted by OEMs & Tier-1 Suppliers
                 </h3>
                 <ul class="checkList">
-                    <li>Stronger operations</li>
+                    <!-- <li>Stronger operations</li>
                     <li>Better quality & delivery</li>
-                    <li>Sustainable performance gains</li>
+                    <li>Sustainable performance gains</li> -->
+                    <li>Operational Excellence That Delivers Consistent Results</li>
+                    <li>Improved Quality, Cost, and Delivery Performance</li>
+                    <li>Sustainable, Measurable Business Growth</li>
                 </ul>
                 <div class="d-flex justify-content-sm-center mt-4">
                     <NuxtLink to="/contact-us" class="arrowBtn">
@@ -324,6 +327,7 @@ Tier-1 suppliers, and component manufacturers.
 <script setup>
 import { onMounted, ref } from "vue";
 import { useHead } from '#app'
+import { faqs } from '~/data/faqs.js';
 
 const modalMember = ref(null);
 
@@ -361,7 +365,7 @@ const teamMembers = [
     },
     {
         name: 'Sairam D K',
-        position: 'Associate Consultant - Trainee',
+        position: 'Associate Consultant',
         description: '',
         bioTitle: '',
         bio: `Associate Consultant focussed on supporting on-ground implementation and data collection. Trained in core improvement methods and assisting with shop-floor coaching, data analysis and documentation.`,
@@ -369,28 +373,7 @@ const teamMembers = [
     },
 ];
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 </script>
 <style scoped>
@@ -598,23 +581,24 @@ const faqs = ref([
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
-    gap: 45px;
+    gap: 55px;
+    padding: 0;
 }
 .checkList li{
     position: relative;
     list-style-type: none;
     color: #fff;
-    width: fit-content;
+    width: 33%;
 }
 .checkList li::before {
     content: '';    
     position: absolute;
-    left: -30px;
+    right: -30px;
     top: 50%;
-    width: 16px;
-    height: 16px;
+    width: 1px;
+    height: 80%;
     transform: translateY(-50%);
-    background: url("/assets/image/tickImg2.png") no-repeat center;
+    background: #fff;
     background-size: contain;
 }
 
@@ -687,11 +671,18 @@ const faqs = ref([
     }
     .checkList {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
     .transformTitle{
         text-align: left;
         font-size: 18px;
+    }
+    .checkList li{
+        text-align: left;
+        width: 100%;
+    }
+    .checkList li::before {
+        background: transparent;
     }
 }
 </style>

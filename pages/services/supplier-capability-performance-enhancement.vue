@@ -23,19 +23,19 @@
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Enhance Supplier Capability & Performance</p>
+                            <p class="mb-0">Driving Supplier Performance & Competence</p>
                         </div>
                     </div>
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Improving OEM Performance Ranking for Tier I Suppliers</p>
+                            <p class="mb-0">Improving OEM Supplier Performance Ranking</p>
                         </div>
                     </div>
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Supplier Capability Enhancement Cluster Program</p>
+                            <p class="mb-0">Supplier Enhancement Cluster Program</p>
                         </div>
                     </div>
                 </div>
@@ -53,12 +53,13 @@
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
                             <span class="tag">What we do</span>
-                            <h1 class="playfairText themeText mt-3">Enhance Supplier Performance</h1>
+                            <h1 class="playfairText themeText mt-3">Empowering Suppliers for Excellence</h1>
                             <p>
-                                Enhance Supplier Capability & Performance: Improve supplier processes, skills, and delivery performance.                            </p>
+                                We strengthen supplier capability, quality, and delivery performance to achieve operational excellence and improved OEM rankings.
+                            </p>
                             <ul class="strengthList">
                                 <li>
-                                    <strong>Enhance Supplier Capability & Performance</strong>
+                                    <strong>Strengthen Supplier Capability & Performance </strong>
                                 </li>
                                     Improve supplier processes, skills, and delivery performance.
                                 <li>
@@ -66,7 +67,7 @@
                                 </li>
                                     Help suppliers meet OEM standards and boost their performance ranking.
                                 <li>
-                                    <strong>Supplier Capability Enhancement Cluster Program</strong>
+                                    <strong>Supplier Enhancement Cluster Program</strong>
                                 </li>
                                     Develop supplier clusters for shared learning, best practices, and performance improvement.
                             </ul>
@@ -102,28 +103,28 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Improve supplier processes and quality
+                                Improve supplier quality and processes.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Enhance skills and operational capabilities
+                                Enhance skills and operational capabilities.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Boost OEM performance rankings
+                                Higher OEM Performance Rankings
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Cross learning and benchmark practices
+                                Sustained Performance Through Collaboration 
                             </h5>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <Faq v-model:faqs="faqs" class="mt-5 pt-4" />
+                    <Faq v-model:faqs="faqsData" class="mt-5 pt-4" />
                 </div>
             </div>
         </div>
@@ -228,6 +229,7 @@
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { caseStudies } from '~/data/caseStudies.js';
+import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
@@ -262,28 +264,7 @@ const operations = ref([
 ]);
 
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 onMounted(async () => {
     const jQueryScript = document.createElement('script');

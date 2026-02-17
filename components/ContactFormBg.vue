@@ -10,7 +10,7 @@
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
                     <p class="mt-4 pt-2">
-                        Whether you aim to improve productivity, strengthen quality, or scale your manufacturing operations, our experts are ready to support your transformation journey.
+                        Whether you aim to elevate manufacturing operational excellence, our experts are ready to support and accelerate your transformation journey.
                     </p>
                 </div>
             </div>

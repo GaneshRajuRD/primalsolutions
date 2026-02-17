@@ -35,56 +35,56 @@ export default {
         {
           id: 2,
           title: 'Business Strategy',
-          description: 'We help organizations develop clear strategic business plans aligned with their vision, market dynamics, and long-term objectives. We deploy performance-driven KPIs and build execution-focused cultures to enable successful market entry and scalable, sustainable growth.',
+          description: 'We turn vision into clear, data-driven strategies that deliver measurable and sustainable growth.',
           image: '/assets/image/Business-Strategy-service.webp',
           link: 'business-strategy'
         },
         {
           id: 3,
           title: 'Plant Layout Design & Optimization',
-          description: 'We design end-to-end plant layouts from concept to commissioning, optimizing material flow, space utilization, and future scalability. We re-engineer existing layouts to support capacity expansion, improve flow efficiency, and minimize disruption to ongoing operations.',
+          description: 'We design and optimize plant layouts that enhance flow efficiency, maximize space utilization, and enable scalable growth.',
           image: '/assets/image/Business-Transformation-service.webp',
           link: 'plant-layout-design-optimization'
         },
         {
           id: 4,
           title: 'Operational Excellence & Lean Transformation',
-          description: 'Embed lean principles to eliminate waste and improve overall efficiency. Streamline processes to boost productivity and reduce cycle time. Organize workplaces systematically and drive sustainable behavioral change.',
+          description: 'We drive operational excellence by embedding lean principles, optimizing processes, and building sustainable high-performance workplaces.',
           image: '/assets/image/Operations-Supply-Chain-Excellence-service.webp',
           link: 'operational-excellence-lean-transformation'
         },
         {
           id: 5,
           title: 'Zero Defect Culture Deployment',
-          description: 'Strengthen QMS to ensure consistent product quality and compliance. Implement structured quality practices using the 3D Concept for defect prevention. Establish robust DWM systems and practices to strengthen daily monitoring and problem-solving capabilities.',
+          description: 'We foster a Zero Defect culture by strengthening QMS, embedding preventive quality systems, and integrating DWM for effective daily monitoring and continuous improvement.',
           image: '/assets/image/zero-defect-culture-deployment.webp',
           link: 'zero-defect-culture-deployment'
         },
         {
           id: 6,
           title: 'Digital & Smart Factory Transformation',
-          description: 'Implement smart digital systems for real-time monitoring and control. Digitize quality processes to ensure compliance and traceability. Use data analytics to predict failures and optimize maintenance.',
+          description: 'We enable smart factory transformation through integrated digital systems, VCS-driven real-time monitoring, digital quality management, and predictive analytics.',
           image: '/assets/image/Smart-factory-tarnsformation.webp',
           link: 'digital-smart-factory-transformation'
         },
         {
           id: 7,
           title: 'Supplier Capability and Performance Enhancement',
-          description: 'Improve supplier processes, skills, and delivery performance. Help suppliers meet OEM standards and boost their performance ranking. Develop supplier clusters for shared learning, best practices, and performance improvement.',
+          description: 'We strengthen supplier capability, quality, and delivery performance to achieve operational excellence and improved OEM rankings.',
           image: '/assets/image/Supplier-Performance.webp',
           link: 'supplier-capability-performance-enhancement'
         },
         {
           id: 8,
           title: 'Skill development programs and certifications',
-          description: 'Train teams in core manufacturing and problem-solving skills. Guide organizations to implement sustainable and responsible practices. Support certification readiness and compliance for manufacturing standards.',
+          description: 'We build organizational capability through structured skill development, ESG implementation, and certification readiness programs.',
           image: '/assets/image/Skill-Developement.webp',
           link: 'skill-development-programs-certifications'
         },
         {
           id: 9,
           title: 'Talent Hiring & Management Services',
-          description: 'Define hiring strategies aligned with business goals. Identify skills and competencies required for roles. Develop programs for future leaders. Implement frameworks to measure and improve performance. Boost workforce motivation and reduce attrition.',
+          description: 'We design end-to-end talent acquisition and management solutions to attract, develop, and retain high-performing teams aligned with business goals.',
           image: '/assets/image/Talent-Hiring-Management-service.webp',
           link: 'talent-hiring-management-services'
         }

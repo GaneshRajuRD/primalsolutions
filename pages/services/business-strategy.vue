@@ -108,14 +108,14 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Strong alignment across leadership and functions
+                                Strong cross functional alignment 
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Sustainable topline growth through structured growth strategies
+                                Sustainable growth with improved profitability & EBITDA
                             </h5>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <Faq v-model:faqs="faqs" class="mt-5 pt-4" />
+                    <Faq v-model:faqs="faqsData" class="mt-5 pt-4" />
                 </div>
             </div>
         </div>
@@ -219,6 +219,7 @@
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { caseStudies } from '~/data/caseStudies.js';
+import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
@@ -253,28 +254,7 @@ const operations = ref([
 ]);
 
 
-const faqs = ref([
-    {
-        question: 'What consulting services do you offer?',
-        answer: 'We offer end-to-end consulting in strategy, operations, digital transformation, market insights, talent, and skill development.',
-    },
-    {
-        question: 'How can Primal Solutions help my business grow?',
-        answer: 'We turn your vision into action, optimize operations, enable market success, and build capabilities for sustainable growth.',
-    },
-    {
-        question: 'Which industries do you serve?',
-        answer: 'We deliver tailored best-practice solutions across manufacturing, technology, services, and high-growth sectors',
-    },
-    {
-        question: 'How do I start a consulting engagement?',
-        answer: 'We understand your needs and deliver a tailored proposal with scope, timeline, and measurable results.',
-    },
-    {
-        question: 'How do you measure the success of your projects?',
-        answer: 'KPIs and measurable outcomes demonstrate the success of our projects',
-    },
-]);
+const faqsData = ref(faqs);
 
 onMounted(async () => {
     const jQueryScript = document.createElement('script');
