@@ -166,7 +166,7 @@
                 </div>
             </div>
 
-            <div class="splide py-sm-4 py-2 caseStudy-slider">
+            <div class="splide py-sm-4 py-2 caseStudy-slider" v-if="caseStudies.length > 0">
                 <div class="splide__track py-4">
                     <ul class="splide__list">
                         <li class="splide__slide" v-for="caseStudy in caseStudies">
@@ -179,7 +179,7 @@
         </div>
 
         
-        <div class="realResultsSec py-5">
+        <div class="realResultsSec py-5" v-if="videos.length > 0">
             <div class="container">
                 <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
                 <VideoTabs :videos="videos" />
@@ -227,19 +227,29 @@
 <script setup>
 import { onMounted, ref, nextTick } from "vue";
 import Accordion from "~/components/Accordion.vue";
-import { caseStudies } from '~/data/caseStudies.js';
 import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
 
+
+const caseStudies = ref([
+    // Service 3 - Operational Excellence & Lean Transformation
+    {
+        title: 'Driving Operational Excellence: Lean Transformation of a Leading Sheet Metal Manufacturer in Hosur',
+        image: '/assets/image/caseStudyImg1.webp',
+        readtime: '8 min read',
+        date: 'Nov 15, 2025',
+        url: 'case-study/sts-lean'
+    },
+    
+]);
+
+
+
 const videos = ref([
     {
-        title: 'Strategy Implementation Overview',
-        videoUrl: '/assets/image/industryVideo.mp4',
-    },
-    {
-        title: 'Real-World Case Study',
-        videoUrl: '/assets/image/homeBnrVideo.mp4',
+        title: 'Operational Excellence & Lean Transformation',
+        videoUrl: '/assets/image/Operational Excellence & Lean Transformation.mp4',
     },
 ]);
 

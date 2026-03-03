@@ -90,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="splide py-sm-4 py-2 caseStudy-slider">
+            <div class="splide py-sm-4 py-2 caseStudy-slider" v-if="caseStudies.length > 0">
                 <div class="splide__track py-4">
                     <ul class="splide__list">
                         <li class="splide__slide" v-for="caseStudy in caseStudies">

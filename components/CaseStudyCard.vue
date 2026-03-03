@@ -1,7 +1,7 @@
 <template>
 
     <div class="caseStudyCard">
-        <NuxtLink :to="`/case-study/`+ caseStudy.url">
+        <NuxtLink :to="`/${caseStudy.url}`">
         <!-- <NuxtLink to="#"> -->
             <img :src="caseStudy.image" class="caseStudyImg" alt="" />
             <div class="info">

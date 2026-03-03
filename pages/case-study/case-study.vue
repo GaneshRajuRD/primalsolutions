@@ -43,7 +43,7 @@
             <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt="">
         </div>
 
-        <div class="realResultsSec py-5">
+        <div class="realResultsSec py-5" v-if="videos.length > 0">
             <div class="container">
                 <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
                 <VideoTabs :videos="videos" />
