@@ -33,7 +33,7 @@
             <p>
                 With rising demand, the company encountered several operational challenges, including inefficient material flow, frequent production bottlenecks, customer complaints related to quality issues, excessive inventory levels, and extended lead times. These issues hampered productivity, escalated operational costs, and restricted the company's ability to scale and meet customer expectations.
             </p>
-            <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt=""> -->
             <h4>The Solution</h4>
             <p>
                 To drive operational transformation, the company partnered with Primal Solutions, leveraging their expertise to redesign the production layout for improved material flow, reduced redundancies, and lower Cost of Poor Quality (COPQ). Through a comprehensive on-site analysis, Primal Solutions identified key inefficiencies—such as bottlenecks, high inventory, and long lead times—and implemented an optimized layout that significantly enhanced operational efficiency. Leadership played a pivotal role in the success of these initiatives, actively engaging in and supporting the transformation process to ensure optimal results.
@@ -47,7 +47,7 @@
                 <li>Reduced Cost of Poor Quality (COPQ) by strengthening quality systems and process controls.</li>
                 <li>Shortened lead times and improved overall operational responsiveness.</li>
             </ul>
-            <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt=""> -->
         </div>
 
         <div class="realResultsSec py-5" v-if="videos.length > 0">
@@ -110,6 +110,12 @@ const videos = ref([
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.csBnrImgSec img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .caseStudyContent p{
     margin-bottom: 25px;

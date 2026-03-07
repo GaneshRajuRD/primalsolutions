@@ -236,11 +236,12 @@
     </div>
 </template>
 <script setup>
-import { onMounted, ref, nextTick } from "vue";
+import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
 
 const textSlider = ref(null);
+let textSliderInitialized = false;
 
 const caseStudies = ref([
     // Service 1 - Business Strategy
@@ -286,35 +287,88 @@ const operations = ref([
 
 const faqsData = ref(faqs);
 
-onMounted(async () => {
-    const jQueryScript = document.createElement('script');
-    jQueryScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js';
-    jQueryScript.onload = () => {
-        const slickScript = document.createElement('script');
-        slickScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js';
-        slickScript.onload = () => {
-            if (textSlider.value) {
-                $(textSlider.value).slick({
-                    infinite: true,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 0,
-                    speed: 10000,
-                    pauseOnHover: false,
-                    arrows: false,
-                    dots: false,
-                    cssEase: 'linear',
-                    variableWidth: true,
-                    draggable: false,
-                    swipe: false,
-                    touchMove: false
-                });
-            }
-        };
-        document.head.appendChild(slickScript);
-    };
-    document.head.appendChild(jQueryScript);
+const initializeTextSlider = async () => {
+    if (textSliderInitialized || !textSlider.value) return;
+    
+    try {
+        // Destroy existing slick instance if it exists
+        if ($(textSlider.value).hasClass('slick-initialized')) {
+            $(textSlider.value).slick('unslick');
+        }
+        
+        // Initialize slick carousel
+        $(textSlider.value).slick({
+            infinite: true,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 10000,
+            pauseOnHover: false,
+            arrows: false,
+            dots: false,
+            cssEase: 'linear',
+            variableWidth: true,
+            draggable: false,
+            swipe: false,
+            touchMove: false
+        });
+        
+        textSliderInitialized = true;
+    } catch (error) {
+        console.error('Error initializing text slider:', error);
+    }
+};
 
+const loadSlickLibraries = () => {
+    return new Promise((resolve, reject) => {
+        // Check if jQuery is already loaded
+        if (typeof window.jQuery !== 'undefined' && typeof window.$ !== 'undefined') {
+            // Check if Slick is already loaded
+            if (typeof $.fn.slick !== 'undefined') {
+                resolve();
+                return;
+            }
+            
+            // jQuery exists but Slick doesn't, load Slick
+            const slickScript = document.createElement('script');
+            slickScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js';
+            slickScript.onload = () => resolve();
+            slickScript.onerror = () => reject(new Error('Failed to load Slick'));
+            document.head.appendChild(slickScript);
+        } else {
+            // Load jQuery first
+            const jQueryScript = document.createElement('script');
+            jQueryScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js';
+            jQueryScript.onload = () => {
+                // After jQuery loads, load Slick
+                const slickScript = document.createElement('script');
+                slickScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js';
+                slickScript.onload = () => resolve();
+                slickScript.onerror = () => reject(new Error('Failed to load Slick'));
+                document.head.appendChild(slickScript);
+            };
+            jQueryScript.onerror = () => reject(new Error('Failed to load jQuery'));
+            document.head.appendChild(jQueryScript);
+        }
+    });
+};
+
+onMounted(async () => {
+    try {
+        // Load Slick libraries
+        await loadSlickLibraries();
+        
+        // Wait for DOM to be ready
+        await nextTick();
+        
+        // Initialize text slider
+        await initializeTextSlider();
+        
+    } catch (error) {
+        console.error('Error during Slick initialization:', error);
+    }
+
+    // Initialize Splide carousel
     const splide3 = new Splide(".caseStudy-slider", {
         drag: "free",
         focus: 0,
@@ -341,7 +395,18 @@ onMounted(async () => {
         },
     });
     splide3.mount();
+});
 
+onBeforeUnmount(() => {
+    // Clean up Slick slider
+    if (textSlider.value && $(textSlider.value).hasClass('slick-initialized')) {
+        try {
+            $(textSlider.value).slick('unslick');
+        } catch (error) {
+            console.error('Error destroying Slick slider:', error);
+        }
+    }
+    textSliderInitialized = false;
 });
 </script>
 <style scoped>
@@ -426,7 +491,7 @@ onMounted(async () => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 94%;
     background-color: #F1F1F1;
 }
 

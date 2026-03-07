@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/caseStudyImg.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/zero defect culture.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <li>Poor traceability and reactive defect handling</li>
                 <li>Increasing pressure to achieve zero-defect and faster response standards</li>
             </ul>
-            <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt=""> -->
             <h4>Strategic Actions & Business Impact</h4>
             <p>
                 To overcome these challenges, the organization partnered with Primal Solutions to design and execute a structured transformation roadmap focused on the following key priorities: 
@@ -102,7 +102,7 @@
                 </table>
             </div>
 
-            <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt=""> -->
         </div>
 
         <div class="realResultsSec py-5" v-if="videos.length > 0">
@@ -165,6 +165,12 @@ const videos = ref([
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.csBnrImgSec img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .caseStudyContent p{
     margin-bottom: 25px;

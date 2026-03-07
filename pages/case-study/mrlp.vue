@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/caseStudyImg.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/Transforming a Legacy Automotive Supplier.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>
@@ -158,6 +158,12 @@ const videos = ref([
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.csBnrImgSec img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .caseStudyContent p{
     margin-bottom: 25px;

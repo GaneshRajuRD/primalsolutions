@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/caseStudyImg.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/Driving Supplier Excellence Under OEM Quality Benchmark Program.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             <p>
                 While the organization possessed strong technical capabilities and a solid market reputation, its Supplier Process Audit score remained at a moderate level, indicating gaps in quality governance, assembly flow efficiency, and performance visibility.
             </p>
-            <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt=""> -->
             <h4>Our Approach</h4>
             <p>
                 To bridge these gaps, a structured transformation program was initiated with a focused objective: elevate supplier performance to a high-performance benchmark, secure "Quality Challenger" recognition, and strengthen assembly capability through robust, system-driven practices. Primal Solutions implemented a comprehensive improvement framework beginning with a detailed baseline assessment. Key gaps were systematically addressed through enhanced inspection controls, disciplined review mechanisms, and strengthened accountability structures.
@@ -48,7 +48,7 @@
             <p>
                 The initiative resulted in a clear upward trajectory in supplier performance score, improved audit readiness, stronger alignment with OEM expectations, and a sustainable roadmap toward achieving and maintaining high-performance benchmark standards—positioning the organization for scalable growth in FY26 and beyond.
             </p>
-            <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy2.webp" class="img-fluid w-100" alt=""> -->
         </div>
 
         <div class="realResultsSec py-5" v-if="videos.length > 0">
@@ -111,6 +111,12 @@ const videos = ref([
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.csBnrImgSec img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .caseStudyContent p{
     margin-bottom: 25px;

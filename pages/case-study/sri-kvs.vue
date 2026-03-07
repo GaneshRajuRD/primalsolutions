@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/caseStudyImg.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/30-Day Rapid Plant Layout Transformation.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                 <li>Higher operational productivity</li>
                 <li>Stronger foundation for scalable growth</li>
             </ul>
-            <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt="">
+            <!-- <img src="/assets/image/caseStudy.webp" class="img-fluid w-100" alt=""> -->
             <h4>Our Transformation Approach</h4>
             <p>
                 Primal Solutions deployed a dedicated rapid-transformation task force comprising domain experts across manufacturing, layout engineering, and operational excellence. Over a structured 30-day intervention, we executed: 
@@ -129,6 +129,12 @@ const videos = ref([
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.csBnrImgSec img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .caseStudyContent p{
     margin-bottom: 25px;

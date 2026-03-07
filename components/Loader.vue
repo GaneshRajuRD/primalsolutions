@@ -2,11 +2,11 @@
     <div class="loader-overlay" v-if="isVisible">
         <div class="loader-container">
             <div class="logo-container">
-                <img src="/assets/image/primalLogo.png" alt="Primal Solutions Logo" class="loader-logo" />
+                <img src="/assets/image/primalLogoBlue.png" alt="Primal Solutions Logo" class="loader-logo" />
             </div>
         </div>
     </div>
-</template>
+</template>``
 
 <script setup>
 import { ref, onMounted, nextTick } from "vue";
