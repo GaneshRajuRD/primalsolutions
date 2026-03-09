@@ -464,6 +464,8 @@ onBeforeUnmount(() => {
     aspect-ratio: 1/1;
 }
 .deliverables .content{
+    text-align: center;
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -732,6 +734,7 @@ onBeforeUnmount(() => {
     }
     .deliverables .content{
         justify-content: start;
+        text-align: left;
     }
     .deliverablesSec p{
         font-size: 15px;

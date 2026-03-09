@@ -466,6 +466,8 @@ onBeforeUnmount(() => {
     aspect-ratio: 1/1;
 }
 .deliverables .content{
+    text-align: center;
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,7 +483,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 94%;
     background-color: #F1F1F1;
 }
 
@@ -737,6 +739,7 @@ onBeforeUnmount(() => {
     }
     .deliverables .content{
         justify-content: start;
+        text-align: left;
     }
     .deliverablesSec p{
         font-size: 15px;

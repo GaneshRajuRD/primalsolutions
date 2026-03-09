@@ -343,7 +343,7 @@ const teamMembers = [
         name: 'T.R Renukanthan',
         position: 'Chief Mentor',
         description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.), Ashok Leyland.',
-        bioTitle: 'About Our Mentor',
+        bioTitle: '',
         bio: `Business Excellence Consultant with 35+ years of experience in manufacturing, quality systems, and operational excellence across automotive and industrial sectors. Former DGM – Central Quality at Ashok Leyland, with deep expertise in TPM, Lean Six Sigma, AIAG Core Tools (PPAP, APQP), and performance management systems. Proven track record in partnering with leadership teams on strategy, KPIs, and shop-floor transformation. Strong focus on process improvement, digital quality adoption, workforce capability building, and sustainable manufacturing excellence. Known for practical, results-driven consulting that delivers measurable improvements in quality, efficiency, and organizational performance.`,
         image: '/assets/image/T.R Renukanthan.png',
     },
@@ -351,7 +351,7 @@ const teamMembers = [
         name: 'Ashok Soundararajan',
         position: 'Founder & CEO',
         description: 'Business Consultant.',
-        bioTitle: 'About Our Founder',
+        bioTitle: '',
         bio: `Business Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement for manufacturing MSMEs. Currently with Primal Solutions, he has led turnkey quality and profitability improvement projects across automotive and industrial sectors. Strong expertise in Lean Six Sigma, AIAG Core Tools (PPAP, APQP), supplier development, and shop-floor excellence. He has supported OEMs and Tier-1 suppliers including Ashok Leyland, TAFE, and PSA, enabling greenfield setups, process stabilization, and sustainable performance improvement. Known for hands-on execution, structured problem solving, and capability building across engineering teams.`,
         image: '/assets/image/Ashok Soundararajan.webp',
     },
@@ -601,6 +601,9 @@ const faqsData = ref(faqs);
     background: #fff;
     background-size: contain;
 }
+.checkList li:last-child::before {
+    display: none;
+}
 
 .faqImg{
     position: relative;
@@ -679,7 +682,7 @@ const faqsData = ref(faqs);
     }
     .checkList li{
         text-align: left;
-        width: 100%;
+        width: 94%;
     }
     .checkList li::before {
         background: transparent;
