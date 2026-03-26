@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/30-Day Rapid Plant Layout Transformation.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/30 day rapid 1.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>
@@ -67,6 +67,19 @@
             <p>
                 The 30-day transformation positioned the organization for scalable growth, improved competitiveness, and stronger operational control. This demonstrates that with structured methodology, expert-led execution, and disciplined implementation, measurable transformation can be achieved within a compressed timeframe—strengthening the company's position as a preferred supplier to leading OEMs.
             </p>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <img src="/assets/image/30 day rapid 2.webp" class="csImg img-fluid w-100" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="/assets/image/30 day rapid 3.webp" class="csImg img-fluid w-100" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="/assets/image/30 day rapid 3.webp" class="csImg img-fluid w-100" alt="">
+                </div>
+            </div>
+
         </div>
 
         <div class="realResultsSec py-5" v-if="videos.length > 0">
@@ -152,6 +165,11 @@ const videos = ref([
 .realResultsTitle {
     font-size: 48px;
     margin-bottom: 3rem;
+}
+
+.csImg{
+    aspect-ratio: 810/610;
+    object-fit: cover;
 }
 
 @media only screen and (max-width:1440px) {

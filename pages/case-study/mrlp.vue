@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/Transforming a Legacy Automotive Supplier.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/Transforming legacy automotive supplier for furture growth.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>

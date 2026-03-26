@@ -14,16 +14,28 @@
         <div v-if="showPopup" class="gallery-popup" @click="showPopup = false">
             <div class="popup-content" @click.stop>
                 <button class="close-btn" @click="showPopup = false">&times;</button>
-                <img :src="`${gallery.image}`" class="popup-image" />
                 <h3>{{ gallery.title }}</h3>
-                <p v-if="gallery.description">{{ gallery.description }}</p>
+                <img :src="currentImage" class="popup-image" />
+                <!-- <p v-if="gallery.description">{{ gallery.description }}</p> -->
+
+                <div v-if="hasMultipleImages" class="popup-thumbnails">
+                    <div
+                        v-for="(img, index) in gallery.images"
+                        :key="index"
+                        class="thumbnail-item"
+                        :class="{ active: selectedIndex === index }"
+                        @click.stop="selectedIndex = index"
+                    >
+                        <img :src="img" />
+                    </div>
+                </div>
             </div>
         </div>
     </transition>
 
 </template>
 <script setup>
-import { ref } from "vue";
+import { ref, computed, watch } from "vue";
 const props = defineProps({
     gallery: {
         type: Object,
@@ -32,7 +44,21 @@ const props = defineProps({
 });
 
 const showPopup = ref(false);
+const selectedIndex = ref(0);
 
+const hasMultipleImages = computed(() => Array.isArray(props.gallery.images) && props.gallery.images.length > 1);
+const currentImage = computed(() => {
+    if (Array.isArray(props.gallery.images) && props.gallery.images.length > 0) {
+        return props.gallery.images[selectedIndex.value];
+    }
+    return props.gallery.image;
+});
+
+watch(showPopup, (val) => {
+    if (val) {
+        selectedIndex.value = 0;
+    }
+});
 </script>
 <style scoped>
 .galleryCard{
@@ -100,11 +126,19 @@ const showPopup = ref(false);
 
 .popup-content {
     position: relative;
+    /* background: #fff; */
+    border-radius: 12px;
+    /* padding: 2rem; */
+    max-width: 80vw;
+    /* width: 90%;
+    max-height: 90vh; */
+    /* overflow-y: auto; */
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); */
 }
 
 .close-btn {
   position: absolute;
-  top: -40px;
+  top: -10px;
   right: -30px;
   background: none;
   border: none;
@@ -123,20 +157,63 @@ const showPopup = ref(false);
   width: 100%;
   border-radius: 8px;
   margin-bottom: 1.5rem;
-  max-height: 400px;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.thumbnail-item {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 80px;
+  height: 56px;
+  cursor: pointer;
+  flex: 0 0 auto;
+  transition: all 0.3s ease;
+}
+
+.thumbnail-item:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.thumbnail-item.active {
+  border-color: #fff;
+}
+
+.thumbnail-item img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .popup-content h3 {
-  color: #444;
-  margin: 1rem 0 0.5rem;
-  font-weight: bold;
+  color: #fff;
+  margin: 1.5rem 0 0.75rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-.popup-content p {
-  color: #666;
-  margin: 0;
-}
+/* .popup-content p {
+  color: #555;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+  text-align: center;
+} */
 
 .fade-enter-active,
 .fade-leave-active {
@@ -158,9 +235,58 @@ const showPopup = ref(false);
     
 }
 @media only screen and (max-width:830px) {
+    .popup-content {
+        padding: 1.5rem;
+        width: 95%;
+    }
     
+    .popup-content h3 {
+        font-size: 1.25rem;
+    }
+    
+    .popup-thumbnails {
+        gap: 0.5rem;
+    }
+    
+    .thumbnail-item {
+        width: 70px;
+        height: 49px;
+    }
 }
 @media only screen and (max-width:578px) {
+    .popup-content {
+        padding: 1rem;
+        width: 98%;
+    }
     
+    .popup-image {
+        max-height: 300px;
+    }
+    
+    .popup-content h3 {
+        font-size: 1.1rem;
+        margin: 1rem 0 0.5rem 0;
+    }
+    
+    .popup-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    
+    .popup-thumbnails {
+        gap: 0.4rem;
+        margin-top: 1rem;
+    }
+    
+    .thumbnail-item {
+        width: 60px;
+        height: 42px;
+    }
+    
+    .close-btn {
+        top: -30px;
+        right: -20px;
+        font-size: 30px;
+    }
 }
 </style>

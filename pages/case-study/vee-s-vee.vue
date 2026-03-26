@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/zero defect culture.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/Bar Machining.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>

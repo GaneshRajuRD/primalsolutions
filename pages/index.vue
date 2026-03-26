@@ -2,7 +2,7 @@
     <div class="body">
 
         <Header />
-        <Loader />
+        <!-- <Loader /> -->
         
 
         <div class="homeBnr">
@@ -48,7 +48,7 @@
 Our focus is on fostering growth and innovation in the automotive sector by working closely with OEMs,
 Tier-1 suppliers, and component manufacturers.
                         </p>
-                        <h5>What We Focus On:</h5>
+                        <h5 class="fw-bold">What We Focus On:</h5>
                         <div class="row">
                             <div class="col-sm-7">
                                 <ul class="list">
@@ -85,7 +85,7 @@ Tier-1 suppliers, and component manufacturers.
                 <div class="row">
                     <div class="col-sm-12 col-lg-5">
                         <h4 class="gearIcon fw-bold">WHY CHOOSE US</h4>
-                        <h2 class="fw-light">This is How We Streamline Our <span class="fw-bold">Operations</span></h2>
+                        <h2 class="fw-light ps-4">This is How We Streamline Our <span class="fw-bold">Operations</span></h2>
                     </div>
                     <div class="col-sm-0 col-lg-1 px-0"></div>
                     <div class="col-sm-12 col-lg-6">
@@ -264,7 +264,7 @@ Tier-1 suppliers, and component manufacturers.
                 <div class="col-sm-0 col-lg-1 px-0"></div>
                 <div class="col-sm-12 col-lg-6">
                     <p class="mt-4 pt-2">
-                        Real examples of how we've helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
+                        We help manufacturing companies to Real examples of how we've helped automotive clients to enhance operational efficiency, develop strategies, and deliver measurable results that directly impact the bottom line.
                     </p>
                     <NuxtLink to="/resources#CaseStudies" class="blueBtn">View More</NuxtLink>
                 </div>
@@ -310,7 +310,7 @@ const stories = ref([
         image: '/assets/image/Karthic.png',
     },
     {
-        name: 'K. Sakthimanikandan-CEO ',
+        name: 'K. Sakthimanikandan - CEO ',
         company: 'Vee & Vee Industries',
         description: `It's pleasure of working with Ashok for over 10 years, and for the past year, we've had the benefit of Primal Solutions' expertise as our business consultant. Under Ashok's leadership and Mr. Renukanthan's mentorship, their structured approach has yielded significant improvements across our operations. They've been instrumental in streamlining customer requirements, including No Pass initiation, which has bolstered our compliance and customer trust. We're impressed with their professionalism and ongoing support and we're excited to continue our successful collaboration."`,
         image: '/assets/image/Sakthimanikandan.png',

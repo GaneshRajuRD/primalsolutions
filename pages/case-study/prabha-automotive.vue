@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="csBnrImgSec">
-                            <img src="/assets/image/Driving Supplier Excellence Under OEM Quality Benchmark Program.webp" class="img-fluid csBnrImg" />
+                            <img src="/assets/image/Driving Supplier Excellence Under OEM.webp" class="img-fluid csBnrImg" />
                         </div>
                     </div>
                 </div>

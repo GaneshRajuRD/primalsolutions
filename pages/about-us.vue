@@ -6,7 +6,7 @@
         <div class="aboutUsBnr">
             <div class="container">
                 <div class="content text-center">
-                    <h1 class="fw-light">About <span class="fw-bold">Us</span></h1>
+                    <h1 class="fw-bold">About Us</h1>
                     <p>
                         We help manufacturing companies to enhance operational efficiency, develop strategies, and deliver
 measurable results that directly impact the bottom line.
@@ -273,7 +273,7 @@ Tier-1 suppliers, and component manufacturers.
                 <div class="col-lg-6 pe-lg-5 mt-4">
                     <div class="faqImg">
                         <img src="/assets/image/faqImg.webp" class="w-100 img-fluid" alt="">
-                        <div class="contact">
+                        <!-- <div class="contact">
                             <a href="#">
                                 <img src="/assets/image/callIcon.png" class="img-fluid" alt="">
                                 +91 1236547890
@@ -282,7 +282,7 @@ Tier-1 suppliers, and component manufacturers.
                                 <img src="/assets/image/mailIcon.png" class="img-fluid" alt="">
                                 info@domainname.com
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -382,7 +382,9 @@ const faqsData = ref(faqs);
 }
 .aboutUsBnr {
     position: relative;
-    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.19)),url('/assets/image/aboutUsBnr.png');
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.05)),url('/assets/image/aboutUsBnr.png');
+    /* background-image: url('/assets/image/aboutUsBnr.png'); */
+    background-position: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -559,7 +561,7 @@ const faqsData = ref(faqs);
     margin-bottom: 20px;
 }
 .solutions .solution2{
-    background-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.05);
 }
 .solution p{
     font-size: 14px;
@@ -567,6 +569,7 @@ const faqsData = ref(faqs);
 }
 .solution h5{
     font-size: 1.15rem;
+    padding-bottom: 6px;
 }
 .solutionsBg{
     background-image: url('/assets/image/solutionsBg.webp');

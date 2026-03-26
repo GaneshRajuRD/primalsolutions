@@ -55,7 +55,7 @@
 
                         <h2 class="fw-light mb-4 mt-5 pt-lg-4">Browse All <span class="fw-bold">Blogs</span></h2>
                         <div class="row">
-                            <div class="col-sm-6" v-for="blog in blogs">
+                            <div class="col-sm-6 mb-4" v-for="blog in blogs">
                                 <BlogCard :blog="blog" />
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="tab-pane fade" id="CaseStudies" role="tabpanel" aria-labelledby="nav-CaseStudies-tab" >
                     <div class="row py-5">
-                        <div class="col-sm-6" v-for="caseStudy in caseStudies">
+                        <div class="col-sm-6 mb-4" v-for="caseStudy in caseStudies">
                             <CaseStudyCard :caseStudy="caseStudy" />
                         </div>
                     </div>
@@ -97,13 +97,32 @@ import { caseStudies } from '~/data/caseStudies.js';
 
 const galleryImages = ref([
     {
-        image: '/assets/image/blogImg2.webp'
+        title: 'Factory Floor Optimization',
+        description: 'Lean transformation visuals from our latest project.',
+        image: '/assets/image/blogImg2.webp',
+        images: [
+            '/assets/image/blogImg2.webp',
+            '/assets/image/blogImg1.webp',
+            '/assets/image/caseStudyImg1.webp',
+        ],
     },
     {
-        image: '/assets/image/blogImg1.webp'
+        title: 'Digital Smart Factory',
+        description: 'Showcasing IoT integration and smart dashboards.',
+        image: '/assets/image/blogImg1.webp',
+        images: [
+            '/assets/image/blogImg1.webp',
+            '/assets/image/caseStudyImg1.webp',
+        ],
     },
     {
-        image: '/assets/image/caseStudyImg1.webp'
+        title: 'Operational Excellence',
+        description: 'End-to-end process flow and quality checkpoints.',
+        image: '/assets/image/caseStudyImg1.webp',
+        images: [
+            '/assets/image/caseStudyImg1.webp',
+            '/assets/image/blogImg2.webp',
+        ],
     },
 ]);
 
