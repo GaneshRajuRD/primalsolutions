@@ -86,22 +86,22 @@
                     <div class="col-lg-4 px-sm-0">
                         <div class="info-cards">
                             <div class="info-card">
-                                <img src="/assets/image/mailIcon2.png" class="icon" alt="">
+                                <img src="/assets/image/mailIcon2.png" class="icon" alt="Email icon">
                                 <div class="text"><a href="mailto: ashok@primalsolutions.in ">ashok@primalsolutions.in </a></div>
                             </div>
                             <div class="info-card">
-                                <img src="/assets/image/callIcon2.png" class="icon" alt="">
+                                <img src="/assets/image/callIcon2.png" class="icon" alt="Phone icon">
                                 <div class="text"><a href="tel: +91 90030 71320">+91 90030 71320</a></div>
                             </div>
                             <div class="info-card">
-                                <img src="/assets/image/locationIcon.png" class="icon" alt="">
+                                <img src="/assets/image/locationIcon.png" class="icon" alt="Location icon">
                                 <div class="text">Primal Solutions C-10, 128 Kendriya Vihar, Tamil Nadu Chennai – 600077.</div>
                             </div>
                             <div class="info-card social">
                                 <div class="icons">
-                                    <img src="/assets/image/fbIcon2.png" class="icon" alt="">
-                                    <img src="/assets/image/twitterIcon2.png" class="icon" alt="">
-                                    <img src="/assets/image/linkedInIcon2.png" class="icon" alt="">
+                                    <img src="/assets/image/fbIcon2.png" class="icon" alt="Facebook icon">
+                                    <img src="/assets/image/twitterIcon2.png" class="icon" alt="Twitter icon">
+                                    <img src="/assets/image/linkedInIcon2.png" class="icon" alt="LinkedIn icon">
                                 </div>
                                 <div class="text">Social Profiles</div>
                             </div>
@@ -128,8 +128,23 @@
 </template>
 <script setup>
 import { onMounted, ref } from "vue";
+import { useHead } from '#app'
 import SuccessPopup from '../components/SuccessPopup.vue';
 import LoadingSpinner from '../components/LoadingSpinner.vue';
+
+useHead({
+    title: 'Contact Primal Solutions | Manufacturing Consulting Inquiry',
+    meta: [
+        {
+            name: 'description',
+            content: 'Contact Primal Solutions to discuss manufacturing consulting, lean transformation, digital factory strategy, supplier development, plant layout design, and capability-building programs.'
+        },
+        {
+            name: 'keywords',
+            content: 'contact manufacturing consultant, lean transformation inquiry, digital factory consulting request, supplier development, plant layout design, manufacturing training contact'
+        }
+    ]
+});
 
 const config = useRuntimeConfig()
 
@@ -139,21 +154,27 @@ const showSuccess = ref(false);
 
 // Sectors and Services data
 const sectors = ref([
-    'Automotive Manufacturing',
+    'Automotive & Components Manufacturing',
     'Agricultural & Farm Equipment',
-    'Elevators & Construction Equipment',
     'Off-Road & Earthmoving Industry',
+    'Elevators & Construction Equipment',
+    'Electronics Production',
+    'Medical Equipment Manufacturing',
     'FMCG Manufacturing',
-    'Electronics Production'
+    'Textile and Apparel Manufacturing',
+    'Jewellery manufacturing'
 ]);
 
 const services = ref([
     'Business Strategy',
-    'Business Transformation',
-    'Market Research & Intelligence Services',
-    'Operations Supply Chain Excellence',
-    'Skill Development Programs',
-    'Talent Hiring Management'
+    'Plant Layout Design & Optimization',
+    'Operational Excellence & Lean Transformation',
+    'Zero Defect Culture Deployment',
+    'Digital & Smart Factory Transformation',
+    'Supplier Capability and Performance Enhancement',
+    'Skill Development Programs and Certifications',
+    'Talent Hiring & Management Services',
+    'Market Research & Intelligence Services'
 ]);
 
 // Validation functions

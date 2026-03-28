@@ -1,10 +1,10 @@
 <template>
 
     <div class="sectorCard">
-        <NuxtLink to="#">
+        <NuxtLink to="/contact-us">
             <div class="h-100 d-flex flex-column justify-content-between">
                 <div>
-                    <img :src="sector.image" class="sectorImg" alt="" />
+                    <img :src="sector.image" class="sectorImg" :alt="sector.title" />
                     <h5 class="themeText">{{ sector.title }}</h5>
                     <p>{{ sector.description }}</p>
                     <!-- <h5>Key Services:</h5>
@@ -12,10 +12,10 @@
                         <li v-for="service in sector.services" :key="service">{{ service }}</li>
                     </ul> -->
                 </div>
-                <a href="#" class="link">
+                <NuxtLink to="/contact-us" class="link">
                     Contact us
                     <span class="material-symbols-outlined">arrow_forward_ios</span>
-                </a>
+                </NuxtLink>
             </div>
         </NuxtLink>
     </div>

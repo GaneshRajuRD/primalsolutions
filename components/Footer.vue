@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-12">
-                        <img src="/assets/image/primalLogo.png" class="footerLogo img-fluid" alt="">
+                        <img src="/assets/image/primalLogo.png" class="footerLogo img-fluid" alt="Primal Solutions logo">
                         <div class="row">
                             <div class="col-sm-5">
                                 <h5 class="line-height-15 mb-4">Primal Solutions <br> C-10, 128 Kendriya Vihar, Tamil Nadu,<br> Chennai – 600 077.</h5>
@@ -13,15 +13,15 @@
                                 <a class="d-inline-block mb-2" href="tel: +91 90030 71320">+91 90030 71320</a>
 
                                 <div class="socialLinks">
-                                    <a href="#"><img src="/assets/image/twitterIcon.svg" alt=""></a>
-                                    <a href="#"><img src="/assets/image/fbIcon.svg" alt=""></a>
-                                    <a href="#"><img src="/assets/image/ytIcon.svg" alt=""></a>
-                                    <a href="#"><img src="/assets/image/instaIcon.svg" alt=""></a>
+                                    <a href="#"><img src="/assets/image/twitterIcon.svg" alt="Twitter"></a>
+                                    <a href="#"><img src="/assets/image/fbIcon.svg" alt="Facebook"></a>
+                                    <a href="#"><img src="/assets/image/ytIcon.svg" alt="YouTube"></a>
+                                    <a href="#"><img src="/assets/image/instaIcon.svg" alt="Instagram"></a>
                                 </div>
                             </div>
                             <div class="col-sm-1 px-0"></div>
                             <div class="col-sm-5 px-sm-0">
-                                <img src="/assets/image/footerImg.webp" class="footerImg img-fluid mb-4" />
+                                <img src="/assets/image/footerImg.webp" class="footerImg img-fluid mb-4" alt="Footer graphic" />
                                 <NuxtLink class="callBtn" to="/contact-us" type="" data-bs-toggle="modal" data-bs-target="#QuotationPopup">Contact Us
                                     <span></span>
                                 </NuxtLink>

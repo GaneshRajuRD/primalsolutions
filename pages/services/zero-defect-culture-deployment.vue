@@ -229,6 +229,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Zero Defect Culture Deployment | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Zero defect culture deployment services to embed quality systems and reduce defects across manufacturing operations.' },
+    { name: 'keywords', content: 'zero defect culture, quality management, manufacturing defect reduction, operational quality' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';

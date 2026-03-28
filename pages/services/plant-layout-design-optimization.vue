@@ -225,6 +225,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Plant Layout Design & Optimization | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Plant layout design and optimization services to improve factory flow, space utilization, and operational efficiency.' },
+    { name: 'keywords', content: 'plant layout design, factory optimization, manufacturing layout consulting, shop floor planning' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
@@ -484,7 +492,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 93%;
     background-color: #F1F1F1;
 }
 

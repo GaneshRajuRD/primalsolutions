@@ -119,6 +119,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Vee S Vee Case Study | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Vee S Vee case study demonstrating zero-defect culture and supply chain performance improvement.' },
+    { name: 'keywords', content: 'Vee S Vee case study, zero defect culture, manufacturing quality, supplier improvement' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

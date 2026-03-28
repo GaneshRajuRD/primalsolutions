@@ -96,39 +96,41 @@ Tier-1 suppliers, and component manufacturers.
                 </div>
     
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="nav-Vision" role="tabpanel" aria-labelledby="nav-Vision-tab" >
-                        <div class="row">
+                    <div class="tab-pane fade show active" id="nav-Vision" role="tabpanel">
+                        <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>
-                                    To be the most trusted transformation partner for MSMEs, automotive, and manufacturing enterprises by solving deep-rooted business challenges and driving sustainable, profitable growth. By 2030, we aspire to transform 100 organizations through operational excellence and cultural change.
-                                </p>
-                                <!-- <ul class="list">
-                                    <li>Enable companies to reach global manufacturing standards</li>
-                                    <li>Transform 100+ industries by 2030</li>
-                                    <li>Build future-ready systems and skilled workforces</li>
-                                    <li>Accelerate digital, sustainable growth across the sector</li>
-                                </ul> -->
+                                <div class="content-box">
+                                    <ul class="vision-list">
+                                        <li><strong>Trusted transformation partner</strong> for MSMEs, automotive, and manufacturing</li>
+                                        <li>Solve <strong>deep-rooted business challenges</strong></li>
+                                        <li>Drive <strong>sustainable & profitable growth</strong></li>
+                                        <li><strong>Transform 100 organizations</strong> by 2030</li>
+                                        <li>Focus on <strong>operational excellence & cultural change</strong></li>
+                                    </ul>
+                                </div>
                             </div>
+
                             <div class="col-lg-6">
-                                <img src="/assets/image/vision.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/vision.webp" class="image w-100 img-fluid" alt="Primal Solutions vision for manufacturing excellence">
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-Mission" role="tabpanel" aria-labelledby="nav-Mission-tab" >
-                        <div class="row">
+                    <div class="tab-pane fade" id="nav-Mission" role="tabpanel">
+                        <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>
-                                    “We turn strategy into execution through robust systems, strong leadership, and cultural transformation - delivering measurable impact, industry-ready talent, and sustainable performance for our clients."
-                                </p>
-                                <!-- <ul class="list">
-                                    <li>Industry 4.0 Transformation & Digital Adoption</li>
-                                    <li>Digital Quality Systems (DAMS) for robust process control</li>
-                                    <li>Developing well-trained engineers into future leaders</li>
-                                    <li>ESG-driven operational and cultural enhancement</li>
-                                </ul> -->
+                                <div class="content-box">
+                                    <ul class="vision-list">
+                                        <li>Turn <strong>strategy into execution</strong> through robust systems</li>
+                                        <li>Build <strong>strong leadership</strong> and cultural transformation</li>
+                                        <li>Deliver <strong>measurable impact</strong> for clients</li>
+                                        <li>Create <strong>industry-ready talent</strong></li>
+                                        <li>Ensure <strong>sustainable performance</strong></li>
+                                    </ul>
+                                </div>
                             </div>
+
                             <div class="col-lg-6">
-                                <img src="/assets/image/missionImage.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/missionImage2.webp" class="image w-100 img-fluid" alt="Mission-driven manufacturing consulting illustration">
                             </div>
                         </div>
                     </div>
@@ -136,21 +138,22 @@ Tier-1 suppliers, and component manufacturers.
                     <div class="tab-pane fade" id="nav-Value" role="tabpanel" aria-labelledby="nav-Value-tab" >
                         <div class="row">
                             <div class="col-lg-6">
-
-                                <ul class="list">
-                                    <li><strong>Integrity and Ethics:</strong></li>
-                                        Act with honesty and fairness, building trust through strong moral principles.
-                                    <li><strong>Customer Centric:</strong></li>
-                                        Focus on understanding customer needs and delivering solutions that ensure satisfaction.
-                                    <li><strong>Result Oriented:</strong></li>
-                                        Drive measurable outcomes efficiently while maintaining quality standards.
-                                    <li><strong>People Centric:</strong></li>
-                                        Empower and value individuals, fostering collaboration and team success.
-
-                                </ul>
+                                <div class="content-box">
+                                    <ul class="vision-list">
+                                        <li><strong>Integrity and Ethics:</strong></li>
+                                            Act with honesty and fairness, building trust through strong moral principles.
+                                        <li><strong>Customer Centric:</strong></li>
+                                            Focus on understanding customer needs and delivering solutions that ensure satisfaction.
+                                        <li><strong>Result Oriented:</strong></li>
+                                            Drive measurable outcomes efficiently while maintaining quality standards.
+                                        <li><strong>People Centric:</strong></li>
+                                            Empower and value individuals, fostering collaboration and team success.
+    
+                                    </ul>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <img src="/assets/image/valuesImg.webp" class="image w-100 img-fluid" alt="">
+                                <img src="/assets/image/valuesImg.webp" class="image w-100 img-fluid" alt="Primal Solutions company values illustration">
                             </div>
                         </div>
                         
@@ -169,7 +172,7 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="row mt-4">
                             <div class="col-sm-6">
                                 <div class="solution">
-                                    <img src="/assets/image/Strategic-Planning.png" alt="">
+                                    <img src="/assets/image/Strategic-Planning.png" alt="Strategic planning icon">
                                     <h5>Strategic Planning</h5>
                                     <p>
                                         Turning vision into action through clear strategy, performance-driven KPIs, and scalable growth.
@@ -178,7 +181,7 @@ Tier-1 suppliers, and component manufacturers.
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
-                                    <img src="/assets/image/Operational-Excellence.png" alt="">
+                                    <img src="/assets/image/Operational-Excellence.png" alt="Operational excellence icon">
                                     <h5>Operational Excellence & Lean Transformation</h5>
                                     <p>
                                         Driving operational excellence by eliminating waste and embedding Lean practices for sustained performance.
@@ -187,7 +190,7 @@ Tier-1 suppliers, and component manufacturers.
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution solution2">
-                                    <img src="/assets/image/Team-Development.png" alt="">
+                                    <img src="/assets/image/Team-Development.png" alt="Team development icon">
                                     <h5>Digital & Smart Factory Transformation</h5>
                                     <p>
                                         Transforming traditional plants into smart, data-driven factories through digital integration and advanced analytics
@@ -196,7 +199,7 @@ Tier-1 suppliers, and component manufacturers.
                             </div>
                             <div class="col-sm-6">
                                 <div class="solution">
-                                    <img src="/assets/image/Market-Insights.png" alt="">
+                                    <img src="/assets/image/Market-Insights.png" alt="Market insights icon">
                                     <h5>Talent Acquisition & Skill Development</h5>
                                     <p>
                                         Building strong organizations through the right hiring and future-ready skill development
@@ -329,6 +332,20 @@ import { onMounted, ref } from "vue";
 import { useHead } from '#app'
 import { faqs } from '~/data/faqs.js';
 
+useHead({
+    title: 'About Primal Solutions | Manufacturing Consulting & Lean Transformation',
+    meta: [
+        {
+            name: 'description',
+            content: 'Primal Solutions supports automotive and industrial manufacturers with lean transformation, digital factory consulting, quality systems, and capability-building programs for measurable operational improvement.'
+        },
+        {
+            name: 'keywords',
+            content: 'about primal solutions, manufacturing consulting, lean transformation, digital factory consulting, operational excellence, quality systems, manufacturing training'
+        }
+    ]
+});
+
 const modalMember = ref(null);
 
 const openMember = (member) => {
@@ -395,6 +412,8 @@ const faqsData = ref(faqs);
 
 .aboutUsBnr .content {
     height: 90vh;
+    width: 75%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     color: #fff;
@@ -634,6 +653,35 @@ const faqsData = ref(faqs);
     object-fit: contain;
 }
 
+.content-box {
+    background: #f8fafc;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.vision-list {
+    padding-left: 0;
+    margin: 0;
+}
+
+.vision-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.vision-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/image/tickImg.png") no-repeat center;
+    background-size: contain;
+}
 
 @media only screen and (max-width:1440px) {
     
@@ -652,6 +700,9 @@ const faqsData = ref(faqs);
     }
 }
 @media only screen and (max-width:830px) {
+    .aboutUsBnr .content {
+        width: 90%;
+    }
     .aboutUsBnr .content h1 {
         font-size: 40px;
     }

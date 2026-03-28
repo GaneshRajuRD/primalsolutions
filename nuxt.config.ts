@@ -11,7 +11,8 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "nuxt project" }
+        { hid: "description", name: "description", content: "Primal Solutions delivers manufacturing consulting, operational excellence, and digital transformation services for industrial organizations." },
+        { hid: "keywords", name: "keywords", content: "industrial consulting, manufacturing transformation, operational excellence, lean manufacturing, digital factory, automotive consulting" }
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/assets/image/primalFavIcon.png" },

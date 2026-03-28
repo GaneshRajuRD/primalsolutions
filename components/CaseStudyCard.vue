@@ -3,15 +3,15 @@
     <div class="caseStudyCard">
         <NuxtLink :to="`/${caseStudy.url}`">
         <!-- <NuxtLink to="#"> -->
-            <img :src="caseStudy.image" class="caseStudyImg" alt="" />
+            <img :src="caseStudy.image" class="caseStudyImg" :alt="caseStudy.title" />
             <div class="info">
                 <span>
-                    <img src="/assets/image/clockVector.png" class="vector" alt="">
+                    <img src="/assets/image/clockVector.png" class="vector" alt="" aria-hidden="true">
                     {{ caseStudy.readtime }}
                 </span>
                 <span> | </span>
                 <span>
-                    <img src="/assets/image/clockVector.png" class="vector" alt="">
+                    <img src="/assets/image/clockVector.png" class="vector" alt="" aria-hidden="true">
                     {{ caseStudy.date }}
                 </span>
             </div>

@@ -229,6 +229,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Market Research & Intelligence Services | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Market research and intelligence services delivering deep insights for industrial decision-making and strategic growth.' },
+    { name: 'keywords', content: 'market research, intelligence services, manufacturing market insights, industrial research' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
@@ -486,7 +494,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 94%;
     background-color: #F1F1F1;
 }
 

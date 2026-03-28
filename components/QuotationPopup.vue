@@ -6,8 +6,8 @@
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content form-modal">
 
-                    <img loading="lazy" src="/assets/image/ceo-portrait.webp" class="ceo-portrait img-fluid" />
-                    <img loading="lazy" src="/assets/image/registerPopupVector.png" class="quotationPopupVector img-fluid" />
+                    <img loading="lazy" src="/assets/image/ceo-portrait.webp" class="ceo-portrait img-fluid" alt="CEO portrait" />
+                    <img loading="lazy" src="/assets/image/registerPopupVector.png" class="quotationPopupVector img-fluid" alt="Decorative quote background" />
 
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     <!-- Modal Header -->

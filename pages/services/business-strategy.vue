@@ -216,6 +216,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Business Strategy | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Business strategy services that help manufacturers build measurable plans, align teams, and drive profitable growth.' },
+    { name: 'keywords', content: 'business strategy consulting, manufacturing strategy, industrial growth planning' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';

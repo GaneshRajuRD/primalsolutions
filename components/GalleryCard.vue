@@ -2,7 +2,7 @@
 
     <div class="galleryCard">
         <div class="image-wrapper" @click="showPopup = true">
-            <img :src="`${gallery.image}`" class="img-fluid" />
+            <img :src="`${gallery.image}`" class="img-fluid" :alt="gallery.title" />
         </div>
         <div class="content">
             <h5 class="mb-2">{{ gallery.title }}</h5>
@@ -15,10 +15,7 @@
             <div class="popup-content" @click.stop>
                 <button class="close-btn" @click="showPopup = false">&times;</button>
                 <h3>{{ gallery.title }}</h3>
-                <img :src="currentImage" class="popup-image" />
-                <!-- <p v-if="gallery.description">{{ gallery.description }}</p> -->
-
-                <div v-if="hasMultipleImages" class="popup-thumbnails">
+                    <img :src="currentImage" class="popup-image" :alt="`Gallery image for ${gallery.title}`" />
                     <div
                         v-for="(img, index) in gallery.images"
                         :key="index"
@@ -26,11 +23,11 @@
                         :class="{ active: selectedIndex === index }"
                         @click.stop="selectedIndex = index"
                     >
-                        <img :src="img" />
+                        <img :src="img" :alt="`Thumbnail ${index + 1} for ${gallery.title}`" />
                     </div>
                 </div>
             </div>
-        </div>
+        
     </transition>
 
 </template>

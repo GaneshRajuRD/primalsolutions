@@ -225,6 +225,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Digital & Smart Factory Transformation | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Digital and smart factory transformation services for connected manufacturing, real-time monitoring, and Industry 4.0 adoption.' },
+    { name: 'keywords', content: 'smart factory, digital manufacturing, industry 4.0, manufacturing transformation' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';

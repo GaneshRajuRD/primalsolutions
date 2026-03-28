@@ -225,6 +225,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Skill Development Programs and Certifications | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Skill development programs and certification readiness services for manufacturing teams and industrial organizations.' },
+    { name: 'keywords', content: 'skill development, certification readiness, manufacturing training, workforce development' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
@@ -483,7 +491,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 94%;
     background-color: #F1F1F1;
 }
 

@@ -107,13 +107,22 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Sectors | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Explore the sectors Primal Solutions transforms, from automotive and electronics to FMCG, medical equipment, and industrial manufacturing.' },
+    { name: 'keywords', content: 'sectors, automotive consulting, FMCG manufacturing, electronics production, medical equipment manufacturing' }
+  ]
+})
+
 import { onMounted } from "vue";
 
 import { blogs } from '~/data/blogs.js';
 import { caseStudies } from '~/data/caseStudies.js';
 const sectors = ref([
     {
-        title: 'automotive & components manufacturing',
+        title: 'Automotive & Components Manufacturing',
         description: 'We help automotive plants improve line efficiency, reduce defects, and build scalable production systems across complex, fast-moving operations.',
         image: '/assets/image/Automotive-Manufacturing.webp',
     },

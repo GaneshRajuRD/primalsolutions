@@ -22,19 +22,19 @@
                     </div>
                     <div class="delivery2">
                         <div class="content">
-                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
+                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="" aria-hidden="true">
                             <p class="mb-0">Driving Supplier Performance & Competence</p>
                         </div>
                     </div>
                     <div class="delivery2">
                         <div class="content">
-                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
+                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="" aria-hidden="true">
                             <p class="mb-0">Improving OEM Supplier Performance Ranking</p>
                         </div>
                     </div>
                     <div class="delivery2">
                         <div class="content">
-                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
+                            <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="" aria-hidden="true">
                             <p class="mb-0">Supplier Enhancement Cluster Program</p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-lg-5">
                             <div class="processImg">
-                                <img src="/assets/image/SupplierCapabilityImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                                <img src="/assets/image/SupplierCapabilityImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="Supplier capability and performance enhancement illustration">
                             </div>
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
@@ -145,7 +145,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="processImg">
-                            <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="">
+                            <img src="/assets/image/operationsImg.webp" class="img-fluid w-100" alt="Operational excellence illustration">
                         </div>
                     </div>
                 </div>
@@ -202,14 +202,14 @@
             <div class="row">
                 <div class="col-lg-6 pe-lg-5 mt-4">
                     <div class="faqImg">
-                        <img src="/assets/image/faqImg.webp" class="w-100 img-fluid" alt="">
+                        <img src="/assets/image/faqImg.webp" class="w-100 img-fluid" alt="Frequently asked questions illustration">
                         <div class="contact">
                             <a href="#">
-                                <img src="/assets/image/callIcon.png" class="img-fluid" alt="">
+                                <img src="/assets/image/callIcon.png" class="img-fluid" alt="Phone icon">
                                 +91 1236547890
                             </a>
                             <a href="#">
-                                <img src="/assets/image/mailIcon.png" class="img-fluid" alt="">
+                                <img src="/assets/image/mailIcon.png" class="img-fluid" alt="Email icon">
                                 info@domainname.com
                             </a>
                         </div>
@@ -227,6 +227,15 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Supplier Capability and Performance Enhancement | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Supplier capability and performance enhancement services focused on supply chain quality, delivery, and supplier development.' },
+    { name: 'keywords', content: 'supplier capability, supplier performance, supply chain quality, supplier development' }
+  ]
+});
+
 import { onMounted, ref, nextTick, computed, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
@@ -482,7 +491,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 94%;
     background-color: #F1F1F1;
 }
 

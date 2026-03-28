@@ -540,18 +540,24 @@ h1, h2, h3, h4, h5, h6{
 
 /* Shared process image styling */
 .processImg {
-  position: relative;
+  /* position: relative; */
 }
 
 .processImg img {
   display: block;
   width: 100%;
+  border-radius: 15px;
+    border: 5px solid #e1e1e1;
 }
 
-.processImg::after {
+/* .processImg::after {
   content: "";
   position: absolute;
   inset: 0;
   background: radial-gradient(circle, rgb(0 0 0 / 0%) 30%, rgb(255 255 255 / 61%) 100%);
   pointer-events: none;
-} 
+}  */
+
+.faqImg .contact{
+  display: none !important;
+}

@@ -112,6 +112,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'MRLP Case Study | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'MRLP case study showing automotive supply chain transformation and manufacturing improvement.' },
+    { name: 'keywords', content: 'MRLP case study, automotive transformation, manufacturing performance' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

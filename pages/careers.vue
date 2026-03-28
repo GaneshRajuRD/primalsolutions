@@ -18,7 +18,7 @@
             <div class="whyUsCard">
                 <div class="row">
                     <div class="col-lg-5">
-                        <img src="/assets/image/careersImg.webp" class="mb-4 mb-lg-0 w-100 img-fluid" alt="">
+                        <img src="/assets/image/careersImg.webp" class="mb-4 mb-lg-0 w-100 img-fluid" alt="Careers at Primal Solutions" loading="lazy">
                     </div>
                     <div class="col-lg-7">
                         <div class="ps-lg-3">
@@ -194,6 +194,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Careers | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Find career opportunities at Primal Solutions in industrial consulting, manufacturing transformation, and operational excellence.' },
+    { name: 'keywords', content: 'careers, manufacturing consulting jobs, industrial consulting careers, Primal Solutions careers' }
+  ]
+})
 import { onMounted, computed, ref } from "vue";
 import { statesCitiesData } from '../data/statesCities.js';
 import SuccessPopup from '../components/SuccessPopup.vue';

@@ -64,6 +64,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'STS Lean Case Study | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'STS Lean case study focused on lean transformation and operational excellence in manufacturing.' },
+    { name: 'keywords', content: 'STS Lean case study, lean transformation, operational excellence, manufacturing improvement' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

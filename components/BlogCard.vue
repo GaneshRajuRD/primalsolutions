@@ -3,7 +3,7 @@
     <div class="blogCard">
         <!-- <NuxtLink :to="`/blogs/`+ blog.url"> -->
         <NuxtLink to="#">
-            <img :src="blog.image" class="blogImg" alt="" />
+            <img :src="blog.image" class="blogImg" :alt="blog.title" />
             <div class="row">
                 <div class="col-10 col-sm-8">
                     <p>{{ blog.title }}</p>

@@ -65,6 +65,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Prabha Automotive Case Study | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Prabha Automotive case study highlighting supplier excellence and improved manufacturing performance.' },
+    { name: 'keywords', content: 'Prabha automotive case study, supplier excellence, manufacturing improvement' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

@@ -77,6 +77,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Terms & Conditions | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Review the terms and conditions for using Primal Solutions website services, consulting content, and policies.' },
+    { name: 'keywords', content: 'terms and conditions, website terms, Primal Solutions legal, consulting agreement terms' }
+  ]
+})
 import { onMounted } from "vue";
 
 </script>

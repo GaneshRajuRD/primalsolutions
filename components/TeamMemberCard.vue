@@ -1,7 +1,7 @@
 <template>
                 <div class="teamMemberCard" @click="open" role="button">
                     <div class="card">
-                        <img :src="teamMember.image" alt="" class="card-img-top">
+                        <img :src="teamMember.image" :alt="`Photo of ${teamMember.name}`" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">{{ teamMember.name }}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{{ teamMember.position }}</h6>

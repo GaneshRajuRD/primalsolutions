@@ -225,6 +225,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Operational Excellence & Lean Transformation | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Operational excellence and lean transformation services that boost manufacturing performance and process reliability.' },
+    { name: 'keywords', content: 'operational excellence, lean transformation, manufacturing improvement, process optimization' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
@@ -481,7 +489,7 @@ onBeforeUnmount(() => {
     top: 10%;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 90%;
     background-color: #F1F1F1;
 }
 

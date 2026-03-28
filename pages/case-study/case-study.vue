@@ -55,6 +55,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Case Studies | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Explore Primal Solutions case studies showing manufacturing, operational, and quality transformation results.' },
+    { name: 'keywords', content: 'case studies, manufacturing transformation, operational excellence, success stories' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

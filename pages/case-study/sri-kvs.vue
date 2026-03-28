@@ -96,6 +96,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Sri KVS Case Study | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Sri KVS case study demonstrating plant layout improvement and operational efficiency in manufacturing.' },
+    { name: 'keywords', content: 'Sri KVS case study, plant layout improvement, manufacturing efficiency' }
+  ]
+})
 import { onMounted } from "vue";
 
 const videos = ref([

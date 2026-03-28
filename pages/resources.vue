@@ -40,7 +40,7 @@
                         <div class="blogCard2" v-for="blog in blogs.slice(0,1)">
                             <div class="row">
                                 <div class="col-sm-7 pe-lg-5">
-                                    <img :src="blog.image" class="blogImg w-100 img-fluid" alt="" />
+                                    <img :src="blog.image" class="blogImg w-100 img-fluid" :alt="blog.title" loading="lazy" />
                                 </div>
                                 <div class="col-sm-5">
                                     <h3>{{ blog.title }}</h3>
@@ -90,6 +90,15 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Resources | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Browse Primal Solutions resources, including blogs, case studies, and galleries about manufacturing transformation and operational excellence.' },
+    { name: 'keywords', content: 'manufacturing resources, industrial blogs, case studies, operational excellence content' }
+  ]
+})
+
 import { onMounted, ref, watch } from "vue";
 import { useRoute } from 'vue-router';
 import { blogs } from '~/data/blogs.js';

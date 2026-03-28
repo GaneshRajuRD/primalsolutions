@@ -236,6 +236,14 @@
     </div>
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Talent Hiring & Management Services | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Talent hiring and management services for manufacturing organizations seeking skilled teams and long-term workforce performance.' },
+    { name: 'keywords', content: 'talent hiring, workforce management, manufacturing recruitment, industrial talent services' }
+  ]
+})
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';

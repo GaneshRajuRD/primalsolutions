@@ -75,6 +75,14 @@
 
 </template>
 <script setup>
+import { useHead } from '#app'
+useHead({
+  title: 'Privacy Policy | Primal Solutions',
+  meta: [
+    { name: 'description', content: 'Read the privacy policy for Primal Solutions and learn how we protect your personal information and website activity.' },
+    { name: 'keywords', content: 'privacy policy, data protection, personal information, Primal Solutions privacy' }
+  ]
+})
 
 </script>
 <style scoped>
