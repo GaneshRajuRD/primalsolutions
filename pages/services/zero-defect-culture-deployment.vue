@@ -409,7 +409,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .serviceBnr {
     position: relative;
-    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/zero-defect-culture-deployment.webp');
+    background-image: linear-gradient(68deg,rgb(0, 0, 0, 0.5),rgb(0, 0, 0,0)),url('/assets/image/zero-defect-culture-deployment 2.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

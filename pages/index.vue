@@ -96,7 +96,7 @@
                     </div>
                     <div class="row mt-sm-4">
                         <div class="col-lg-6 mt-sm-4">
-                            <img src="/public/assets/image/our-process-image2.webp" class="ourProcessImage ourProcessImage2 img-fluid w-100" alt="Manufacturing process workflow illustration" loading="lazy">
+                            <img src="/public/assets/image/our-process-image.webp" class="ourProcessImage ourProcessImage2 img-fluid w-100" alt="Manufacturing process workflow illustration" loading="lazy">
                              <!-- <img src="/public/assets/image/our-process-image2.webp" class="ourProcessImage blended-image img-fluid  w-100" alt=""> -->
                         </div>
                         <div class="col-lg-6">

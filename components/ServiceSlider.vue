@@ -57,7 +57,7 @@ export default {
           id: 5,
           title: 'Zero Defect Culture Deployment',
           description: 'We foster a Zero Defect culture by strengthening QMS, embedding preventive quality systems, and integrating DWM for effective daily monitoring and continuous improvement.',
-          image: '/assets/image/zero-defect-culture-deployment.webp',
+          image: '/assets/image/zero-defect-culture-deployment 2.webp',
           link: 'zero-defect-culture-deployment'
         },
         {
