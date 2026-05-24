@@ -6,6 +6,13 @@
                             <h5 class="card-title">{{ teamMember.name }}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{{ teamMember.position }}</h6>
                             <p class="card-text" v-if="teamMember.description">{{ teamMember.description }}</p>
+                            <button
+                                class="btn btn-link p-0 read-more-btn"
+                                type="button"
+                                @click.stop="open"
+                            >
+                                Read more
+                            </button>
                             <a :href="`tel:${teamMember.contact}`" class="card-text contact" v-if="teamMember.contact" @click.stop>{{ teamMember.contact }}</a>
                         </div>
                     </div>
@@ -69,5 +76,36 @@
     text-decoration: none;
     font-weight: bold;
     color: #007bff;
+}
+
+.teamMemberCard .read-more-btn {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    margin: 0;
+    background-color: #111F61;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 4px 12px !important;
+    text-decoration: none;
+    line-height: 1.4;
+    border: 1px solid #111F61;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.teamMemberCard .read-more-btn:hover,
+.teamMemberCard .read-more-btn:focus {
+    background-color: #fff;
+    color: #111F61;
+    text-decoration: none;
+    transform: translateX(2px);
+    box-shadow: 0 2px 6px rgba(17, 31, 97, 0.18);
+}
+
+/* Ensure absolute positioning works */
+.teamMemberCard .card-body {
+    position: relative;
+    padding-bottom: 26px;
 }
 </style>

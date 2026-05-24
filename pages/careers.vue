@@ -8,7 +8,7 @@
                 <div class="content text-center">
                     <h1 class="fw-bold">Careers</h1>
                     <p>
-                        Explore exciting opportunities and grow your career in property management with us
+                        Explore exciting opportunities and grow your career in Manufacturing with us
                     </p>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                         <div class="ps-lg-3">
                             <h2 class="bigFont">Why should you consider joining us</h2>
                             <h3 class="fw-light">
-                                “We build an environment that supports your goals, respects your space, and helps you grow at a pace that keeps your work and personal life in harmony.
+                                Gain hands-on manufacturing experience through real-time problem solving and continuous improvement.
                             </h3>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             <div>
                                 <h1 class="text-white width-75 fw-bold mx-0">Let's Build Your Career with Us</h1>
                                 <p class="width-75 mx-0 mt-3">
-                                    Join Scarfree Centre and take the next step in your career with a team dedicated to excellence in healthcare. We offer a supportive environment where your skills and passion can thrive. Grow with us as we shape the future of medical care together
+                                    Join passionate professionals dedicated to shaping the future of manufacturing.
                                 </p>
                             </div>
                             <img src="/assets/image/careerFormImg.webp" class="img-fluid" alt="">

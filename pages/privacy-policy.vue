@@ -64,8 +64,8 @@
                     <br>
                 </p>
                 <h6>Primal Solutions</h6>
-                <p>Email: <a href="mailto:info@primalsolutions.com">info@primalsolutions.com</a></p>
-                <p>Phone: <a href="tel: +91 00000 00000">+91 00000 00000</a></p>
+                <p>Email: <a href="mailto:info@primalsolutions.com">info@primalsolutions.in</a></p>
+                <p>Phone: <a href="tel: +91 90030 71320">+91 90030 71320</a></p>
 
             </div>
         </div>

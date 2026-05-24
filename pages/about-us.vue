@@ -91,7 +91,7 @@ Tier-1 suppliers, and component manufacturers.
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0309 3.53028C21.4955 3.23163 22.1142 3.36613 22.4129 3.8307L29.3557 14.6307C29.5334 14.907 29.564 15.253 29.4376 15.5562L20.9233 35.9848C20.7108 36.4945 20.1253 36.7356 19.6156 36.5231C19.1058 36.3106 18.8648 35.7251 19.0772 35.2153L27.3897 15.271L20.7305 4.91222C20.4319 4.44765 20.5664 3.82893 21.0309 3.53028Z" fill="#111F61"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.484375 15.1716C0.484375 14.6193 0.93209 14.1716 1.48438 14.1716H38.5129C39.0652 14.1716 39.5129 14.6193 39.5129 15.1716C39.5129 15.7239 39.0652 16.1716 38.5129 16.1716H1.48438C0.93209 16.1716 0.484375 15.7239 0.484375 15.1716Z" fill="#222222"/>
                         </svg>
-                        Our Value
+                        Our Values
                     </button>
                 </div>
     
@@ -100,13 +100,16 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="content-box">
-                                    <ul class="vision-list">
+                                    <!-- <ul class="vision-list">
                                         <li><strong>Trusted transformation partner</strong> for MSMEs, automotive, and manufacturing</li>
                                         <li>Solve <strong>deep-rooted business challenges</strong></li>
                                         <li>Drive <strong>sustainable & profitable growth</strong></li>
                                         <li><strong>Transform 100 organizations</strong> by 2030</li>
                                         <li>Focus on <strong>operational excellence & cultural change</strong></li>
-                                    </ul>
+                                    </ul> -->
+                                    <p>
+                                        To be the most trusted transformation partner for MSMEs, automotive, and manufacturing enterprises by solving deep-rooted business challenges and driving sustainable, profitable growth. <br><br> By 2030, we aspire to transform 100 organizations through operational excellence and cultural change.
+                                    </p>
                                 </div>
                             </div>
 
@@ -119,13 +122,16 @@ Tier-1 suppliers, and component manufacturers.
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="content-box">
-                                    <ul class="vision-list">
+                                    <!-- <ul class="vision-list">
                                         <li>Turn <strong>strategy into execution</strong> through robust systems</li>
                                         <li>Build <strong>strong leadership</strong> and cultural transformation</li>
                                         <li>Deliver <strong>measurable impact</strong> for clients</li>
                                         <li>Create <strong>industry-ready talent</strong></li>
                                         <li>Ensure <strong>sustainable performance</strong></li>
-                                    </ul>
+                                    </ul> -->
+                                    <p>
+                                        “We turn strategy into execution through robust systems, strong leadership, and cultural transformation - delivering measurable impact, industry-ready talent, and sustainable performance for our clients."
+                                    </p>
                                 </div>
                             </div>
 
@@ -153,7 +159,7 @@ Tier-1 suppliers, and component manufacturers.
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <img src="/assets/image/valuesImg.webp" class="image w-100 img-fluid" alt="Primal Solutions company values illustration">
+                                <img src="/assets/image/valuesImg.webp" class="image mt-4 w-100 img-fluid" alt="Primal Solutions company values illustration">
                             </div>
                         </div>
                         
@@ -193,7 +199,7 @@ Tier-1 suppliers, and component manufacturers.
                                     <img src="/assets/image/Team-Development.png" alt="Team development icon">
                                     <h5>Digital & Smart Factory Transformation</h5>
                                     <p>
-                                        Transforming traditional plants into smart, data-driven factories through digital integration and advanced analytics
+                                        Transforming traditional factories into smart, data-driven operations through digital integration and advanced analytics
                                     </p>
                                 </div>
                             </div>
@@ -233,7 +239,7 @@ Tier-1 suppliers, and component manufacturers.
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row TeamMemberSection">
                 <div class="col-sm-6 col-lg-4 col-xl-3" v-for="teamMember in teamMembers" :key="teamMember.name">
                     <TeamMemberCard :teamMember="teamMember" @open="openMember" />
                 </div>
@@ -314,7 +320,7 @@ Tier-1 suppliers, and component manufacturers.
                                 <h2 class="mb-3" v-if="modalMember?.bioTitle">{{ modalMember?.bioTitle }}</h2>
                                 <h4 class="mb-1">{{ modalMember?.name }}</h4>
                                 <h6 class="text-muted mb-3">{{ modalMember?.position }}</h6>
-                                <p v-if="modalMember?.bio" class="bio">{{ modalMember.bio }}</p>
+                                <div v-if="modalMember?.bio" class="bio" v-html="modalMember.bio"></div>
                                 <p v-else-if="modalMember?.description">{{ modalMember.description }}</p>
                                 <!-- <p v-if="modalMember?.contact"><strong>Contact:</strong> <a :href="`tel:${modalMember.contact}`">{{ modalMember.contact }}</a></p> -->
                             </div>
@@ -359,9 +365,11 @@ const teamMembers = [
     {
         name: 'T.R Renukanthan',
         position: 'Chief Mentor',
-        description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.), Ashok Leyland.',
+        description: 'Business Excellence – Consultant, DGM Central Quality (Rtd.)',
         bioTitle: '',
-        bio: `Business Excellence Consultant with 35+ years of experience in manufacturing, quality systems, and operational excellence across automotive and industrial sectors. Former DGM – Central Quality at Ashok Leyland, with deep expertise in TPM, Lean Six Sigma, AIAG Core Tools (PPAP, APQP), and performance management systems. Proven track record in partnering with leadership teams on strategy, KPIs, and shop-floor transformation. Strong focus on process improvement, digital quality adoption, workforce capability building, and sustainable manufacturing excellence. Known for practical, results-driven consulting that delivers measurable improvements in quality, efficiency, and organizational performance.`,
+        bio: `<p><strong>Business Excellence Consultant</strong> with 35+ years of experience in automotive and industrial manufacturing. Former <strong>DGM – Central Quality at Ashok Leyland</strong>, specializing in manufacturing excellence, supplier quality, and digital quality systems.</p>
+            <p>Experienced in partnering with leadership on KPI deployment, strategic planning, and continuous improvement initiatives. Strong expertise in <strong>TQM, Policy Deployment, Daily Management, and AIAG Core Tools</strong>, including OEM audits.</p>
+            <p>Focused on driving <strong>shop-floor transformation, operational excellence, and measurable business results</strong>.</p>`,
         image: '/assets/image/T.R Renukanthan.png',
     },
     {
@@ -369,7 +377,8 @@ const teamMembers = [
         position: 'Founder & CEO',
         description: 'Business Consultant.',
         bioTitle: '',
-        bio: `Business Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement for manufacturing MSMEs. Currently with Primal Solutions, he has led turnkey quality and profitability improvement projects across automotive and industrial sectors. Strong expertise in Lean Six Sigma, AIAG Core Tools (PPAP, APQP), supplier development, and shop-floor excellence. He has supported OEMs and Tier-1 suppliers including Ashok Leyland, TAFE, and PSA, enabling greenfield setups, process stabilization, and sustainable performance improvement. Known for hands-on execution, structured problem solving, and capability building across engineering teams.`,
+        bio: `<p><strong>Business Consultant</strong> with 10+ years of <strong>consulting experience in automotive manufacturing</strong>, with a strong focus on manufacturing excellence, greenfield project execution, and shopfloor transformation. Delivered measurable improvements in efficiency, cost, and overall performance by implementing Lean practices across 75+ MSMEs.</p>
+            <p>Leads turnkey improvements while collaborating with leadership on KPI deployment and strategic planning. Driving business transformation through <strong>structured goal setting, strong performance management systems, and operational excellence.</strong></p>`,
         image: '/assets/image/Ashok Soundararajan.webp',
     },
     {
@@ -377,17 +386,19 @@ const teamMembers = [
         position: 'Senior Consultant',
         description: '',
         bioTitle: '',
-        bio: `Senior Consultant with over a decade of experience in quality engineering, Lean manufacturing, and continuous improvement across sheet metal, fabrication, casting, and machining industries. He brings strong expertise in shop-floor training, problem-solving, AIAG Core Tools, and quality management systems. Ramkumar has successfully implemented Lean practices, improved productivity and cost efficiency, and supported vendor development and supply chain performance. He has trained 100+ engineers in core quality tools and problem-solving methodologies. Known for hands-on execution, team building, and practical manufacturing solutions that deliver sustainable operational excellence.`,
+        bio: `<p><strong>Senior Consultant</strong> | 14+ years in <strong>Quality Engineering &amp; Lean Manufacturing</strong></p>
+            <p>Specialist in shop-floor transformation through structured problem-solving, delivering measurable improvements in productivity, cost efficiency, and enhancing supplier performance. Strong expertise in <strong>drawing interpretation, GD&amp;T, and precision measurement systems, with experience in training engineers across Tier I organizations.</strong> </p>
+            <p>Led Lean implementations and vendor development initiatives to drive operational excellence.</p>`,
         image: '/assets/image/Ramkumar S.png',
     },
-    {
-        name: 'Sairam D K',
-        position: 'Associate Consultant',
-        description: '',
-        bioTitle: '',
-        bio: `Associate Consultant focussed on supporting on-ground implementation and data collection. Trained in core improvement methods and assisting with shop-floor coaching, data analysis and documentation.`,
-        image: '/assets/image/Sairam D K.png',
-    },
+    // {
+    //     name: 'Sairam D K',
+    //     position: 'Associate Consultant',
+    //     description: '',
+    //     bioTitle: '',
+    //     bio: `Associate Consultant focussed on supporting on-ground implementation and data collection. Trained in core improvement methods and assisting with shop-floor coaching, data analysis and documentation.`,
+    //     image: '/assets/image/Sairam D K.png',
+    // },
 ];
 
 const faqsData = ref(faqs);
@@ -658,6 +669,11 @@ const faqsData = ref(faqs);
     padding: 25px;
     border-radius: 20px;
 }
+.content-box p {
+    margin: 0;
+    color: #444;
+    line-height: 1.8;
+}
 
 .vision-list {
     padding-left: 0;
@@ -668,8 +684,11 @@ const faqsData = ref(faqs);
     list-style: none;
     position: relative;
     padding-left: 30px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     line-height: 1.8;
+}
+.vision-list li:first-child {
+    margin-top: 0;
 }
 
 .vision-list li::before {
@@ -681,6 +700,9 @@ const faqsData = ref(faqs);
     height: 16px;
     background: url("/assets/image/tickImg.png") no-repeat center;
     background-size: contain;
+}
+.TeamMemberSection{
+    justify-content: center;
 }
 
 @media only screen and (max-width:1440px) {

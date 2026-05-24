@@ -546,7 +546,7 @@ h1, h2, h3, h4, h5, h6{
 .processImg img {
   display: block;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
     border: 5px solid #e1e1e1;
 }
 

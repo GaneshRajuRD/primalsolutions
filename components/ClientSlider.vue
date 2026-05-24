@@ -17,14 +17,16 @@ import { onMounted } from "vue";
 const clients = [
     { image: '/assets/image/client1.png' },
     { image: '/assets/image/client2.png' },
+    { image: '/assets/image/client11.png' },
     { image: '/assets/image/client3.png' },
-    { image: '/assets/image/client4.png' },
-    { image: '/assets/image/client5.png' },
+    { image: '/assets/image/client4.jpg' },
     { image: '/assets/image/client6.png' },
+    { image: '/assets/image/client5.png' },
     { image: '/assets/image/client7.png' },
-    { image: '/assets/image/client8.png' },
-    { image: '/assets/image/client9.png' },
     { image: '/assets/image/client10.png' },
+    { image: '/assets/image/client12.png' },
+    { image: '/assets/image/client9.png' },
+    { image: '/assets/image/client8.png' },
 ];
 
 onMounted(() => {

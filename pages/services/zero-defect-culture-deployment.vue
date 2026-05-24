@@ -23,7 +23,7 @@
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Strengthening QMS Practices</p>
+                            <p class="mb-0">Strengthen Quality Management Systems.</p>
                         </div>
                     </div>
                     <div class="delivery2">
@@ -55,17 +55,20 @@
                             <span class="tag">What we do</span>
                             <h1 class="playfairText themeText mt-3">Deploy Zero Defect Culture</h1>
                             <p>
-                                We foster a Zero Defect culture by strengthening QMS, embedding preventive quality systems, and integrating DWM for effective daily monitoring and continuous improvement.
+                                We drive a Zero Defect culture through strong QMS, preventive quality systems, and DWM for daily monitoring and continuous improvement.
                             </p>
                             <ul class="strengthList">
-                                <li>
+                                <!-- <li>
                                     <strong>Quality Management System Strengthening</strong>
                                 </li>
-                                    Strengthen QMS to ensure consistent product quality and compliance.
+                                    Strengthen QMS for consistent quality and compliance using the 3D concept for defect prevention.
                                 <li>
                                     Implement structured quality practices using the 3D Concept for defect prevention.
                                 </li>
-                                <strong>DON’T PASS DEFECT - INSPECTION DON’T MAKE DEFECT - ASSURANCE BY PROCESS CAPABILITY DON’T ACCEPT DEFECT - TIER II CONTROL</strong>
+                                <strong>DON’T PASS DEFECT - INSPECTION DON’T MAKE DEFECT - ASSURANCE BY PROCESS CAPABILITY DON’T ACCEPT DEFECT - TIER II CONTROL</strong> -->
+                                <li>
+                                    <strong>Strengthen QMS for consistent quality and compliance</strong> using the 3D concept for defect prevention.
+                                </li>
                                 <li class="mt-3">
                                     <strong>Establish robust DWM systems and practices</strong>
                                      to strengthen daily monitoring and problem-solving capabilities.
@@ -121,7 +124,7 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                50% reduction in COPQ (FE & FI) from the current level
+                                Reduction in COPQ <br> (FE & FI)
                             </h5>
                         </div>
                     </div>
@@ -141,7 +144,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <h4 class="gearIcon fw-bold">OUR PROCESS</h4>
-                        <h1 class="playfairText themeText">How We Transform <br> Operations</h1>
+                        <h1 class="playfairText themeText mb-4">How We Transform Operations</h1>
                         <div class="accordionSec">
                             <Accordion :accordions="operations" />
                         </div>
@@ -155,40 +158,15 @@
             </div>
         </div>
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5">
-                    <h4 class="gearIcon fw-bold">OUR CASESTUDIES</h4>
-                    <h2 class="fw-light">Insights from our <span class="fw-bold">latest Projects</span></h2>
-                </div>
-                <div class="col-sm-0 col-lg-1 px-0"></div>
-                <div class="col-sm-12 col-lg-6">
-                    <p class="mt-4 pt-2">
-                        Real examples of how we’ve helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
-                    </p>
-                    <NuxtLink to="/resources#CaseStudies" class="blueBtn">View More</NuxtLink>
-                </div>
-            </div>
-
-            <div class="splide py-sm-4 py-2 caseStudy-slider" v-if="caseStudies.length > 0">
-                <div class="splide__track py-4">
-                    <ul class="splide__list">
-<li class="splide__slide" v-for="caseStudy in caseStudies">
-                            <CaseStudyCard :caseStudy="caseStudy" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-                
-        </div>
+        <CaseStudiesSection :caseStudies="caseStudies" />
 
         
-        <div class="realResultsSec py-5" v-if="videos.length > 0">
+        <!-- <div class="realResultsSec py-5" v-if="videos.length > 0">
             <div class="container">
                 <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
                 <VideoTabs :videos="videos" />
             </div>
-        </div>
+        </div> -->
 
         <ContactFormBg />
         <ContactForm />
@@ -240,20 +218,12 @@ useHead({
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
+import { caseStudies as allCaseStudies } from '~/data/caseStudies.js';
 
 const textSlider = ref(null);
 let textSliderInitialized = false;
 
-// Case study for Zero Defect service
-const caseStudies = ref([
-    {
-        title: 'Redefining Bar Machining Performance Through Operational Excellence & Zero-Defect Culture',
-        image: '/assets/image/zero defect culture.webp',
-        readtime: '6 min read',
-        date: 'Dec 10, 2025',
-        url: 'case-study/vee-s-vee'
-    },
-]);
+const caseStudies = allCaseStudies.filter(cs => cs.url === 'case-study/vee-s-vee');
 
 const videos = ref([
     {
@@ -365,33 +335,6 @@ onMounted(async () => {
         console.error('Error during Slick initialization:', error);
     }
 
-    // Initialize Splide carousel
-    const splide3 = new Splide(".caseStudy-slider", {
-        drag: "free",
-        focus: 0,
-        omitEnd: true,
-        snap: true,
-        arrows: true,
-        indicators: true,
-        breakpoints: {
-            2600: {
-                perPage: 2,
-            },
-            1440: {
-                perPage: 2,
-            },
-            1024: {
-                perPage: 2,
-            },
-            768: {
-                perPage: 2,
-            },
-            576: {
-                perPage: 1,
-            },
-        },
-    });
-    splide3.mount();
 });
 
 onBeforeUnmount(() => {
@@ -642,7 +585,7 @@ onBeforeUnmount(() => {
 .tag{
     background-color: #F1F2F5;
     border-radius: 6px;
-    padding: 4px 10px;
+    padding: 4px 0;
     font-size: 15px;
 }
 .strengthList li{

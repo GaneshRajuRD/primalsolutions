@@ -62,23 +62,23 @@
                                 <li>
                                     <strong>Talent Acquisition Strategy & Planning </strong>
                                 </li>
-                                    Define hiring strategies aligned with business goals.
+                                    <!-- Define hiring strategies aligned with business goals. -->
                                 <li>
                                     <strong>Competency Mapping & Role Profiling</strong>
                                 </li>
-                                    Identify skills and competencies required for roles.  
+                                    <!-- Identify skills and competencies required for roles.   -->
                                 <li>
                                     <strong>Leadership & High-Potential Talent Development</strong>
                                 </li>
-                                    Develop programs for future leaders.
+                                    <!-- Develop programs for future leaders. -->
                                 <li>
                                     <strong>Performance Management System Design</strong>
                                 </li>
-                                    Implement frameworks to measure and improve performance.
+                                    <!-- Implement frameworks to measure and improve performance. -->
                                 <li>
                                     <strong>Employee Engagement & Retention Programs</strong>
                                 </li>
-                                    Boost workforce motivation and reduce attrition.
+                                    <!-- Boost workforce motivation and reduce attrition. -->
 
                             </ul>
                         </div>
@@ -147,7 +147,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <h4 class="gearIcon fw-bold">OUR PROCESS</h4>
-                        <h1 class="playfairText themeText">How We Transform <br> Operations</h1>
+                        <h1 class="playfairText themeText mb-4">How We Transform Operations</h1>
                         <div class="accordionSec">
                             <Accordion :accordions="operations" />
                         </div>
@@ -162,40 +162,10 @@
             </div>
         </div>
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5">
-                    <h4 class="gearIcon fw-bold">OUR CASESTUDIES</h4>
-                    <h2 class="fw-light">Insights from our <span class="fw-bold">latest Projects</span></h2>
-                </div>
-                <div class="col-sm-0 col-lg-1 px-0"></div>
-                <div class="col-sm-12 col-lg-6">
-                    <p class="mt-4 pt-2">
-                        Real examples of how we’ve helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
-                    </p>
-                    <NuxtLink to="/resources#CaseStudies" class="blueBtn">View More</NuxtLink>
-                </div>
-            </div>
-
-            <div class="splide py-sm-4 py-2 caseStudy-slider" v-if="caseStudies.length > 0">
-                <div class="splide__track py-4">
-                    <ul class="splide__list">
-                        <li class="splide__slide" v-for="caseStudy in caseStudies">
-                            <CaseStudyCard :caseStudy="caseStudy" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-                
-        </div>
+        <CaseStudiesSection :caseStudies="caseStudies" />
 
         
-        <div class="realResultsSec py-5" v-if="videos.length > 0">
-            <div class="container">
-                <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
-                <VideoTabs :videos="videos" />
-            </div>
-        </div>
+        <RealResultsSection :videos="videos" />
 
         <ContactFormBg />
         <ContactForm />
@@ -376,33 +346,6 @@ onMounted(async () => {
         console.error('Error during Slick initialization:', error);
     }
 
-    // Initialize Splide carousel
-    const splide3 = new Splide(".caseStudy-slider", {
-        drag: "free",
-        focus: 0,
-        omitEnd: true,
-        snap: true,
-        arrows: true,
-        indicators: true,
-        breakpoints: {
-            2600: {
-                perPage: 2,
-            },
-            1440: {
-                perPage: 2,
-            },
-            1024: {
-                perPage: 2,
-            },
-            768: {
-                perPage: 2,
-            },
-            576: {
-                perPage: 1,
-            },
-        },
-    });
-    splide3.mount();
 });
 
 onBeforeUnmount(() => {
@@ -654,7 +597,7 @@ onBeforeUnmount(() => {
 .tag{
     background-color: #F1F2F5;
     border-radius: 6px;
-    padding: 4px 10px;
+    padding: 4px 0;
     font-size: 15px;
 }
 .strengthList li{

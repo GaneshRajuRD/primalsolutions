@@ -82,12 +82,7 @@
 
         </div>
 
-        <div class="realResultsSec py-5" v-if="videos.length > 0">
-            <div class="container">
-                <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
-                <VideoTabs :videos="videos" />
-            </div>
-        </div>
+        <RealResultsSection :videos="videos" />
 
         <ContactFormBg />
         <ContactForm />

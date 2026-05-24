@@ -1,14 +1,14 @@
 <template>
     <div class="body">
         <Header />
-        <Loader />
+        <!-- <Loader /> -->
 
         <div class="resourcesBnr">
             <div class="container">
                 <div class="content text-center">
                     <h1 class="fw-bold">Resources</h1>
                     <p>
-                        Explore exciting opportunities and grow your career in property management with us
+                        Explore insights, case studies, and expert resources designed to drive operational excellence and manufacturing transformation.
                     </p>
                 </div>
             </div>
@@ -184,7 +184,7 @@ watch(() => route.hash, (h) => {
 }
 .resourcesBnr {
     position: relative;
-    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.19)),url('/assets/image/aboutUsBnr.webp');
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0,0.19)),url('/assets/image/aboutUsBnr.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -5,8 +5,8 @@
             <div class="h-100 d-flex flex-column justify-content-between">
                 <div>
                     <img :src="sector.image" class="sectorImg" :alt="sector.title" />
-                    <h5 class="themeText">{{ sector.title }}</h5>
-                    <p>{{ sector.description }}</p>
+                    <h5 class="themeText mb-4">{{ sector.title }}</h5>
+                    <!-- <p>{{ sector.description }}</p> -->
                     <!-- <h5>Key Services:</h5>
                     <ul>
                         <li v-for="service in sector.services" :key="service">{{ service }}</li>
@@ -39,7 +39,7 @@ const props = defineProps({
 }
 .sectorCard{
     border: 1px solid #e1e1e1;
-    padding: 1.4em;
+    padding: 1em;
     border-radius: 10px;
     margin-bottom: 20px;
     height: calc(100% - 20px);
@@ -91,7 +91,9 @@ const props = defineProps({
     margin-left: -1em;
     font-size: 20px;
 }
-
+.sectorCard h5{
+    text-align: center;
+}
 
 @media only screen and (max-width:1440px) {
     

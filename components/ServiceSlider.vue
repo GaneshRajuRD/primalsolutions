@@ -63,7 +63,7 @@ export default {
         {
           id: 6,
           title: 'Digital & Smart Factory Transformation',
-          description: 'We enable smart factory transformation through integrated digital systems, VCS-driven real-time monitoring, digital quality management, and predictive analytics.',
+          description: 'We enable smart factory transformation through integrated digital systems, VCS-driven real-time monitoring, digital quality management, predictive analytics.',
           image: '/assets/image/Smart-factory-tarnsformation.webp',
           link: 'digital-smart-factory-transformation'
         },
@@ -252,7 +252,7 @@ export default {
   }
 
   .serviceSlider .content {
-    width: min(35vw, 450px);
+    width: min(55vw, 630px);
     position: absolute;
     left: 3rem;
     z-index: 1;
@@ -264,6 +264,9 @@ export default {
     flex-direction: column;
     gap: 1rem;
     outline: 0;
+  }
+  .serviceSlider .content .description{
+    width: 80%;
   }
 
   .serviceSlider .content * {

@@ -23,7 +23,7 @@
                     <div class="delivery2">
                         <div class="content">
                             <img src="/assets/image/tickImg3.png" class="tickImg img-fluid" alt="">
-                            <p class="mb-0">Lean Manufacturing Implementation</p>
+                            <p class="mb-0">Lean Manufacturing Deployment</p>
                         </div>
                     </div>
                     <div class="delivery2">
@@ -59,7 +59,7 @@
                             </p>
                             <ul class="strengthList">
                                 <li>
-                                    <strong>Lean Manufacturing Implementation</strong>
+                                    <strong>Lean Manufacturing Deployment</strong>
                                 </li>
                                     Embed lean principles to eliminate waste and improve overall efficiency.
                                 <li>
@@ -103,28 +103,28 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Apply Lean to eliminate waste and improve efficiency.
+                                Drive efficiency by reducing waste.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Optimize processes to improve line performance.
+                                Optimize line processes for maximum productivity.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard">
                             <h5 class="fw-light">
-                                Implement 5S to enhance safety and productivity.
+                                Drive workplace safety and productivity through 5S.
                             </h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="strategyCard strategyCard2">
                             <h5 class="fw-light">
-                                Reduce costs and drive sustainable operational excellence.
+                                Optimize costs for sustainable operational performance.
                             </h5>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <h4 class="gearIcon fw-bold">OUR PROCESS</h4>
-                        <h1 class="playfairText themeText">How We Transform <br> Operations</h1>
+                        <h1 class="playfairText themeText mb-4">How We Transform Operations</h1>
                         <div class="accordionSec">
                             <Accordion :accordions="operations" />
                         </div>
@@ -151,40 +151,10 @@
             </div>
         </div>
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5">
-                    <h4 class="gearIcon fw-bold">OUR CASESTUDIES</h4>
-                    <h2 class="fw-light">Insights from our <span class="fw-bold">latest Projects</span></h2>
-                </div>
-                <div class="col-sm-0 col-lg-1 px-0"></div>
-                <div class="col-sm-12 col-lg-6">
-                    <p class="mt-4 pt-2">
-                        Real examples of how we’ve helped automotive, FMCG, electronics, and industrial clients improve productivity, strengthen quality, and scale performance.
-                    </p>
-                    <NuxtLink to="/resources#CaseStudies" class="blueBtn">View More</NuxtLink>
-                </div>
-            </div>
-
-            <div class="splide py-sm-4 py-2 caseStudy-slider" v-if="caseStudies.length > 0">
-                <div class="splide__track py-4">
-                    <ul class="splide__list">
-                        <li class="splide__slide" v-for="caseStudy in caseStudies">
-                            <CaseStudyCard :caseStudy="caseStudy" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-                
-        </div>
+        <CaseStudiesSection :caseStudies="caseStudies" />
 
         
-        <div class="realResultsSec py-5" v-if="videos.length > 0">
-            <div class="container">
-                <h2 class="realResultsTitle mb-5">Real Results in <span class="fw-bold">Motion</span></h2>
-                <VideoTabs :videos="videos" />
-            </div>
-        </div>
+        <RealResultsSection :videos="videos" />
 
         <ContactFormBg />
         <ContactForm />
@@ -236,22 +206,13 @@ useHead({
 import { onMounted, ref, nextTick, onBeforeUnmount } from "vue";
 import Accordion from "~/components/Accordion.vue";
 import { faqs } from '~/data/faqs.js';
+import { caseStudies as allCaseStudies } from '~/data/caseStudies.js';
 
 const textSlider = ref(null);
 let textSliderInitialized = false;
 
 
-const caseStudies = ref([
-    // Service 3 - Operational Excellence & Lean Transformation
-    {
-        title: 'Driving Operational Excellence: Lean Transformation of a Leading Sheet Metal Manufacturer in Hosur',
-        image: '/assets/image/caseStudyImg1.webp',
-        readtime: '8 min read',
-        date: 'Nov 15, 2025',
-        url: 'case-study/sts-lean'
-    },
-    
-]);
+const caseStudies = allCaseStudies.filter(cs => cs.url === 'case-study/sts-lean');
 
 
 
@@ -364,33 +325,6 @@ onMounted(async () => {
         console.error('Error during Slick initialization:', error);
     }
 
-    // Initialize Splide carousel
-    const splide3 = new Splide(".caseStudy-slider", {
-        drag: "free",
-        focus: 0,
-        omitEnd: true,
-        snap: true,
-        arrows: true,
-        indicators: true,
-        breakpoints: {
-            2600: {
-                perPage: 2,
-            },
-            1440: {
-                perPage: 2,
-            },
-            1024: {
-                perPage: 2,
-            },
-            768: {
-                perPage: 2,
-            },
-            576: {
-                perPage: 1,
-            },
-        },
-    });
-    splide3.mount();
 });
 
 onBeforeUnmount(() => {
@@ -641,7 +575,7 @@ onBeforeUnmount(() => {
 .tag{
     background-color: #F1F2F5;
     border-radius: 6px;
-    padding: 4px 10px;
+    padding: 4px 0;
     font-size: 15px;
 }
 .strengthList li{

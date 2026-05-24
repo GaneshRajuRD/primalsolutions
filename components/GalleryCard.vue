@@ -16,14 +16,16 @@
                 <button class="close-btn" @click="showPopup = false">&times;</button>
                 <h3>{{ gallery.title }}</h3>
                     <img :src="currentImage" class="popup-image" :alt="`Gallery image for ${gallery.title}`" />
-                    <div
-                        v-for="(img, index) in gallery.images"
-                        :key="index"
-                        class="thumbnail-item"
-                        :class="{ active: selectedIndex === index }"
-                        @click.stop="selectedIndex = index"
-                    >
-                        <img :src="img" :alt="`Thumbnail ${index + 1} for ${gallery.title}`" />
+                    <div class="thumbnails">
+                        <div
+                            v-for="(img, index) in gallery.images"
+                            :key="index"
+                            class="thumbnail-item"
+                            :class="{ active: selectedIndex === index }"
+                            @click.stop="selectedIndex = index"
+                        >
+                            <img :src="img" :alt="`Thumbnail ${index + 1} for ${gallery.title}`" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,7 +172,15 @@ watch(showPopup, (val) => {
   padding-bottom: 0.25rem;
   flex-wrap: wrap;
 }
-
+.thumbnails{
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    flex-wrap: wrap;
+}
 .thumbnail-item {
   border: 3px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;

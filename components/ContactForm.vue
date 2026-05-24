@@ -2,7 +2,7 @@
     <div class="container pb-2">
         <div class="contact-form-row">
             <div class="contact-form-card">
-                <h2 class="text-center mb-4">Help Us Knowing What You Need</h2>
+                <h2 class="text-center mb-4">Connect With Our Experts</h2>
                 <form>
                     <div class="row gx-3">
                         <div class="col-sm-6 mb-3">
@@ -29,9 +29,15 @@
                             <label class="form-label">Select Service</label>
                             <select class="form-select" id="contactform-service">
                                 <option value="">Select a service</option>
-                                <option>Operations & Supply Chain Excellence</option>
-                                <option>Advanced Automation</option>
-                                <option>Process Optimization & Lean</option>
+                                <option>Business Strategy</option>
+                                <option>Plant Layout Design & Optimization</option>
+                                <option>Operational Excellence & Lean Transformation</option>
+                                <option>Zero Defect Culture Deployment</option>
+                                <option>Digital & Smart Factory Transformation</option>
+                                <option>Supplier Capability and Performance Enhancement</option>
+                                <option>Skill development programs and certifications</option>
+                                <option>Talent Hiring & Management Services</option>
+                                <option>Market Research & Intelligence Services</option>
                             </select>
                             <span class="errormsg" id="error-contactform-service"></span>
                         </div>
@@ -45,7 +51,7 @@
                         </div>
                     </div>
                 </form>
-                <p class="small text-center mt-4">To learn how Clearbit handles your information,<br> please see our <a href="/privacy-policy">privacy policy</a>.</p>
+                <p class="small text-center mt-4">To learn how Primal Solution handles your information,<br> please see our <a href="/privacy-policy">privacy policy</a>.</p>
             </div>
         </div>
     </div>
