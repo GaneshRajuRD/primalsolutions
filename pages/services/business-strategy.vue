@@ -162,7 +162,7 @@
                 <div class="col-lg-6 pe-lg-5 mt-4">
                     <div class="faqImg">
                         <img src="/assets/image/faqImg.webp" class="w-100 img-fluid" alt="">
-                        <div class="contact">
+                        <!-- <div class="contact">
                             <a href="#">
                                 <img src="/assets/image/callIcon.png" class="img-fluid" alt="">
                                 +91 1236547890
@@ -171,7 +171,7 @@
                                 <img src="/assets/image/mailIcon.png" class="img-fluid" alt="">
                                 info@domainname.com
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6">

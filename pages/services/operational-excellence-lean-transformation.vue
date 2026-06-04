@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-lg-5">
                             <div class="processImg">
-                                <img src="/assets/image/OperationalExcellenceImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100" alt="">
+                                <img src="/assets/image/OperationalExcellenceImg.webp" class="mt-sm-5 mt-lg-0  img-fluid w-100 processImg2" alt="">
                             </div>
                         </div>
                         <div class="col-sm-8 col-lg-7 ps-xl-5 mt-5 pt-xl-4">
@@ -593,6 +593,11 @@ onBeforeUnmount(() => {
     transform: translateY(-50%);
     background: url("/assets/image/tickImg4.png") no-repeat center;
     background-size: contain;
+}
+
+.processImg2{
+    aspect-ratio: 743/798;
+    object-fit: cover;
 }
 
 

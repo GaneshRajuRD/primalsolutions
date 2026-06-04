@@ -50,6 +50,7 @@ const props = defineProps({
     border-radius: 20px;
     margin-bottom: 20px;
     aspect-ratio: 630/400;
+    object-fit: cover;
 }
 .caseStudyCard .link{
     background-color: #F7F7F8;

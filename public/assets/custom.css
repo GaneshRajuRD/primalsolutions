@@ -561,3 +561,7 @@ h1, h2, h3, h4, h5, h6{
 .faqImg .contact{
   display: none !important;
 }
+.faqImg img{
+  aspect-ratio: 625/619;
+  border-radius: 25px;
+}

@@ -499,6 +499,11 @@ const closeSuccessPopup = () => {
     padding: 2em 3em;
     color: #fff;
 }
+.whyUsCard img{
+    aspect-ratio: 558/692;
+    object-fit: cover;
+    border-radius: 20px;
+}
 .whyUsCard h3{
     font-size: 2.8rem;
 }
