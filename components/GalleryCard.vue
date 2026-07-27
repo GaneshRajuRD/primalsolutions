@@ -153,10 +153,10 @@ watch(showPopup, (val) => {
 }
 
 .popup-image {
-  width: 100%;
+  max-width: 100%;
   border-radius: 8px;
   margin-bottom: 1.5rem;
-  max-height: 500px;
+  max-height: 70vh;
   object-fit: cover;
   display: block;
   margin-left: auto;
